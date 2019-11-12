@@ -1,0 +1,9 @@
+.Rproj.user
+hugo.exe
+*.Rproj
+public
+resources
+sandbox
+.Rhistory
+*.bib
+
