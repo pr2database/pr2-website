@@ -11,7 +11,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-08-12"
+lastmod: "2019-08-28"
 projects: []
 subtitle: ''
 summary: The PR2 database is mostly managed by R scripts.

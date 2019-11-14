@@ -3,7 +3,7 @@ authors:
 - vaulot
 categories:
 - documentation
-date: "2018-08-12"
+date: "2018-08-30"
 draft: false
 featured: false
 image:
@@ -32,7 +32,7 @@ pr2_taxonomy | kingdom -> species, editing history |  linked to pr2_main by spec
 ## Taxonomy structure
 * 8 levels : Kingdom / Supergroup / Division / Class / Order / Family / Genus / Species
 * All taxonomy paths are unique. For example for a given Class, all higher levels are similar (Division -> Supergroup -> Kingdom)
-* No taxon can appear at different levels. For example "Stramenopiles" cannot appear at both the Supergroup and Division levels. 
+* No taxon can appear at different levels. For example "Stramenopiles" cannot appear at both the Supergroup and Division levels.
 
 #### Rules for naming taxonomic levels
 * No space (use underscore).  For example Home_sapiens

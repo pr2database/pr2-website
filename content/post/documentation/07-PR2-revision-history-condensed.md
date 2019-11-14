@@ -3,7 +3,7 @@ authors:
 - vaulot
 categories:
 - documentation
-date: "2018-08-01"
+date: "2018-08-02"
 draft: false
 featured: false
 image:
@@ -14,7 +14,7 @@ image:
 lastmod: "2019-08-12"
 projects: []
 subtitle: ''
-summary: 
+summary:
 tags:
 - Documentation
 title: 'Revision history - condensed'
@@ -34,7 +34,7 @@ PR2 version | Date | Who | Major group updated
 4.10 | 07/03/2018 | D. Vaulot | Fixing artefactual sequences, removing chimeras and labelling reference sequences
 4.9 | 20/02/2018 | Solenn Mordret, Roberta Piredda, Diana Sarno | Dinophyceae - Incorporation of the DinoRef database (1564 sequences verified and updated, 213 added)
 4.8 | 06/02/2018 | Martina Strittmatter | Cercozoa, Perkinsea (30 sequences)
-|   | 04/11/2017|  | **Database transferred to GitHub** 
+|   | 04/11/2017|  | **Database transferred to GitHub**
 4.7 | 27/09/2017 | C. Bachy, Wei-Ting Chen | Cilates (Spirotrichea)
 4.6 | 23/08/2017 | D. Vaulot | Bolidophyceae corrected according to Kuwata et al. 2017 (3 env clades)  
 |   |   |   | Pelagophyceae
@@ -45,12 +45,12 @@ PR2 version | Date | Who | Major group updated
 |   | |  | Correct minor dinoflagellates taxonomy (Karlodinium)  
 4.4 | 10/11/2016 | D. Vaulot | Bolidophyceae corrected according to Ichinomya et al. 2016  
 |   | |  | Sequences with N removed  
-|   | |  | Sequences not in GenBank removed 
+|   | |  | Sequences not in GenBank removed
 4.3 | 04/09/2016 | D. Vaulot | Chlorophyta  
-|   | 02/09/2016 |  | **Database made public on Figshare** 
+|   | 02/09/2016 |  | **Database made public on Figshare**
 4.2 | 13/04/2016 | B.Edvardsen | Haptophyta assignations corrected  
 4.1 | 23/10/2015 | M.Tragin | RCC Chlorophyta  
 4.0 | 21/10/2015 | B. Edvardsen | Haptophyta  
 3.0 | 31/8/2015 | M. Tragin | Chlorophyta  
 2.0 | 07/02/2015 | T. Biard | Rhizaria  
-1.1 | 04/01/2015 | D. Vaulot | Transfer from previous PR2 database 
+1.1 | 04/01/2015 | D. Vaulot | Transfer from previous PR2 database
