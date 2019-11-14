@@ -1,9 +1,10 @@
 .Rproj.user
-hugo.exe
+.Rhistory
 *.Rproj
 public
 resources
 sandbox
-.Rhistory
+blogdown
 *.bib
+hugo.exe
 

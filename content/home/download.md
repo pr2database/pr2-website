@@ -4,10 +4,10 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 15  # Order that this section will appear.
 
-title = "Recent Posts"
+title = "Download"
 subtitle = ""
 
 [content]
@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 0
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -26,7 +26,7 @@ subtitle = ""
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
-    category = ""
+    category = "download"
     publication_type = ""
     exclude_featured = false
   
@@ -36,7 +36,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 1
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -65,3 +65,12 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+The PR2 database is provided in 3 different formats:
+
+-   Flat files for use with mothur, dada2, blast - [Download latest
+    release](https://github.com/pr2database/pr2database/releases)
+
+-   R database package - [How to install and
+    use](https://github.com/pr2database/pr2database/wiki/PR2-R-database-package)
+
+-  SQLite database file - [Download](https://github.com/pr2database/pr2database/releases/download/v4.12.0/pr2_version_4.12.0.sqlite.gz)

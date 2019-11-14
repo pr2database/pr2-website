@@ -1,8 +1,7 @@
 ---
 authors:
 - vaulot
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Focusing on marine (pico)phytoplankton .
 education:
   courses:
   - course: PhD in Oceanography
@@ -16,16 +15,14 @@ education:
     year: 1975
 email: "vaulot@gmail.com"
 interests:
-- Marine phytoplankton
-- Microbial Ecology
-- Tropocal and Polar ecosystems
+- Marine Phytoplankton
 name: Daniel Vaulot
 organizations:
 - name: Nanyang Technological University
-  url: ""
+  url: "https://www.ase.ntu.edu.sg/"
   role: Visiting Professor
 - name: CNRS
-  url: ""
+  url: "http://www.sb-roscoff.fr/en/team-ecomap"
   role: Directeur de Recherche Emérite
 social:
 - icon: envelope
