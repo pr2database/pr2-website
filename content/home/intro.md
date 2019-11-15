@@ -53,13 +53,11 @@ color = "darkslategrey"
 **A reference 18S rRNA sequence database**
 
 <!-- Place this tag where you want the button to render. https://buttons.github.io/-->
-<a class="github-button" href="https://github.com/pr2database/pr2database" data-size="large" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a>
-[![Release](https://img.shields.io/badge/release-4.12.0-blue.svg) ![Date](https://img.shields.io/badge/date-08%20August%202019-lightgrey.svg) ![Github Downloads
-(total)](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)](https://github.com/vaulot/pr2_database/releases)
-
-<a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @PR2database</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="github-button" href="https://github.com/pr2database/pr2database" data-size="large" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a> <a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @PR2database</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The Protist Ribosomal Reference database (PR<sup>2</sup>) provides eukaryotic small sub-unit (SSU) ribosomal RNA sequences, with expert curated taxonomy using eight unique taxonomic fields.  The database makes the choice of quality over quantity and provides access to metadata such geo-localisation. Its is in particular useful to annotate  metabarcode datasets.
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+![PR2 version](https://img.shields.io/badge/release-4.12.0-blue.svg) ![Date of last version](https://img.shields.io/badge/date-08%20August%202019-lightgrey.svg) ![Github Downloads (total)](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)
