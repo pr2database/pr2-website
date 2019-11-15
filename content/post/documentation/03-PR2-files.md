@@ -3,7 +3,7 @@ authors:
 - vaulot
 categories:
 - documentation
-date: "2018-08-10"
+date: "2018-08-20"
 draft: false
 featured: false
 image:
@@ -11,7 +11,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-08-26"
+lastmod: "2019-15-11"
 projects: []
 subtitle: ''
 summary: Format of files provided
@@ -33,9 +33,8 @@ title: 'Format of PR2 flat files'
 * **pr2_taxo_long.fasta.gz** contains one fasta file with the accession number of the sequence, the name of the sequence and its full taxonomy on the description line. It is suitable to build a local database for BLAST search
 * **pr2_metadata.csv.gz** contains a tabulation separated file with all the metadata from genbank as well as annotation made to the PR2 database.
 * **pr2_merged.csv.gz** contains a tabulation separated file the full PR2 database including sequences, taxonomy and metadata.
-* **R dataset**. See [detailed instructions](https://github.com/vaulot/pr2database/wiki/The-R-pr2database-package) on how to install and use
 
-* [Link to latest release](https://github.com/vaulot/pr2_database/releases)
+* [Link to latest release](https://github.com/pr2database/pr2database/releases)
 
 ## Examples of format
 ### mothur fasta

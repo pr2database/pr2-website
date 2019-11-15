@@ -41,7 +41,7 @@
 [[main]]
   parent = "About"
   name = "Team"
-  url = "#people"
+  url = "team/"
   weight = 1
 
 # Link to a PDF of your resume/CV from the menu.

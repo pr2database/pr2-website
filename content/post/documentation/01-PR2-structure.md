@@ -3,7 +3,8 @@ authors:
 - vaulot
 categories:
 - documentation
-date: "2018-08-30"
+date: "2018-09-10"
+weight: 10
 draft: false
 featured: false
 image:
@@ -11,7 +12,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-08-12"
+lastmod: "2019-15-11"
 projects: []
 subtitle: ''
 summary: Database and taxonomy structure

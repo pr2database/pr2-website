@@ -3,7 +3,7 @@ authors:
 - vaulot
 categories:
 - documentation
-date: "2018-08-01"
+date: "2018-06-01"
 draft: false
 featured: false
 image:
@@ -11,17 +11,17 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-08-12"
+lastmod: "2019-15-11"
 projects: []
 subtitle: ''
-summary: 
+summary:
 tags:
 - Documentation
 title: 'Revision history - detailed'
 ---
 
 ## Version 4.12.0
-   
+
 **Date** : 8 August 2019
 
 https://github.com/pr2database/pr2database/releases/tag/v4.12.0
@@ -32,15 +32,15 @@ https://github.com/pr2database/pr2database/releases/tag/v4.12.0
 * **Stramenopiles** taxonomy updated
 * **Geolocalisation** of sequences more than 90,000 sequences with at least country or ocean coordinates
 
-## Version 4.11.1 
+## Version 4.11.1
 **Date** : 13 December 2018
 
 https://github.com/pr2database/pr2database/releases/tag/4.11.1
 
 **Mostly small changes and bug fixes**    
 
-## Version 4.11.0 
-   
+## Version 4.11.0
+
 **Date** : 30 October 2018  
 
 https://github.com/pr2database/pr2database/releases/tag/4.11.0
@@ -96,7 +96,7 @@ Taxonomy edited following [Mordret et al. (2018)](https://vaulot.netlify.com/pub
 A set of 1657 sequences have been labelled as **references** for dinoflagellates.
 
 ### References
-[Mordret, S., Piredda, R., Vaulot, D., Montresor, M., Kooistra, W.H.C.F. & Sarno, D. 2018. DINOREF : A curated dinoflagellate (Dinophyceae) reference database for the 18S rRNA gene. Mol. Ecol. Resour. 18:974–87.](https://vaulot.netlify.com/publication/2018-01-01_dinoref__a_curated_d/) 
+[Mordret, S., Piredda, R., Vaulot, D., Montresor, M., Kooistra, W.H.C.F. & Sarno, D. 2018. DINOREF : A curated dinoflagellate (Dinophyceae) reference database for the 18S rRNA gene. Mol. Ecol. Resour. 18:974–87.](https://vaulot.netlify.com/publication/2018-01-01_dinoref__a_curated_d/)
 
 ## Version 4.8.0  
 **Annotators** : "Martina Strittmatter" <mstrittmatter@sb-roscoff.fr>  
@@ -134,7 +134,7 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 ### Updates for constraints for new sequences
 * Number of ambiguities <= 20
 * Length > 600 (to accommodate EukRef)
-### Ciliates 
+### Ciliates
 * Class Spirotrichea
     * Orders Oligotrichia and Choreotrichia (3081 sequences)
 ##### Removal of sequences
@@ -144,15 +144,15 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 * There are 2 orders in Choreotrichia
    +  Choreotrichida
    +  Tintinnida.
-* There is 1 order in Oligotrichia. 
+* There is 1 order in Oligotrichia.
    + Strombidiida
 ##### Tintinnida
 * Change “Choreotrichia” to “Tintinnida”.
 * Updated informal classification of incertae sedis in Tintinnida.
 * Tintinnopsis clades I-IX which are shortened as TIPS I-IX are informal classification for Tintinnopsis (Bachy et al., 2012; Agatha and Strüder-Kypke, 2014; Zhang et al., 2017). Santoferrara et al. ( 2017) added Tintinnopsis and related related genera (Climacocylis, Helicostomella, Leprotintinnus, Rhizodomus and Stylicauda) which are labeled as Tintinnida 1 to 11(TIN_1-11 in PR2).    
-* Correction and updated Family names 
+* Correction and updated Family names
    + Choreotrichida
-      - Change all “Choreotrichia” to “Choreotrichida” 
+      - Change all “Choreotrichia” to “Choreotrichida”
       - Add “Leegaardiellidae”
    + Strombidiida
       - Change all “Oligotrichia” to “Strombidiida”
@@ -186,7 +186,7 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 * **Haptophyta** : 32 chimeras detected by B. Edvardsen added (these are not exported but latter we will provide a list of chimeras on the web site)
 * Mothur taxonomy file fixed (taxonomy was separated by tab and not ;)
 
-## Version 4.6.0 
+## Version 4.6.0
 **Annotators** : Daniel Vaulot (Roscoff)  
 **Date** : 25-08-2017
 ### Bolidophyceae
@@ -201,7 +201,7 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 + Remove 3 sequences that seem very noisy
 ### Chrysophyceae
 + Add "Chrysophyceae_" to genus and species corresponding to clades, e.g. : "Chrysophyceae_Clade-F_X_sp." replaces "Clade-F_X_sp."
-### Picobiliphyta 
+### Picobiliphyta
 * Name changed to Picozoa
 ### Chlorophyta
 * clade "Indien" moved to "Chlorophyta_X"
@@ -257,10 +257,10 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 ### Chlorophyta
 *	223 Chlorophyta sequences from the RCC (accession number ZZ*) were deleted and replaced by 199 RCC Chlorophyta sequences submitted to Genbank (accession number KT*)
 
-## Version 4.0.0 
+## Version 4.0.0
 **Annotators** : Bente Edvardsen (Oslo)  
 **Date** : 21-10-2015
-### Haptophyta 
+### Haptophyta
 * Taxonomy updated according to [Edvardsen, B., Egge, E. S., and Vaulot, D. (2016). Diversity and distribution of haptophytes revealed by environmental sequencing and metabarcoding – a review. Perspect. Phycol. 3, 77–91. doi:10.1127/pip/2016/0052](https://vaulot.netlify.com/publication/2016-01-01_diversity_and_distri/).
 
 ## Version 3.0.0
@@ -268,9 +268,9 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 **Date** : 14-09-2015
 ### Chlorophyta
 * Corrections of Taxonomical Affilation according to [Tragin et al. 2016](https://vaulot.netlify.com/publication/2016-01-01_diversity_and_ecolog/)
-   + 1225 (on 8777) taxonomical assignations modified 
+   + 1225 (on 8777) taxonomical assignations modified
    + Name class Prasino-clade-I corrected in in Prasino-clade-9
-   + 3 sequences of Nephroselmidophyceae reassigned to Prasino-clade-VIII: 
+   + 3 sequences of Nephroselmidophyceae reassigned to Prasino-clade-VIII:
      - EU143504
      - EU143505
      - EU143506
@@ -278,8 +278,8 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 
 #### Reference
 [Tragin, M., Lopes dos Santos, A., Christen, R. & Vaulot, D. 2016. Diversity and ecology of green microalgae in marine systems: an overview based on 18S rRNA gene sequences. Perspect. Phycol. 3:141–54.](https://vaulot.netlify.com/publication/2016-01-01_diversity_and_ecolog/)
-  
-   
+
+
 ### Chimera
 * 76 sequences tagged as chimera and removed from the mothur files but not from the Access database
 ### New sequences added
@@ -301,11 +301,11 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 	* Collodaria (changes based on Biard et al. 2015 - Protist)
 		* Change "Collodaria-Nassellarida" to "Collodaria"
 		* Correction of family names (Sphaerozoidae, Collosphaeridae, Collophidiidae)
-		* Correct the species name of sequence AF018162 to "Collophidium_serpentinum"	
+		* Correct the species name of sequence AF018162 to "Collophidium_serpentinum"
    * Nassellaria (i.e. Nassellarida) (changes based on Suzuki and Not - in press)
 		* Change all "Nassellarida" to "Nassellaria"
 		* Change "Collodaria-Nassellarida" to "Nassellaria"
-		* Correction of family names 
+		* Correction of family names
    * Phaeodaria (changes based on Nakamura et al. 2015 - Protist)
 		* Change "Filosa-Phaeodarea" to "Phaeodarea"
 		* Correction of family names
@@ -313,15 +313,15 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 #### Collodaria
 * 62 new 18S sequences extracted from Biard et al. (2015 - Protist)
 #### Phaeodaria
-* 39 new 18S sequences extracted from Nakamura et al. (2015 - Protist)	
+* 39 new 18S sequences extracted from Nakamura et al. (2015 - Protist)
 #### Symbiotic Dinoflagellates
 * 2 new sequences from Probert et al. 2014 (J. Phycol)
 * 1 new sequence from Biard et al. (Unpublished)
 
 ## Version 1.1.0
 **Annotators** : Daniel Vaulot
-### Data base created 
+### Data base created
 * from version downloaded from PR2 web site based on Genbank release 203
-### Changes 
+### Changes
 * remove sequences that are only in one of the files
 * remove sequences which were duplicated

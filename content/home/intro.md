@@ -17,12 +17,12 @@ hero_media = "pr2_logo.png"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-color = "navy"
-  
+color = "darkslategrey"
+
   # Background gradient.
-  gradient_start = "#4bb4e3"
-  gradient_end = "#2b94c3"
-  
+#  gradient_start = "#4bb4e3"
+#  gradient_end = "#2b94c3"
+
   # Background image.
   # image = ""  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
@@ -35,23 +35,31 @@ color = "navy"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://github.com/pr2database/pr2database/releases"
-  label = "Download PR<sup>2</sup> "
+  label = "Download PR<sup>2</sup> version 4.12.0"
   icon_pack = "fas"
   icon = "download"
-  
-[cta_alt]
-  url = "https://github.com/pr2database/pr2database/wiki"
-  label = "View Documentation"
+
+# [cta_alt]
+#   url = "./#documentation"
+#   label = "View Documentation"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
- # label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+# label = '<a class="js-github-release" href="https://github.com/pr2database/pr2database/releases" data-repo="pr2database/pr2database">Latest release<!-- V --></a>'
+
+# <span style="text-shadow: none;"><a class="github-button" href="https://github.com/pr2database/pr2database" data-icon="octicon-star" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
 +++
 
-**Simply the best 18S rRNA database**
+**A reference 18S rRNA sequence database**
 
-Annotate you metabarcodes with the PR<sup>2</sup> database.
+<!-- Place this tag where you want the button to render. https://buttons.github.io/-->
+<a class="github-button" href="https://github.com/pr2database/pr2database" data-size="large" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a>
+[![Release](https://img.shields.io/badge/release-4.12.0-blue.svg) ![Date](https://img.shields.io/badge/date-08%20August%202019-lightgrey.svg) ![Github Downloads
+(total)](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)](https://github.com/vaulot/pr2_database/releases)
 
-<span style="text-shadow: none;"><a class="github-button" href="https://github.com/pr2database/pr2database" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
+<a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @PR2database</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The Protist Ribosomal Reference database (PR<sup>2</sup>) provides eukaryotic small sub-unit (SSU) ribosomal RNA sequences, with expert curated taxonomy using eight unique taxonomic fields.  The database makes the choice of quality over quantity and provides access to metadata such geo-localisation.
+The Protist Ribosomal Reference database (PR<sup>2</sup>) provides eukaryotic small sub-unit (SSU) ribosomal RNA sequences, with expert curated taxonomy using eight unique taxonomic fields.  The database makes the choice of quality over quantity and provides access to metadata such geo-localisation. Its is in particular useful to annotate  metabarcode datasets.
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>

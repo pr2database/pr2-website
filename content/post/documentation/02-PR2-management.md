@@ -3,7 +3,8 @@ authors:
 - vaulot
 categories:
 - documentation
-date: "2018-08-10"
+date: "2018-09-01"
+weight: 5
 draft: false
 featured: false
 image:
@@ -11,12 +12,12 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-08-28"
+lastmod: "2019-15-11"
 projects: []
 subtitle: ''
 summary: The PR2 database is mostly managed by R scripts.
 tags:
-- Documentation
+- 2
 title: 'Database management'
 ---
 
