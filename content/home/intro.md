@@ -53,7 +53,7 @@ color = "darkslategrey"
 **A reference 18S rRNA sequence database**
 
 <!-- Place this tag where you want the button to render. https://buttons.github.io/-->
-<a class="github-button" href="https://github.com/pr2database/pr2database" data-size="large" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a> <a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @PR2database</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="github-button" href="https://github.com/pr2database/pr2database" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a> <a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @PR2database</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The Protist Ribosomal Reference database (PR<sup>2</sup>) provides eukaryotic small sub-unit (SSU) ribosomal RNA sequences, with expert curated taxonomy using eight unique taxonomic fields.  The database makes the choice of quality over quantity and provides access to metadata such geo-localisation. Its is in particular useful to annotate  metabarcode datasets.
 
