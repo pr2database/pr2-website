@@ -1,1 +1,15 @@
-// Override this file to add your own SCSS styling.
+.img-sm {
+  max-height: 300px;
+}
+
+.img-sm img{
+  max-height:300px
+}
+
+.img-lg {
+  max-height: 500px;
+}
+
+.img-lg img{
+  max-height:500px
+}

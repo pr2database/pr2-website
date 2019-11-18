@@ -94,17 +94,17 @@ AB353770.1.1740_U	AB353770	1	1740	U	2014	Peridiniopsis_kevei												2014	Euk
 ## Converting files from UNIX to Windows format
 All files are in UNIX format (end of lines are indicated Line Feed-LF only).  Please see at the bottom of the file how to converts the files to Windows format (end of lines are CR+LF).
 
-1. Install [Notepad++](https://notepad-plus-plus.org/)  
+* Install [Notepad++](https://notepad-plus-plus.org/)  
 
-2. Open the files to convert (e.g. for mothur the .fasta and .tax files)  
+* Open the files to convert (e.g. for mothur the .fasta and .tax files)  
 
-![](./../notepad_unix.png)
+![](./../../../img/notepad_unix.png)
 
-3. Convert the end of lines  
+* Convert the end of lines  
 
-![](./../notepad_convert_lines.png)  
+![](./../../../img/notepad_convert_lines.png)  
 
-4. Now the file should like the image below (red arrow)
-5. Save the file under the same name by clicking on the disk icon (blue arrow)
+* Now the file should like the image below (red arrow)
+* Save the file under the same name by clicking on the disk icon (blue arrow)
 
-![](./../notepad_windows_line.png)
+![](./../../../img/notepad_windows_line.png)

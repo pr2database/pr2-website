@@ -21,14 +21,14 @@ tags:
 title: 'Database management'
 ---
 
-## Accessing
+## Management of MySQL database
 
-The PR2 database is formatted as MySQL database which is accessed by the [Navicat software](https://www.navicat.com/)
+The PR2 MySQL database is accessed and edited by the [Navicat software](https://www.navicat.com/)
 
 
 ## Importing and verifying new or updated data
 
-The management of the PR2 database is done almost completely under R using in particular the tidyverse and Biostrings libraries.
+Importation and verification of updated annotation or new data is done under R using in particular the tidyverse and Biostrings libraries.
 
 Here are some examples of scripts:
 

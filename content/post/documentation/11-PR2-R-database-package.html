@@ -1,7 +1,7 @@
 ---
 title: "Installation and use R package pr2database"
 author: vaulot
-date: '2018-08-09'
+date: '2018-08-15'
 categories: ["documentation"]
 tags: []
 ---
@@ -194,7 +194,7 @@ TCATTAAATCAGCAATAGTTTCTTTGGTGGTGTTTACTACTCGGATAACCGT...</code></pre>
     geom_histogram(aes(sequence_length), binwidth = 50, fill=&quot;blue&quot;) + 
     xlim(0,2000) + xlab(&quot;Sequence length&quot;) + ylab(&quot;Number of sequences&quot;) + 
     ggtitle(&quot;Ostreococcus lucimarinus&quot;)</code></pre>
-<p><img src="/post/documentation/PR2-R-database-package_files/figure-html/sequence_histogram-1.png" width="672" /></p>
+<p><img src="/post/documentation/11-PR2-R-database-package_files/figure-html/sequence_histogram-1.png" width="672" /></p>
 </div>
 <div id="drawing-a-map-of-sequence-locations" class="section level2">
 <h2>Drawing a map of sequence locations</h2>
@@ -206,7 +206,7 @@ TCATTAAATCAGCAATAGTTTCTTTGGTGGTGTTTACTACTCGGATAACCGT...</code></pre>
     coord_fixed(1.3) +
     geom_point(data=pr2_ostreo, aes(x=pr2_longitude, y=pr2_latitude), fill=&quot;blue&quot;, size=2, shape=21) + 
     ggtitle(&quot;Ostreococcus lucimarinus&quot;)</code></pre>
-<p><img src="/post/documentation/PR2-R-database-package_files/figure-html/sequence_map-1.png" width="672" /></p>
+<p><img src="/post/documentation/11-PR2-R-database-package_files/figure-html/sequence_map-1.png" width="672" /></p>
 </div>
 <div id="drawing-a-map-of-sequence-locations-obtained-by-fuzzy-matching" class="section level2">
 <h2>Drawing a map of sequence locations obtained by fuzzy matching</h2>
@@ -227,7 +227,7 @@ TCATTAAATCAGCAATAGTTTCTTTGGTGGTGTTTACTACTCGGATAACCGT...</code></pre>
     geom_col() +
     coord_flip() +
     xlab(&quot;&quot;)  + ylab(&quot;Number of PR2 sequences&quot;)</code></pre>
-<p><img src="/post/documentation/PR2-R-database-package_files/figure-html/sequence_country-1.png" width="672" /></p>
+<p><img src="/post/documentation/11-PR2-R-database-package_files/figure-html/sequence_country-1.png" width="672" /></p>
 </div>
 <div id="number-of-sequences-per-ocean-of-origin" class="section level3">
 <h3>Number of sequences per ocean of origin</h3>
@@ -241,7 +241,7 @@ TCATTAAATCAGCAATAGTTTCTTTGGTGGTGTTTACTACTCGGATAACCGT...</code></pre>
     geom_col() +
     coord_flip() +
     xlab(&quot;&quot;)  + ylab(&quot;Number of PR2 sequences&quot;)</code></pre>
-<p><img src="/post/documentation/PR2-R-database-package_files/figure-html/sequence_oceans-1.png" width="672" /></p>
+<p><img src="/post/documentation/11-PR2-R-database-package_files/figure-html/sequence_oceans-1.png" width="672" /></p>
 </div>
 </div>
 </div>

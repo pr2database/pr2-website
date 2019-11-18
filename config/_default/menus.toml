@@ -30,6 +30,7 @@
 
 [[main]]
   name = "About"
+  url = "#about"
   weight = 60
 
 [[main]]
@@ -37,7 +38,7 @@
   name = "Contact"
   url = "#contact"
   weight = 2
-  
+
 [[main]]
   parent = "About"
   name = "Team"

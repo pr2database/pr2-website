@@ -28,7 +28,7 @@ pr2_sequence | genbank_accession, sequence | linked to pr2_main by genbank_acces
 pr2_metadata | metadata from GenBank and from published references |  linked to pr2_main by genbank_accession
 pr2_taxonomy | kingdom -> species, editing history |  linked to pr2_main by species
 
-![pr2 database structure](./../pr2_database_structure_4_9_0.png)
+![pr2 database structure](./../../../img/pr2_database_structure_4_9_0.png)
 
 ## Taxonomy structure
 * 8 levels : Kingdom / Supergroup / Division / Class / Order / Family / Genus / Species
