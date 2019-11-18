@@ -58,7 +58,7 @@
 
 [[main]]
   parent = "About"
-  name = "funding"
+  name = "Funding"
   url = "#funding"
   weight = 7
 
