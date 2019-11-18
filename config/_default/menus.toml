@@ -14,6 +14,12 @@
   weight = 20
 
 [[main]]
+  name = "EukRef"
+  url = "eukref/"
+  weight = 25
+
+
+[[main]]
   name = "Related projects"
   url = "#projects"
   weight = 30
@@ -29,21 +35,39 @@
   weight = 1
 
 [[main]]
+  parent = "Papers"
+  name = "Papers citing EukRef"
+  url = "papers/papers-citing-eukref"
+  weight = 2
+
+[[main]]
   name = "About"
-  url = "#about"
   weight = 60
+
+[[main]]
+  parent = "About"
+  name = "About PR2"
+  url = "#about"
+  weight = 1
+
+  [[main]]
+    parent = "About"
+    name = "Team"
+    url = "team/"
+    weight = 5
+
+[[main]]
+  parent = "About"
+  name = "funding"
+  url = "#funding"
+  weight = 7
 
 [[main]]
   parent = "About"
   name = "Contact"
   url = "#contact"
-  weight = 2
+  weight = 10
 
-[[main]]
-  parent = "About"
-  name = "Team"
-  url = "team/"
-  weight = 1
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

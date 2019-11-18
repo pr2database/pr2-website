@@ -1,11 +1,11 @@
 ---
 date: "2016-04-27T00:00:00Z"
-external_link: http://eukref.org/
+external_link: http://pfr2.sb-roscoff.fr/
 image:
 #  caption: Photo by Toa Heftiba on Unsplash
   focal_point: Smart
-summary: 18S rRNA Collaborative Annotation Initiative.
+summary: Planktonic Foraminifera 18S ribosomal DNA.
 tags:
 - EukRef
-title: EukRef
+title: PfR2
 ---

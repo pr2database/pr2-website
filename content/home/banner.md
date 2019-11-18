@@ -48,16 +48,17 @@ color = "darkslategrey"
 # label = '<a class="js-github-release" href="https://github.com/pr2database/pr2database/releases" data-repo="pr2database/pr2database">Latest release<!-- V --></a>'
 
 # <span style="text-shadow: none;"><a class="github-button" href="https://github.com/pr2database/pr2database" data-icon="octicon-star" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
+# For Twitter count :  data-show-count="true"
 +++
 
 **A reference 18S rRNA sequence database**
 
 <!-- Place this tag where you want the button to render. https://buttons.github.io/-->
-<a class="github-button" href="https://github.com/pr2database/pr2database" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a> <a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @PR2database</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="github-button" href="https://github.com/pr2database/pr2database" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a> <a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" data-show-count="false" class="twitter-follow-button">Follow @PR2database</a> <a href="https://twitter.com/eukref" data-show-count="false" class="twitter-follow-button">Follow @EukRef</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * expert curated taxonomy
 * metadata such as geo-localisation
-* annotation of metabarcode datasets.
+* annotation of metabarcode datasets
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
