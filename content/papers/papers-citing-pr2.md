@@ -20,15 +20,15 @@ date = "2019-08-01"
 
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
-  
+
   # Background image.
-  image = "headers/bubbles-wide.jpg"  # Name of image in `static/img/`.
+  image = "2013_guillou_pr2_title.png"  # Name of image in `static/img/`.
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
+  image_size = "actual"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
   image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
 
@@ -40,16 +40,18 @@ date = "2019-08-01"
   padding = ["20px", "0", "20px", "0"]
 
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 +++
 
-Total number of papers citing PR2: **324** (November 2019)
+{{< figure library="true" src="2013_guillou_pr2_title.png" lightbox="true" >}}
 
-![](./../../img/pr2_citations_years.jpg)
+{{< figure library="true" src="pr2_citations_years.jpg" title="Number of citations per year." lightbox="true" >}}
+
+Total number of papers citing PR<sup>2</sup>: **324** (November 2019)
 
 ## 2019
 1. Kolody BC., McCrow JP., Allen LZ., Aylward FO., Fontanez KM., Moustafa A., Moniruzzaman M., Chavez FP., Scholin CA., Allen EE., Worden AZ., Delong EF., Allen AE. 2019. Diel transcriptional response of a California Current plankton microbiome to light, low iron, and enduring viral infection. The ISME Journal. DOI: 10.1038/s41396-019-0472-2.
