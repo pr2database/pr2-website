@@ -3,6 +3,7 @@ authors:
 - vaulot
 categories:
 - documentation
+- revision
 date: "2018-07-01"
 draft: false
 featured: false
@@ -14,7 +15,7 @@ image:
 lastmod: "2019-11-21"
 projects: []
 subtitle: ''
-summary:
+summary: List of all taxonomic revisions made to date
 tags:
 - Documentation
 - Taxonomy

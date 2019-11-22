@@ -3,6 +3,7 @@ authors:
 - vaulot
 categories:
 - documentation
+- database
 date: "2018-09-10"
 weight: 10
 draft: false
@@ -15,7 +16,7 @@ image:
 lastmod: "2019-11-15"
 projects: []
 subtitle: ''
-summary: PR2 fields
+summary: Detailed information on PR2 fields
 tags:
 - Documentation
 - Database

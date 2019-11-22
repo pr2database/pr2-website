@@ -3,6 +3,7 @@ authors:
 - vaulot
 categories:
 - documentation
+- revision
 date: "2018-06-01"
 draft: false
 featured: false
@@ -14,7 +15,7 @@ image:
 lastmod: "2019-11-21"
 projects: []
 subtitle: ''
-summary:
+summary: Full details of all the revisions
 tags:
 - Documentation
 - History

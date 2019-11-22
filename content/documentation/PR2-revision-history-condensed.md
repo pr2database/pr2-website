@@ -3,6 +3,7 @@ authors:
 - vaulot
 categories:
 - documentation
+- revision
 date: "2018-06-10"
 weight: 70
 draft: false
@@ -15,7 +16,7 @@ image:
 lastmod: "2019-11-21"
 projects: []
 subtitle: ''
-summary:
+summary: 'List of major revisions'
 tags:
 - Documentation
 - History

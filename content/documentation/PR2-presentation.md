@@ -15,7 +15,7 @@ image:
 lastmod: "2019-11-15"
 projects: []
 subtitle: ''
-summary: Database and taxonomy structure
+summary: A short presentation from Nov 2018
 tags:
 - Documentation
 - Database

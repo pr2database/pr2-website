@@ -3,6 +3,7 @@ authors:
 - vaulot
 categories:
 - documentation
+- annotation
 date: "2018-08-20"
 draft: false
 featured: false
@@ -13,13 +14,13 @@ image:
   preview_only: false
 lastmod: "2019-11-21"
 projects: []
-subtitle: ''
-summary: Format of files provided
 tags:
 - Documentation
 - Database
 - Taxonomy
 title: 'How to contribute annotations'
+subtitle: ''
+summary: 'Detailed explanation for simple annotations'
 ---
 
 ## Steps

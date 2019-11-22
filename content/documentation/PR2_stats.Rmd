@@ -5,6 +5,7 @@ date: '2018-08-10'
 lastmod: "2019-11-21"
 categories: ["documentation"]
 tags: ["Database", "Statistics", "R-package"]
+summary: "Quick facts about PR2."
 ---
 
 ```{r init, echo=FALSE, message=FALSE, warning=FALSE}
