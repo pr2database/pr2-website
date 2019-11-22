@@ -14,19 +14,24 @@
   weight = 20
 
 [[main]]
+  name = "Contribute"
+  url = "#contribution"
+  weight = 30
+
+[[main]]
   name = "EukRef"
   url = "eukref/"
-  weight = 25
+  weight = 35
 
 
 [[main]]
   name = "Related projects"
   url = "#projects"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Papers"
-  weight = 40
+  weight = 50
 
 [[main]]
   parent = "Papers"
