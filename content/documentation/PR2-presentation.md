@@ -12,12 +12,13 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-15-11"
+lastmod: "2019-11-15"
 projects: []
 subtitle: ''
 summary: Database and taxonomy structure
 tags:
 - Documentation
+- Database
 title: 'Presentation of the PR2 database'
 ---
 Presented at the EukRef workshop in Roscoff (2018-11-05)

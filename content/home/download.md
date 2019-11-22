@@ -1,6 +1,6 @@
 +++
 # A Recent Blog Posts section created with the Pages widget.
-# This section displays recent blog posts from `content/post/`.
+# This section displays recent blog posts from `content/`.
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -15,7 +15,7 @@ The PR<sup>2</sup> database is provided in 3 different formats:
 **Flat files for use with mothur, dada2, blast etc...**   
 
 * [Download latest release](https://github.com/pr2database/pr2database/releases)
-* [Details of file provided](./post/documentation/03-pr2-files/)
+* [Details of file provided](./documentation/pr2-files/)
 
 **R package pr2database**  
 
@@ -24,7 +24,7 @@ The PR<sup>2</sup> database is provided in 3 different formats:
 install.packages(devtools)
 devtools::install_github("pr2database/pr2database")
 ```
-* [Examples of use](./post/documentation/pr2-r-database-package/)
+* [Examples of use](./documentation/pr2-r-package/)
 
 **SQLite database**
 

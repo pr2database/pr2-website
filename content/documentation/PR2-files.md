@@ -17,6 +17,8 @@ subtitle: ''
 summary: Format of files provided
 tags:
 - Documentation
+- Database
+- Files
 title: 'Format of PR2 flat files'
 ---
 

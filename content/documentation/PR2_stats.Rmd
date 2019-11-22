@@ -2,16 +2,17 @@
 title: "PR2 statistics"
 author: vaulot
 date: '2018-08-10'
+lastmod: "2019-11-21"
 categories: ["documentation"]
-tags: []
+tags: ["Database", "Statistics", "R-package"]
 ---
 
 ```{r init, echo=FALSE, message=FALSE, warning=FALSE}
 
 # knitr options
-  knitr::opts_chunk$set(fig.width=8, 
-                        fig.height=6, 
-                        eval=TRUE, 
+  knitr::opts_chunk$set(fig.width=8,
+                        fig.height=6,
+                        eval=TRUE,
                         cache=TRUE,
                         echo=FALSE,
                         prompt=FALSE,
@@ -23,8 +24,8 @@ tags: []
 ```
 
 ```{r message=FALSE, warning=FALSE}
-  library("ggplot2") 
-  library("dplyr") 
+  library("ggplot2")
+  library("dplyr")
 ```
 
 
@@ -35,7 +36,7 @@ tags: []
   data(pr2)
   packageVersion("pr2database")
 
-  pr2_photo <- pr2 %>% filter((division %in% c("Chlorophyta", "Dinophyta", "Cryptophyta", 
+  pr2_photo <- pr2 %>% filter((division %in% c("Chlorophyta", "Dinophyta", "Cryptophyta",
                                                  "Haptophyta", "Ochrophyta", "Cercozoa")) &
                                               !(class %in% c("Syndiniales", "Sarcomonadea")))
   pr2_ref <- pr2 %>% filter(!is.na(reference_sequence))
@@ -57,7 +58,7 @@ Total number of PR2 sequences : `r nrow(pr2)`
 
 ```{r}
 #  stringr::str_c("Number of sequences : ", nrow(pr2))
- 
+
   pr2_taxa <- pr2 %>% select(kingdom:genus, species) %>% summarise_all(funs(n_distinct(.)))
   knitr::kable(pr2_taxa, caption="Number of taxa - all sequences")
 ```
@@ -89,9 +90,9 @@ Number of reference sequences : `r nrow(pr2_ref)`
 # Sequence length
 
 ```{r sequence length}
-  ggplot(pr2) + geom_histogram(aes(sequence_length), binwidth = 100, fill="blue") + 
+  ggplot(pr2) + geom_histogram(aes(sequence_length), binwidth = 100, fill="blue") +
                 xlim(0,3000) + xlab("PR2 sequence length") + ylab("Number of sequences") + ggtitle("All sequences")
-  ggplot(pr2_ref) + geom_histogram(aes(sequence_length), binwidth = 100, fill="blue") + 
+  ggplot(pr2_ref) + geom_histogram(aes(sequence_length), binwidth = 100, fill="blue") +
                 xlim(0,3000) + xlab("PR2 sequence length") + ylab("Number of sequences") + ggtitle("Reference sequences")
 ```
 
@@ -99,10 +100,10 @@ Number of reference sequences : `r nrow(pr2_ref)`
 
 ```{r}
   pr2.env <- new.env()
-  
+
   pr2.env$taxo_levels = c("kingdom", "supergroup", "division", "class", "order", "family", "genus", "species")
   pr2.env$taxo_levels_number =length(pr2.env$taxo_levels)
-  
+
 pr2_treemap <- function(pr2, taxo_rank) {
 
   # Define the levels
@@ -152,12 +153,12 @@ pr2_treemap <- function(pr2, taxo_rank) {
 ```{r genera histo}
   pr2_genus <- pr2 %>% group_by(class, genus) %>% count() %>% ungroup() %>% top_n(30)
 
-  ggplot(pr2_genus) + 
-    geom_col(aes(x=forcats::fct_reorder(stringr::str_c(class,"-",genus), n), y=n)) + 
+  ggplot(pr2_genus) +
+    geom_col(aes(x=forcats::fct_reorder(stringr::str_c(class,"-",genus), n), y=n)) +
     coord_flip() +
-    ggtitle("Most represented genera - all") + 
+    ggtitle("Most represented genera - all") +
     xlab("Genera") + ylab("Number of sequences")
-  
+
 ```
 
 ### Reference sequences
@@ -165,12 +166,12 @@ pr2_treemap <- function(pr2, taxo_rank) {
 ```{r}
   pr2_genus <- pr2_ref %>% group_by(class, genus) %>% count() %>% ungroup() %>% top_n(30)
 
-  ggplot(pr2_genus) + 
-    geom_col(aes(x=forcats::fct_reorder(stringr::str_c(class,"-",genus), n), y=n)) + 
+  ggplot(pr2_genus) +
+    geom_col(aes(x=forcats::fct_reorder(stringr::str_c(class,"-",genus), n), y=n)) +
     coord_flip() +
-    ggtitle("Reference sequences") + 
+    ggtitle("Reference sequences") +
     xlab("Genera") + ylab("Number of sequences")
-  
+
 ```
 
 ### Only photosynthetic protists
@@ -179,10 +180,10 @@ pr2_treemap <- function(pr2, taxo_rank) {
 
   pr2_genus <- pr2_photo %>% group_by(class, genus) %>% count() %>% ungroup() %>% top_n(30)
 
-  ggplot(pr2_genus) + 
-    geom_col(aes(x=forcats::fct_reorder(stringr::str_c(class,"-",genus), n), y=n)) + 
+  ggplot(pr2_genus) +
+    geom_col(aes(x=forcats::fct_reorder(stringr::str_c(class,"-",genus), n), y=n)) +
     coord_flip() +
-    ggtitle("Most represented genera - only photosynthetic protists") + 
+    ggtitle("Most represented genera - only photosynthetic protists") +
     xlab("Genera") + ylab("Number of sequences")
 ```
 
@@ -244,13 +245,13 @@ Version 4.12.0 incorporate better geo-localisation using the approach pioneered 
 ## Number of sequences per country of origin
 
 ```{r sequence_country}
-  
-  countries <- pr2 %>% 
-    count(pr2_country) %>% 
-    arrange(-n) %>% 
+
+  countries <- pr2 %>%
+    count(pr2_country) %>%
+    arrange(-n) %>%
     filter(!is.na(pr2_country) & n > 500)
-  
-  ggplot(countries, aes(x = reorder(pr2_country, n), y = n)) + 
+
+  ggplot(countries, aes(x = reorder(pr2_country, n), y = n)) +
     geom_col() +
     coord_flip() +
     xlab("")  + ylab("Number of PR2 sequences")
@@ -259,13 +260,13 @@ Version 4.12.0 incorporate better geo-localisation using the approach pioneered 
 ## Number of sequences per ocean of origin
 
 ```{r sequence_oceans}
-  
-  oceans <- pr2 %>% 
-    count(pr2_ocean) %>% 
-    arrange(-n) %>% 
+
+  oceans <- pr2 %>%
+    count(pr2_ocean) %>%
+    arrange(-n) %>%
     filter(!is.na(pr2_ocean))
-  
-  ggplot(oceans, aes(x = reorder(pr2_ocean, n), y = n)) + 
+
+  ggplot(oceans, aes(x = reorder(pr2_ocean, n), y = n)) +
     geom_col() +
     coord_flip() +
     xlab("")  + ylab("Number of PR2 sequences")

@@ -11,12 +11,13 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-15-11"
+lastmod: "2019-11-21"
 projects: []
 subtitle: ''
 summary:
 tags:
 - Documentation
+- History
 title: 'Revision history - detailed'
 ---
 

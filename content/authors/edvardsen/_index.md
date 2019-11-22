@@ -18,4 +18,5 @@ social:
 superuser: false
 user_groups:
 - Contributors
+- Scientific Committee
 ---
