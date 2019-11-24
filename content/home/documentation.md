@@ -13,6 +13,7 @@ subtitle = ""
 +++
 
 ### Presentation of the PR<sup>2</sup> database
+* [PR<sup>2</sup> in numbers](./documentation/pr2_stats/)
 * [Slide show -2018-11-05](./documentation/talk-pr2/)
 
 ### Structure of the PR<sup>2</sup> database

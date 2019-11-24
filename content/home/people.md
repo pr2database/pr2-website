@@ -13,7 +13,7 @@ subtitle = ""
 [content]
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Core team"]
+  user_groups = ["Core team", "Scientific Committee"]
 
 [design]
   # Show user's social networking links? (true/false)
@@ -49,4 +49,4 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-#### [Full list of contributors to PR<sup>2</sup>] (./../team/) 
+#### [Full list of contributors to PR<sup>2</sup>]({{< ref "team" >}})

@@ -2,7 +2,6 @@
 authors:
 - vaulot
 categories:
-- documentation
 - annotation
 date: "2018-08-20"
 draft: false

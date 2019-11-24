@@ -4,8 +4,8 @@ summary: "The R package allows you to make full us of the PR2 database"
 author: vaulot
 date: '2018-08-15'
 lastmod: "2019-11-21"
-categories: ["documentation", "R-package", "download"]
-tags: []
+categories: ["documentation", "tutorial"]
+tags: ["documentation", "R-package", "download"]
 ---
 
 
@@ -209,41 +209,5 @@ TCATTAAATCAGCAATAGTTTCTTTGGTGGTGTTTACTACTCGGATAACCGT...</code></pre>
     geom_point(data=pr2_ostreo, aes(x=pr2_longitude, y=pr2_latitude), fill=&quot;blue&quot;, size=2, shape=21) +
     ggtitle(&quot;Ostreococcus lucimarinus&quot;)</code></pre>
 <p><img src="/documentation/PR2-R-package_files/figure-html/sequence_map-1.png" width="672" /></p>
-</div>
-<div id="drawing-a-map-of-sequence-locations-obtained-by-fuzzy-matching" class="section level2">
-<h2>Drawing a map of sequence locations obtained by fuzzy matching</h2>
-<p>A very good tutorial by <a href="https://twitter.com/MargaretBrisbin">Margaret Mars Brisbin</a> on how to combine PR2 metadata with Python to locate sequences using all the metadata information (lat, long, country and fuzzy localization): <a href="https://maggimars.github.io/eukGeoBlast/eGB.html" class="uri">https://maggimars.github.io/eukGeoBlast/eGB.html</a> and <a href="https://github.com/maggimars/eukGeoBlast" class="uri">https://github.com/maggimars/eukGeoBlast</a>. This code has been used to incorporate more geo-localisation information into PR2 version 4.12.0</p>
-</div>
-<div id="number-of-sequences-per-country" class="section level2">
-<h2>Number of sequences per country</h2>
-<p>Version 4.12.0 incorporate better geo-localisation using the approach pioneered by<a href="https://twitter.com/MargaretBrisbin">Margaret Mars Brisbin</a></p>
-<div id="number-of-sequences-per-country-of-origin" class="section level3">
-<h3>Number of sequences per country of origin</h3>
-<pre class="r"><code>
-  countries &lt;- pr2 %&gt;%
-    count(pr2_country) %&gt;%
-    arrange(-n) %&gt;%
-    filter(!is.na(pr2_country) &amp; n &gt; 500)
-
-  ggplot(countries, aes(x = reorder(pr2_country, n), y = n)) +
-    geom_col() +
-    coord_flip() +
-    xlab(&quot;&quot;)  + ylab(&quot;Number of PR2 sequences&quot;)</code></pre>
-<p><img src="/documentation/PR2-R-package_files/figure-html/sequence_country-1.png" width="672" /></p>
-</div>
-<div id="number-of-sequences-per-ocean-of-origin" class="section level3">
-<h3>Number of sequences per ocean of origin</h3>
-<pre class="r"><code>
-  oceans &lt;- pr2 %&gt;%
-    count(pr2_ocean) %&gt;%
-    arrange(-n) %&gt;%
-    filter(!is.na(pr2_ocean))
-
-  ggplot(oceans, aes(x = reorder(pr2_ocean, n), y = n)) +
-    geom_col() +
-    coord_flip() +
-    xlab(&quot;&quot;)  + ylab(&quot;Number of PR2 sequences&quot;)</code></pre>
-<p><img src="/documentation/PR2-R-package_files/figure-html/sequence_oceans-1.png" width="672" /></p>
-</div>
 </div>
 </div>

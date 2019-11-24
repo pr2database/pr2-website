@@ -191,8 +191,6 @@ pr2_treemap <- function(pr2, taxo_rank) {
 
 # World sequence distribution
 
-## Define functions for maps
-
 ```{r}
 
 map_get_world <- function(resolution="coarse"){

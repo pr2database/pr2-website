@@ -3,7 +3,6 @@ authors:
 - vaulot
 categories:
 - documentation
-- database
 date: "2018-09-01"
 weight: 5
 draft: false

@@ -9,20 +9,28 @@
   weight = 10
 
 [[main]]
+  name = "Using PR2"
+  weight = 20
+[[main]]
+  parent = "Using PR2"
   name = "Documentation"
   url = "#documentation"
-  weight = 20
+  weight = 1
+[[main]]
+  parent = "Using PR2"
+  name = "Tutorials"
+  url = "#tutorials"
+  weight = 2
 
 [[main]]
-  name = "Contribute"
-  url = "#contribution"
-  weight = 30
+    name = "Contributing"
+    url = "#contribution"
+    weight = 30
 
 [[main]]
   name = "EukRef"
   url = "eukref/"
   weight = 35
-
 
 [[main]]
   name = "Related projects"
@@ -46,8 +54,18 @@
   weight = 2
 
 [[main]]
-  name = "About"
+  name = "News"
+  url = "#news"
   weight = 60
+
+[[main]]
+  name = "Related projects"
+  url = "#projects"
+  weight = 70
+
+[[main]]
+  name = "About"
+  weight = 80
 
 [[main]]
   parent = "About"
