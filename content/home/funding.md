@@ -14,4 +14,4 @@ subtitle = ""
 |  |  | |
 |---|---|---|
 |![](img/funding/CNRSfr-grand.jpg) | ![](img/funding/logo_SU.png) | ![](img/funding/logo_SBR.png) |
-|![](img/funding/moore.jpg) ||![](img/funding/nsf.png)  ||![](img/funding/ISOP.png)  |
+|![](img/funding/moore.jpg) | ![](img/funding/nsf.png)  | ![](img/funding/ISOP.png)  |
