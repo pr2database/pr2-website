@@ -6,10 +6,10 @@ email: "frederic.mahe@cirad.fr"
 interests:
 - Bioinformatics
 name: Frédéric Mahé
+role: CIRAD, France
 organizations:
 - name: CIRAD, Montpellier
   url: "https://umr-lstm.cirad.fr/"
-  role: Chargé de Recherche
 social:
 - icon: envelope
   icon_pack: fas

@@ -4,8 +4,9 @@ authors:
 interests:
 - Radiolaria
 name: Fabrice Not
+role: CNRS, France
 organizations:
-- name: CNRS, Station Biologique de Roscoff
+- name: Station Biologique de Roscoff
   url: "http://www.sb-roscoff.fr/fr/not-fabrice/192"
   role: Senior Scientist
 social:

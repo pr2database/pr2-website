@@ -4,8 +4,9 @@ authors:
 interests:
 - Diatoms
 name: Chetan Gaonkar
+role: Texas A&M, USA
 organizations:
-- name: Taxas A&M University
+- name: Texas A&M University
   url: "https://ocean.tamu.edu/people/profiles/research-staff/gaonkarchetan.html"
   role: Post-doc
 social:

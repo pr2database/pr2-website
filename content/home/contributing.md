@@ -14,5 +14,5 @@ subtitle = ""
 
 You can contribute to the PR<sup>2</sup> database in different ways.  
 
-* You can participate to a EukRef workshop (more information soon)
+* The [EukRef](http://eukref.org/) project has developed pipelines to obtain sequences from a given phylogenetic group. It organizes  [workshops](http://eukref.org/roscoff-workshop/) focused on specific groups (more information soon on up-coming workshops).
 * You can also provide expert annotation or metadata for a taxonomic which you have analyzed in the framework of your thesis or a specific project.  See [detailed instructions here]({{< ref "/documentation/pr2-annotation-simple.md">}}).

@@ -4,10 +4,10 @@ authors:
 interests:
 - Ciliates
 name: Charles Bachy
+role: CNRS, France
 organizations:
 - name: Station Biologique de Roscoff
-  url: ""
-  role: Post-doc
+  url: "http://www.sb-roscoff.fr/en"
 social:
 - icon: envelope
   icon_pack: fas

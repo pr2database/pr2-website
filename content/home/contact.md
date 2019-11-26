@@ -17,3 +17,4 @@ autolink = true
 #   2: formspree.io
 email_form = 0
 +++
+[Subscribe to mailing list]({{< ref "/misc/mailing.md" >}})

@@ -4,6 +4,7 @@ authors:
 interests:
 - Protists
 name: Laura Parfrey
+role: UBC, Canada
 organizations:
 - name: University of British Columbia
   url: "https://botany.ubc.ca/people/laura-parfrey"

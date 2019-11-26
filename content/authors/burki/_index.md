@@ -4,10 +4,10 @@ authors:
 interests:
 - Phylogeny
 name: Fabien Burki
+role: Uppsala U., Sweden
 organizations:
 - name: Uppsala University
   url: "https://www.burki-lab.net/"
-  role: Assistant Professor, Dept. of Organismal Biology
 social:
 - icon: envelope
   icon_pack: fas

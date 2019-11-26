@@ -56,6 +56,8 @@ color = "darkslategrey"
 <!-- Place this tag where you want the button to render. https://buttons.github.io/-->
 <a class="github-button" href="https://github.com/pr2database/pr2database" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a> <a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" data-show-count="false" class="twitter-follow-button">Follow @PR2database</a> <a href="https://twitter.com/eukref" data-show-count="false" class="twitter-follow-button">Follow @EukRef</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+[![](./img/pr2_newsletter.png")]({{< ref "/misc/mailing.md" >}})
+
 * expert curated taxonomy
 * metadata such as geo-localisation
 * annotation of metabarcode datasets

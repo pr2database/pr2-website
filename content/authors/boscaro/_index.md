@@ -4,10 +4,10 @@ authors:
 interests:
 - Ciliates
 name: Vittorio Boscaro
+role: UBC, Canada
 organizations:
 - name: University of British Columbia
   url: "http://www3.botany.ubc.ca/keeling/people.html"
-  role: Post-doc
 social:
 - icon: envelope
   icon_pack: fas

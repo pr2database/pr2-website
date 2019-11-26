@@ -4,10 +4,11 @@ authors:
 interests:
 - Ciliates
 name: Wei-Ting Chen
+role: NTO U., Taiwan
 organizations:
 - name: National Taiwan Ocean University
-  url: ""
-  role: PhD student
+  url: "http://english.ntou.edu.tw/bin/home.php"
+
 social:
 - icon: envelope
   icon_pack: fas

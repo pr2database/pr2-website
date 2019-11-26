@@ -4,8 +4,9 @@ authors:
 interests:
 - Dinoflagellates
 name: Solenn Mordret
+role: SZN, Italy
 organizations:
-- name: Stazione Zoologica, Naples
+- name: Stazione Zoologica Naples
   url: "http://www.szn.it/index.php/en/"
   role: Post-doc
 social:

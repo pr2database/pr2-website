@@ -4,10 +4,10 @@ authors:
 interests:
 - Haptophyta
 name: Bente Edvardsen
+role: U. Oslo, Norway
 organizations:
 - name: University of Oslo
   url: "https://www.mn.uio.no/ibv/english/people/aca/edvardse/"
-  role: Professor
 social:
 - icon: envelope
   icon_pack: fas

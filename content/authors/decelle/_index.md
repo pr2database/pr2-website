@@ -4,10 +4,10 @@ authors:
 interests:
 - Plastids
 name: Johan Decelle
+role: CEA, France
 organizations:
 - name: CEA-Grenoble
   url: "http://www.lpcv.fr/en/Pages/Johan-Decelle.aspx"
-  role: Chaire d'excellence
 social:
 - icon: envelope
   icon_pack: fas

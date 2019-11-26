@@ -17,13 +17,12 @@ email: "vaulot@gmail.com"
 interests:
 - Marine Phytoplankton
 name: Daniel Vaulot
+role: NTU, Singapore
 organizations:
 - name: Nanyang Technological University
   url: "https://www.ase.ntu.edu.sg/"
-  role: Visiting Professor
 - name: CNRS
   url: "http://www.sb-roscoff.fr/en/team-ecomap"
-  role: Directeur de Recherche Emérite
 social:
 - icon: envelope
   icon_pack: fas

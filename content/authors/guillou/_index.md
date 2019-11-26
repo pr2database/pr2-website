@@ -1,15 +1,15 @@
 ---
 authors:
 - vaulot
-bio: Focusing onmarine parasites.
+bio: Focusing on marine parasites.
 email: "lguillou@sb-roscoff.fr"
 interests:
 - Marine parasites
 name: Laure Guillou
+role: CNRS, France
 organizations:
-- name: CNRS Roscoff
+- name: Station Biologique de Roscoff
   url: "http://www.sb-roscoff.fr/fr/guillou-laure/182"
-  role: Directrice de Recherche
 social:
 - icon: envelope
   icon_pack: fas
@@ -23,4 +23,3 @@ user_groups:
 ---
 
 I am a research scientist at the CNRS since 2002 and leader of the DIPO team. My projects focused on diversity and ecological role of marine parasites.
-

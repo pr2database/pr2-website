@@ -17,6 +17,7 @@ tags:
 - Documentation
 - Database
 - Taxonomy
+- Annotation
 title: 'How to contribute annotations'
 subtitle: ''
 summary: 'Detailed explanation for simple annotations'
@@ -80,6 +81,6 @@ Please edit the Excel file by marking all your changes in **yellow**.
 
 
 ## Related information
-
+* [EukRef pipelines](http://eukref.org/pipeline/)
 * [Database structure]({{< ref "/documentation/pr2-structure" >}})
 * [Detailed description of the fields]({{< ref "/documentation/pr2-fields" >}})

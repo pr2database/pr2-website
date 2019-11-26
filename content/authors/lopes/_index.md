@@ -4,10 +4,10 @@ authors:
 interests:
 - Chlorophyta
 name: Adriana Lopes dos Santos
+role: NTU, Singapore
 organizations:
 - name: Nanyang Technological University, Singapore
   url: "https://research.ntu.edu.sg/expertise/academicprofile/Pages/StaffProfile.aspx?ST_EMAILID=ADRIANA.LOPES&CategoryDescription=EarthSciencesEngineering"
-  role: Assistant Professor
 social:
 - icon: envelope
   icon_pack: fas

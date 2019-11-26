@@ -4,10 +4,10 @@ authors:
 interests:
 - Chlorophyta
 name: Margot Tragin
+role: IFREMER, France
 organizations:
 - name: IFREMER La Tremblade
   url: ""
-  role: Post-doc
 social:
 - icon: envelope
   icon_pack: fas
@@ -17,4 +17,3 @@ superuser: false
 user_groups:
 - Contributors
 ---
-

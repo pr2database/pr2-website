@@ -4,6 +4,7 @@ authors:
 interests:
 - Ciliates
 name: Luciana Santoferrara
+role: U. Connecticut, USA
 organizations:
 - name: University of Connecticut
   url: "http://www.luciana-santoferrara.uconn.edu/"

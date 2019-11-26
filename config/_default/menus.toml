@@ -22,15 +22,21 @@
   url = "#tutorials"
   weight = 2
 
-[[main]]
-    name = "Contributing"
-    url = "#contribution"
-    weight = 30
+  [[main]]
+      name = "Annotation"
+      weight = 30
 
 [[main]]
+  parent = "Annotation"
+  name = "Contributing"
+  url = "#contributing"
+  weight = 1
+
+[[main]]
+  parent = "Annotation"
   name = "EukRef"
-  url = "eukref/"
-  weight = 35
+  url = "http://eukref.org"
+  weight = 2
 
 [[main]]
   name = "Related projects"

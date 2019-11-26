@@ -4,6 +4,7 @@ authors:
 interests:
 - Stramenopiles
 name: Ramon Massana
+role: ICM, Spain
 organizations:
 - name: Institut de Ciències del Mar, Barcelona
   url: "http://www.icm.csic.es/bio/projects/icmicrobis/index.php?nom=massana"
