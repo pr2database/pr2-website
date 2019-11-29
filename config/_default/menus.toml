@@ -41,19 +41,19 @@
 [[main]]
   parent = "Annotation"
   name = "Workshop 2015"
-  url = "eukref/workshop_vancouver.md"
+  url = "eukref/workshop_vancouver"
   weight = 3
 
 [[main]]
   parent = "Annotation"
   name = "Workshop 2016"
-  url = "eukref/workshop_barcelona.md"
+  url = "eukref/workshop_barcelona"
   weight = 4
 
 [[main]]
   parent = "Annotation"
   name = "Workshop 2018"
-  url = "eukref/workshop_roscoff.md"
+  url = "eukref/workshop_roscoff"
   weight = 5
 
 [[main]]
