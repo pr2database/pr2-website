@@ -22,9 +22,9 @@
   url = "#tutorials"
   weight = 2
 
-  [[main]]
-      name = "Annotation"
-      weight = 30
+[[main]]
+    name = "Annotation"
+    weight = 30
 
 [[main]]
   parent = "Annotation"
@@ -37,6 +37,24 @@
   name = "EukRef"
   url = "http://eukref.org"
   weight = 2
+
+[[main]]
+  parent = "Annotation"
+  name = "Workshop 2015"
+  url = "eukref/workshop_vancouver.md"
+  weight = 3
+
+[[main]]
+  parent = "Annotation"
+  name = "Workshop 2016"
+  url = "eukref/workshop_barcelona.md"
+  weight = 4
+
+[[main]]
+  parent = "Annotation"
+  name = "Workshop 2018"
+  url = "eukref/workshop_roscoff.md"
+  weight = 5
 
 [[main]]
   name = "Related projects"
