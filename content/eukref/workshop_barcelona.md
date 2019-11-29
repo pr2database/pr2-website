@@ -10,15 +10,15 @@ featured: false
 lastmod: "2019-11-29"
 projects: []
 subtitle: ''
-summary: 2016
+summary:
 tags:
 - EukRef
-title: ' Workshop Barcelona'
+title: 'Workshop Barcelona 2016'
 ---
 
 ![](../barcelona_picture.jpg)
 
-Our second workshop took place at the **[Institute of Marine Sciences]**(http://www.icm.csic.es/en) in **Barcelona**, Spain from **November 28 to December 2 2016**. This effort brought together taxonomists with expertise in individual lineages that span the eukaryotic tree of life to curate reference 18S rDNA sequences of these lineages by incorporating knowledge of phylogenetic, morphological, and/or environmental contextual data. **This second edition was particularly (but not exclusively) focused on Amoebozoa and Rhizaria**. During the workshop, the working group integrated the curation efforts on individual eukaryotic groups into a biological data warehouse consisting of curated sequences, flexible taxonomy, and phylogenetic trees and their underlying sequence alignments. We will further use this 18S rDNA reference database to investigate the environmental distribution of eukaryotic microbes from large-scale HTES datasets. Each curator was encouraged to use their curated data to address research questions of interest. We discussed how to tackle such projects and encourage participants to publish their results. The workshop was made possible thanks to the generous contribution of the **[Moore Foundation]**(https://www.moore.org/).
+Our second workshop took place at the **[Institute of Marine Sciences](http://www.icm.csic.es/en)** in **Barcelona**, Spain from **November 28 to December 2 2016**. This effort brought together taxonomists with expertise in individual lineages that span the eukaryotic tree of life to curate reference 18S rDNA sequences of these lineages by incorporating knowledge of phylogenetic, morphological, and/or environmental contextual data. **This second edition was particularly (but not exclusively) focused on Amoebozoa and Rhizaria**. During the workshop, the working group integrated the curation efforts on individual eukaryotic groups into a biological data warehouse consisting of curated sequences, flexible taxonomy, and phylogenetic trees and their underlying sequence alignments. We will further use this 18S rDNA reference database to investigate the environmental distribution of eukaryotic microbes from large-scale HTES datasets. Each curator was encouraged to use their curated data to address research questions of interest. We discussed how to tackle such projects and encourage participants to publish their results. The workshop was made possible thanks to the generous contribution of the **[Moore Foundation](https://www.moore.org/)**.
 
 ### Participants
 
