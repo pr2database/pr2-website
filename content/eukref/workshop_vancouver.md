@@ -39,8 +39,8 @@ Our first workshop that will take place in Vancouver, Canada from July 19 to 25.
 | [Martin Kolisko](https://scholar.google.com/citations?user=hfRmRWcAAAAJ&hl)        | [University of British Columbia](https://www.ubc.ca/)                                          |
 | [Mary Thaler](https://scholar.google.com/citations?user=v4S7ZGsAAAAJ&hl)           | [Universitè Laval](https://www.ulaval.ca/en/)                                                        |
 | [Matt Ashworth](https://scholar.google.com/citations?user=RQENcAkAAAAJ&hl)         | [University of Texas Austin](https://www.utexas.edu/)                                              |
-| [Olga Flegontova](https://scholar.google.com/citations?user=6F9eEeAAAAAJ&hl)       | [Institute of Parasitology - Czech Academy of Sciences](https://www.paru.cas.cz/en/)                   |
-| [Qianqian Zhang](https://www.researchgate.net/profile/Qianqian_Zhang2)       | [Yantai Institute of Coastal Zone Research - Chinese Academy of Sciences](http://english.yic.cas.cn/) |
+| [Olga Flegontova](https://scholar.google.com/citations?user=6F9eEeAAAAAJ&hl)       | [Institute of Parasitology Biology Centre - ASCR](https://www.paru.cas.cz/en/)                   |
+| [Qianqian Zhang](https://www.researchgate.net/profile/Qianqian_Zhang2)       | [Yantai Institute of Coastal Zone Research - CAS](http://english.yic.cas.cn/) |
 | [Sandra Lindstrom](https://www.researchgate.net/profile/Sandra_Lindstrom)      | [University of British Columbia](https://www.ubc.ca/)                                          |
 | [Thierry Heger](https://scholar.google.com/citations?user=7lbALkAAAAAJ&hl)         | [University of British Columbia](https://www.ubc.ca/)                                          |
 | [Tomas Panek](https://scholar.google.com/citations?user=RWLk3jkAAAAJ&hl)           | [Charles University in Prague](https://cuni.cz/UKEN-1.html)                                            |
