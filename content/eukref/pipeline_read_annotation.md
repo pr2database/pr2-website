@@ -10,18 +10,21 @@ featured: false
 lastmod: "2019-11-29"
 projects: []
 subtitle: ''
-summary:
+summary: Steps to perform short read annotation
 tags:
 - EukRef
-title: 'HTES reads annotation'
+title: 'Short read annotation'
 ---
->**Software needed** Tools necessary to install to run the pipeline are listed below. You should install each of these programs on your computer. Links to software for installations and description can be found at http://eukref.org/tools
->*   [QIIME](http://qiime.org/)
->*   [RaxML](http://sco.h-its.org/exelixis/web/software/raxml/index.html) (version 8 or newer).
->Note: Use TextWrangler, TextEdit or equivalent text editor for taking notes about the curation process, modifying scripts, and viewing files. Should NOT use Word or equivalent.
+#### Software needed
+Tools necessary to install to run the pipeline are listed below. You should install each of these programs on your computer. Links to software for installations and description can be found at http://eukref.org/tools
+
+*   [QIIME](http://qiime.org/)
+*   [RaxML](http://sco.h-its.org/exelixis/web/software/raxml/index.html) (version 8 or newer).
+* Use TextWrangler, TextEdit or equivalent text editor for taking notes about the curation process, modifying scripts, and viewing files. DO NOT use Word or equivalent.
 
 <span style="color: #ff0000;">Note that these are rough guidelines for the moment.</span>
 
+#### Steps
 Align short reads against your reference alignment using [QIIME align_seqs.py](http://qiime.org/scripts/align_seqs.html), then use [RAxML-EPA](http://sco.h-its.org/exelixis/web/software/epa/index.html) to place short reads in your tree. Input files:
 
 *   fasta file of unaligned HTES sequences. This can be all eukaryotes or something specific to your group [unaligned_HTESreads.fas]
@@ -60,4 +63,4 @@ raxmlHPC-PTHREADS-SSE3 -f v -G 0.2 -m GTRCAT -n EPARUN -s HTESreads_aligned_plus
 sed 's/QUERY___//g' RAxML_labelledTree.EPARUN | sed 's/\[I[0-9]*\]//g' > RAxML_placement_tree_NAME.tre
 ```
 
-**If you have any question or suggestion please feel free to add it to the comment section below, visit our [forum](https://groups.google.com/forum/#!forum/eukref) or send us an [e-mail](mailto:info@eukref.org)**
+If you have any question or suggestion please feel free to add it to the comment section below, visit our [forum](https://groups.google.com/forum/#!forum/eukref) or send us an [e-mail](mailto:info@eukref.org)
