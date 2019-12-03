@@ -25,41 +25,41 @@ Our second workshop took place at the **[Institute of Marine Sciences](http://w
 | Participants           | Affiliation                                     |
 |------------------------|-------------------------------------------------|
 | [Clément Duckert](https://www.researchgate.net/profile/Clement_Duckert)        | [Université de Neuchâtel](https://www.unine.ch/)                         |
-| [Kenneth Dumack](https://scholar.google.com/citations?user=DNhwgKMAAAAJ&hl)         | [University of Cologne](https://www.portal.uni-koeln.de/index.php?id=9441&L=1)                           |
-| [Anna Maria Fiore-Donno](https://scholar.google.com/citations?user=g6bgXiYAAAAJ&hl) | [University of Cologne](https://www.portal.uni-koeln.de/index.php?id=9441&L=1)                           |
-| [Thais Garcia da Silva](https://scholar.google.com/citations?user=Xxb-fK8AAAAJ&hl)  | [Universidade Federal de São Carlos](https://www2.ufscar.br/)              |
-| [Aaron Heiss](https://scholar.google.com/citations?user=GbEK4pgAAAAJ&hl)            | [American Museum of Natural History](https://www.amnh.org/)              |
+| [Kenneth Dumack](https://scholar.google.com/citations?user=DNhwgKMAAAAJ)         | [University of Cologne](https://www.portal.uni-koeln.de/index.php?id=9441&L=1)                           |
+| [Anna Maria Fiore-Donno](https://scholar.google.com/citations?user=g6bgXiYAAAAJ) | [University of Cologne](https://www.portal.uni-koeln.de/index.php?id=9441&L=1)                           |
+| [Thais Garcia da Silva](https://scholar.google.com/citations?user=Xxb-fK8AAAAJ)  | [Universidade Federal de São Carlos](https://www2.ufscar.br/)              |
+| [Aaron Heiss](https://scholar.google.com/citations?user=GbEK4pgAAAAJ)            | [American Museum of Natural History](https://www.amnh.org/)              |
 | [Konstantina Mitsi](https://scholar.google.com/citations?user=xNwXHQMAAAAJ)      | [Institut de Biologia Evolutiva CSIC-UPF](https://www.ibe.upf-csic.es/)         |
-| [Raphael Morard](https://scholar.google.com/citations?user=XPkuQ00AAAAJ&hl)         | [University of Bremen](https://www.uni-bremen.de/en/)                            |
-| [Albert Reñé](https://scholar.google.com/citations?user=35qLnwYAAAAJ&hl)            | [Institut de Ciències del Mar - CSIC](http://www.icm.csic.es/)                    |
+| [Raphael Morard](https://scholar.google.com/citations?user=XPkuQ00AAAAJ)         | [University of Bremen](https://www.uni-bremen.de/en/)                            |
+| [Albert Reñé](https://scholar.google.com/citations?user=35qLnwYAAAAJ)            | [Institut de Ciències del Mar - CSIC](http://www.icm.csic.es/)                    |
 | [Lucia Safi](https://www.researchgate.net/profile/Lucia_Safi)             | [Virginia Institute of Marine Science](https://www.vims.edu/)            |
 | [Alicia Sánchez-Arroyo](https://www.researchgate.net/profile/Alicia_Arroyo2)  | [Institut de Biologia Evolutiva CSIC-UPF](https://www.ibe.upf-csic.es/)         |
-| [Magali Schweizer](https://scholar.google.com/citations?user=uQT19L8AAAAJ&hl)       | [Université d’Angers](https://www.univ-angers.fr/en/index.html)                             |
-| [Samuel Starko](https://scholar.google.com/citations?user=oJuqLbkAAAAJ&hl)          | [University of British Columbia](https://www.ubc.ca/)                   |
-| [Alexander Tice](https://scholar.google.com/citations?user=mNBUN94AAAAJ&hl)         | [Mississippi State University](https://www.msstate.edu/)                   |
+| [Magali Schweizer](https://scholar.google.com/citations?user=uQT19L8AAAAJ)       | [Université d’Angers](https://www.univ-angers.fr/en/index.html)                             |
+| [Samuel Starko](https://scholar.google.com/citations?user=oJuqLbkAAAAJ)          | [University of British Columbia](https://www.ubc.ca/)                   |
+| [Alexander Tice](https://scholar.google.com/citations?user=mNBUN94AAAAJ)         | [Mississippi State University](https://www.msstate.edu/)                   |
 | [Tomas Tyml](https://www.researchgate.net/profile/Tomas_Tyml)             | [University of South Bohemia in České Budějovice](https://www.prf.jcu.cz/en/) |
-| [Ivan Voltski](https://scholar.google.com/citations?user=cVLjdmIAAAAJ&hl)           | [Ben-Gurion University of the Negev](https://in.bgu.ac.il/en/Pages/default.aspx)              |
+| [Ivan Voltski](https://scholar.google.com/citations?user=cVLjdmIAAAAJ)           | [Ben-Gurion University of the Negev](https://in.bgu.ac.il/en/Pages/default.aspx)              |
 | Lu Wang                | [Xiamen University](https://en.xmu.edu.cn/)                               |
 
 ### Scientifics Advisors
 
 | Adviser          | Affiliation                                   |
 |------------------|----------------------------------------------|
-| [David Bass](https://scholar.google.com/citations?user=Rl2bCwEAAAAJ&hl)       | [Cefas](https://www.cefas.co.uk/) and [Natural History Museum](https://www.nhm.ac.uk/)         |
+| [David Bass](https://scholar.google.com/citations?user=Rl2bCwEAAAAJ)       | [Cefas](https://www.cefas.co.uk/) and [Natural History Museum](https://www.nhm.ac.uk/)         |
 | [Cedric Berney](https://www.researchgate.net/profile/Cedric_Berney2)    | [Station Biologique Roscoff - CNRS](http://www.sb-roscoff.fr/)            |
-| [Matt Brown](https://scholar.google.com/citations?user=UvN4AQsdfygC&hl)       | [Mississippi State University](https://www.msstate.edu/)                |
-| [Javier del Campo](https://scholar.google.com/citations?user=Mty5iQYAAAAJ&hl) | [University of British Columbia](https://www.ubc.ca/)               |
-| [Alexey Kozlov](https://scholar.google.com/citations?user=53XUORcAAAAJ&hl)    | [Heidelberg Institute for Theoretical Studies](https://www.h-its.org/) |
-| [Ramon Massana](https://scholar.google.com/citations?user=89bio_EAAAAJ&hl)    | [Institut de Ciències del Mar - CSIC](http://www.icm.csic.es/)          |
-| [Laura Parfrey](https://scholar.google.com/citations?user=HsrJYaoAAAAJ&hl)    | [University of British Columbia](https://www.ubc.ca/)                |
+| [Matt Brown](https://scholar.google.com/citations?user=UvN4AQsdfygC)       | [Mississippi State University](https://www.msstate.edu/)                |
+| [Javier del Campo](https://scholar.google.com/citations?user=Mty5iQYAAAAJ) | [University of British Columbia](https://www.ubc.ca/)               |
+| [Alexey Kozlov](https://scholar.google.com/citations?user=53XUORcAAAAJ)    | [Heidelberg Institute for Theoretical Studies](https://www.h-its.org/) |
+| [Ramon Massana](https://scholar.google.com/citations?user=89bio_EAAAAJ)    | [Institut de Ciències del Mar - CSIC](http://www.icm.csic.es/)          |
+| [Laura Parfrey](https://scholar.google.com/citations?user=HsrJYaoAAAAJ)    | [University of British Columbia](https://www.ubc.ca/)                |
 
 ### Technical Advisors
 
 
 | Adviser        | Affiliation                     |
 |----------------|--------------------------------|
-| [Martin Kolisko](https://scholar.google.com/citations?user=hfRmRWcAAAAJ&hl) | [University of British Columbia](https://www.ubc.ca/)  |
-| [Evan Morien](https://scholar.google.com/citations?user=5lLaKqEAAAAJ&hl)    | [University of British Columbia](https://www.ubc.ca/)  |
+| [Martin Kolisko](https://scholar.google.com/citations?user=hfRmRWcAAAAJ) | [University of British Columbia](https://www.ubc.ca/)  |
+| [Evan Morien](https://scholar.google.com/citations?user=5lLaKqEAAAAJ)    | [University of British Columbia](https://www.ubc.ca/)  |
 
 ### Schedule
 
