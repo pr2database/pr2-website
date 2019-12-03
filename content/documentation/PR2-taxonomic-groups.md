@@ -33,7 +33,7 @@ Alveolata | Dinoflagellates | S. Mordret, D. Sarno | 2018 | Done  | 4.9
 Rhizaria | Collodaria | T. Biard | 2015 | Done | 2.0
 Rhizaria | Foraminifera | R. Morard | 2019 | Planned |
 Chlorophyta |  | M.Tragin, A. Lopes dos Santos | 2015 | Done | 3.0
-Haptophyta |  | B.Edvardsen | 2015 | Done | 4.0
+Haptophyta |  | B. Edvardsen | 2015 | Done | 4.0
 Stramenopiles |  | R. Massana | 2019 | Done | 4.12
 Stramenopiles | Diatoms (_Chaetoceros_) | C. Gaonkar | 2019 | Done | 4.12
 Stramenopiles | Bolidophyceae | D. Vaulot | 2017 | Done | 4.6
@@ -54,7 +54,7 @@ Stramenopiles | Pelagophyceae | D. Vaulot | 2017 | Done | 4.6
 * Massana, R., del Campo, J., Sieracki, M.E., Audic, S. & Logares, R. 2014. Exploring the uncultured microeukaryote majority in the oceans: reevaluation of ribogroups within stramenopiles. ISME J. 8:854–66.
 
 ### Haptophyta
-* Edvardsen, B., Egge, E. S., and Vaulot, D. (2016). Diversity and distribution of haptophytes revealed by environmental sequencing and metabarcoding – a review. Perspect. Phycol. 3, 77–91. doi:10.1127/pip/2016/0052.
+* Edvardsen, B., Egge, E. S., and Vaulot, D. (2016). Diversity and distribution of haptophytes revealed by environmental sequencing and metabarcoding – a review. Perspect. Phycol. 3, 77–91. [doi:10.1127/pip/2016/0052](https://dx.doi.org/10.1127/pip/2016/0052).
 
 ### Ciliates
 * Agatha, S. and Strüder-Kypke, M.C. (2014) What Morphology and Molecules Tell Us about the Evolution of Oligotrichea (Alveolata, Ciliophora). Acta Protozool. 2014: 7790.
