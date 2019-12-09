@@ -13,5 +13,5 @@ subtitle = ""
 
 |  |  | |
 |---|---|---|
-|![](img/funding/CNRSfr-grand.jpg) | ![](img/funding/logo_SU.png) | ![](img/funding/logo_SBR.png) |
-|![](img/funding/moore.jpg) | ![](img/funding/nsf.png)  | ![](img/funding/ISOP.png)  |
+|<img src="img/funding/cnrs_transparent.png" alt="CNRS" height="20"/> | <img src="img/funding/sorbonne_transparent.png" alt="Sorbonne Université" height="20"/> | <img src="img/funding/logo_SBR.png" alt="Station Biologique Roscoff" height="20"/> |
+|<img src="img/funding/moore_transparent.png" alt="Moore Foundation" height="20"/> | <img src="img/funding/NSF_transparent.png" alt="NSF" height="20"/> | <img src="img/funding/ISOP_transparent" alt="ISOP" height="20"/> |

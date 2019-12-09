@@ -1,7 +1,18 @@
 ---
 authors:
 - vaulot
-bio: Focusing on coral microbial ecology.
+bio: Focusing on the eukaryome.
+education:
+  courses:
+  - course: PhD in Environmental Microbiology and Biotechnology
+    institution: Institut de Ciències del Mar - CSIC and Universitat de Barcelona
+    year: 2011
+  - course: MSc in Environmental Microbiology and Biotechnology
+    institution: Universitat de Barcelona
+    year: 2005
+  - course: BSc in Biology
+    institution: Universitat de Barcelona
+    year: 2003
 email: "jdelcampo@rsmas.miami.edu"
 interests:
 - Microbial Ecology and Evolution
@@ -17,6 +28,12 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/fonamental
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=Mty5iQYAAAAJ
+- icon: github
+  icon_pack: fab
+  link: https://github.com/fonamental
 superuser: false
 user_groups:
 - Core team
