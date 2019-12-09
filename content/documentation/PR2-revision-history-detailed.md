@@ -51,6 +51,9 @@ https://github.com/pr2database/pr2database/releases/tag/4.11.0
 * Ciliates (from EukRef workshop)
 * Database provided as R datafile
 
+### References
+* Boscaro V., Santoferrara L., Zhang Q., Gentekaki E., Syberg-Olsen M., del Campo J., Keeling P., 2018. EukRef–Ciliophora: A manually curated, phylogeny‐based database of small subunit rRNA gene sequences of ciliates. Environmental Microbiology, 20: 2218-2230.
+
 ## Version 4.10.0
 * [R script used to update to 4.10.0](https://vaulot.github.io/pr2/PR2_update_4.10.0_pr2_original.html)
 
@@ -132,22 +135,25 @@ A set of 1657 sequences have been labelled as **references** for dinoflagellates
 ### New file type for download
 * pr2_version_4.7_merged_Eukaryota.zip
 contains the whole PR2 database as flat file (sequence, assignation, metadata)
+
 ### Updates for constraints for new sequences
 * Number of ambiguities <= 20
 * Length > 600 (to accommodate EukRef)
-### Ciliates
-* Class Spirotrichea
-    * Orders Oligotrichia and Choreotrichia (3081 sequences)
-##### Removal of sequences
+
+### Ciliates - Class Spirotrichea - Orders Oligotrichia and Choreotrichia (3081 sequences)
+
+#### Removal of sequences
 * 60 sequences (AB640624 to AB640683) that are questionable in terms of species identification and sequence quality have been removed (Kazama et al., 2012).
-##### Revision in Classification Systems of Choreotrichia and Oligotrichia
+
+#### Revision in Classification Systems of Choreotrichia and Oligotrichia
 * The order Choreotrichia Oligotrichia is now Subclass Choreotrichia Oligotrichia (note that SubClass is not taken into account in PR2)
 * There are 2 orders in Choreotrichia
    +  Choreotrichida
    +  Tintinnida.
 * There is 1 order in Oligotrichia.
    + Strombidiida
-##### Tintinnida
+
+#### Tintinnida
 * Change “Choreotrichia” to “Tintinnida”.
 * Updated informal classification of incertae sedis in Tintinnida.
 * Tintinnopsis clades I-IX which are shortened as TIPS I-IX are informal classification for Tintinnopsis (Bachy et al., 2012; Agatha and Strüder-Kypke, 2014; Zhang et al., 2017). Santoferrara et al. ( 2017) added Tintinnopsis and related related genera (Climacocylis, Helicostomella, Leprotintinnus, Rhizodomus and Stylicauda) which are labeled as Tintinnida 1 to 11(TIN_1-11 in PR2).    
@@ -158,12 +164,14 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
    + Strombidiida
       - Change all “Oligotrichia” to “Strombidiida”
       - Add “Cyrtostrombidiidae” and “Pelagostrombidiidae”
-##### New sequences
+
+#### New sequences
 * 183 sequences were added including 15 sequences submitted to Genbank (accession number MF*)
    + Choreotrichida - 14
    + Strombidiida - 46
    + Tintinnida – 123
-##### References
+
+#### References
 * Agatha, S. and Strüder-Kypke, M.C. (2014) What Morphology and Molecules Tell Us about the Evolution of Oligotrichea (Alveolata, Ciliophora). Acta Protozool. 2014: 7790.
 * Bachy, C., Gómez, F., López-García, P., Dolan, J.R., and Moreira, D. (2012) Molecular Phylogeny of Tintinnid Ciliates (Tintinnida, Ciliophora). Protist 163: 873–887.
 * Kazama, T., Ishida, S., Shimano, S., and Urabe, J. (2012) Discrepancy between conventional morphological systematics and nuclear phylogeny of tintinnids (Ciliophora: Choreotrichia). Plankton Benthos Res. Jt. J. Plankton Soc. Jpn. Jpn. Assoc. Benthol. 7: 111–125.
@@ -200,12 +208,16 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 + Create a Pelagomonadaceae_clade_A_sp. which corresponds to endosymbiont of Amphisolenia
 + Include 47 new sequences
 + Remove 3 sequences that seem very noisy
+
 ### Chrysophyceae
 + Add "Chrysophyceae_" to genus and species corresponding to clades, e.g. : "Chrysophyceae_Clade-F_X_sp." replaces "Clade-F_X_sp."
+
 ### Picobiliphyta
 * Name changed to Picozoa
+
 ### Chlorophyta
 * clade "Indien" moved to "Chlorophyta_X"
+
 ### Other changes
 * Species containing "strain" have been cleaned by removing the string "strain"
 * Metadata from GenBank added as an additional file available for download
@@ -221,20 +233,26 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
     -	No taxonomic name occurs at two different levels (e.g. the same name occurs at the class and order)
     -	Any taxonomic name have only a single parent name (e.g. a given order is always part of the same class)
     -	If a parasite has been detected in a host the genus and species are named after the parasite and not the host
+
 ### Chrysophyceae
 * Break Chrysophyceae-Synurophyceae into Chrysophyceae vs. Synurophyceae according to Algaebase
+
 ### Haptophyta
-* Correct Haptophyta taxonomy to follow PR2 rules (_X, _XX etc…)
+* Correct Haptophyta taxonomy to follow PR2 rules (\_X, \_XX etc…)
+
 ### Chlorophyta
 * Change CW-Chlamydomonadales to Chlamydomonadales
+
 ### Dinophyta
 * Correct minor dinoflagellates taxonomy (*Karlodinium*)
 
 ## Version 4.4.0
 **Annotators** : Daniel Vaulot (Roscoff)  
 **Date** : 10-11-2016
+
 ### Bolidophyceae
 * Taxonomy corrected according to Ichinomiya, M., dos Santos, A.L., Gourvil, P., Yoshikawa, S., Kamiya, M., Ohki, K., et al. (2016) Diversity and oceanic distribution of the Parmales (Bolidophyceae), a picoplanktonic group closely related to diatoms. ISME J. 10: 2419–2434.
+
 ### Misc changes
 *	Insertion in sequences removed
 *	Sequences not in GenBank removed
@@ -243,6 +261,7 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 ## Version 4.3.0
 **Annotators** : Daniel Vaulot (Roscoff)  
 **Date** : 04-09-2016
+
 ### Chlorophyta
 *	"Eukaryota;Archaeplastida;Chlorophyta" replaced by "Eukaryota;Archaeplastida;Chlorophyta" in 199 entries
 
@@ -255,18 +274,21 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 ## Version 4.1.0
 **Annotators** : Margot Tragin (Roscoff)  
 **Date** : 23-10-2015
+
 ### Chlorophyta
 *	223 Chlorophyta sequences from the RCC (accession number ZZ*) were deleted and replaced by 199 RCC Chlorophyta sequences submitted to Genbank (accession number KT*)
 
 ## Version 4.0.0
 **Annotators** : Bente Edvardsen (Oslo)  
 **Date** : 21-10-2015
+
 ### Haptophyta
 * Taxonomy updated according to [Edvardsen, B., Egge, E. S., and Vaulot, D. (2016). Diversity and distribution of haptophytes revealed by environmental sequencing and metabarcoding – a review. Perspect. Phycol. 3, 77–91. doi:10.1127/pip/2016/0052](https://vaulot.netlify.com/publication/2016-01-01_diversity_and_distri/).
 
 ## Version 3.0.0
 **Annotators** : Margot Tragin (Roscoff)  
 **Date** : 14-09-2015
+
 ### Chlorophyta
 * Corrections of Taxonomical Affilation according to [Tragin et al. 2016](https://vaulot.netlify.com/publication/2016-01-01_diversity_and_ecolog/)
    + 1225 (on 8777) taxonomical assignations modified
@@ -280,15 +302,16 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
 #### Reference
 [Tragin, M., Lopes dos Santos, A., Christen, R. & Vaulot, D. 2016. Diversity and ecology of green microalgae in marine systems: an overview based on 18S rRNA gene sequences. Perspect. Phycol. 3:141–54.](https://vaulot.netlify.com/publication/2016-01-01_diversity_and_ecolog/)
 
-
 ### Chimera
 * 76 sequences tagged as chimera and removed from the mothur files but not from the Access database
+
 ### New sequences added
 * 223 addition of new sequences from the RCC (accession number ZZ*). These sequences are not submitted to GenBank yet
 
 ## Version 2.0.0
 **Annotators** : Tristan Biard (Roscoff)  
 **Date** : 02-07-2015
+
 ### Rhizaria : Nasselaria, Collodaria, Phaeodaria
 * Curation Of The Original Pr2 Database:
 	- Removal of 6 ambiguous sequences (see Biard et al. 2015 - Protist)
@@ -310,19 +333,25 @@ contains the whole PR2 database as flat file (sequence, assignation, metadata)
    * Phaeodaria (changes based on Nakamura et al. 2015 - Protist)
 		* Change "Filosa-Phaeodarea" to "Phaeodarea"
 		* Correction of family names
+
 ### Insertion of new Sequences:
+
 #### Collodaria
 * 62 new 18S sequences extracted from Biard et al. (2015 - Protist)
+
 #### Phaeodaria
 * 39 new 18S sequences extracted from Nakamura et al. (2015 - Protist)
+
 #### Symbiotic Dinoflagellates
 * 2 new sequences from Probert et al. 2014 (J. Phycol)
 * 1 new sequence from Biard et al. (Unpublished)
 
 ## Version 1.1.0
 **Annotators** : Daniel Vaulot
+
 ### Data base created
 * from version downloaded from PR2 web site based on Genbank release 203
+
 ### Changes
 * remove sequences that are only in one of the files
 * remove sequences which were duplicated

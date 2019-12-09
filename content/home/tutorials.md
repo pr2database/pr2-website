@@ -65,4 +65,6 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-## Tutorials to make the best use of  PR2<sup>2</sup>
+## Tutorials
+
+We are developing small tutorials to make the best use of  PR<sup>2</sup>.  More will be coming soon...

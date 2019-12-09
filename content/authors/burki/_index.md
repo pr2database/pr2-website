@@ -3,6 +3,11 @@ authors:
 - vaulot
 interests:
 - Tree of eukaryotes
+- phylogenomics
+- metabarcoding
+- long-reads
+- protists
+- diversity
 name: Fabien Burki
 role: Uppsala U., Sweden
 organizations:

@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "PR<sup>2</sup> database"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "pr2_front_page.png"
+hero_media = "pr2_logo_16_9_big.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -49,14 +49,15 @@ color = "darkslategrey"
 
 # <span style="text-shadow: none;"><a class="github-button" href="https://github.com/pr2database/pr2database" data-icon="octicon-star" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
 # For Twitter count :  data-show-count="true"
+
+# Mail chimp - removed
+# [![](./img/pr2_newsletter.png")]({{< ref "/misc/mailing.md" >}})
 +++
 
 **A reference 18S rRNA sequence database**
 
 <!-- Place this tag where you want the button to render. https://buttons.github.io/-->
 <a class="github-button" href="https://github.com/pr2database/pr2database" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a> <a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" data-show-count="false" class="twitter-follow-button">Follow @PR2database</a> <a href="https://twitter.com/eukref" data-show-count="false" class="twitter-follow-button">Follow @EukRef</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-[![](./img/pr2_newsletter.png")]({{< ref "/misc/mailing.md" >}})
 
 * expert curated taxonomy
 * metadata such as geo-localisation

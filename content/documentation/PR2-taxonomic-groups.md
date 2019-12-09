@@ -28,10 +28,11 @@ Division | Class | Who | Date | Status | Version
 --- | --- | --- | --- | --- | ---
 Alveolata | Apicomplexa | J. del Campo | 2019 | Done  | 4.12  
 Alveolata | Ciliates | W. Ting, C. Bachy | 2017 | Done | 4.7
-Alveolata | Ciliates | V. Boscaro | 2018 | Done | 4.11
+Alveolata | Ciliates | V. Boscaro,  L. Santoferrara, E. Gentekaki and Q. Zhang | 2018 | Done | 4.11
 Alveolata | Dinoflagellates | S. Mordret, D. Sarno | 2018 | Done  | 4.9  
 Rhizaria | Collodaria | T. Biard | 2015 | Done | 2.0
 Rhizaria | Foraminifera | R. Morard | 2019 | Planned |
+Rhizaria | Radiolaria | M. Mendez Sandin. | 2019 | Planned |
 Chlorophyta |  | M.Tragin, A. Lopes dos Santos | 2015 | Done | 3.0
 Haptophyta |  | B. Edvardsen | 2015 | Done | 4.0
 Stramenopiles |  | R. Massana | 2019 | Done | 4.12
@@ -59,7 +60,7 @@ Stramenopiles | Pelagophyceae | D. Vaulot | 2017 | Done | 4.6
 ### Ciliates
 * Agatha, S. and Strüder-Kypke, M.C. (2014) What Morphology and Molecules Tell Us about the Evolution of Oligotrichea (Alveolata, Ciliophora). Acta Protozool. 2014: 7790.
 * Bachy, C., Gómez, F., López-García, P., Dolan, J.R., and Moreira, D. (2012) Molecular Phylogeny of Tintinnid Ciliates (Tintinnida, Ciliophora). Protist 163: 873–887.
-* Kazama, T., Ishida, S., Shimano, S., and Urabe, J. (2012) Discrepancy between conventional morphological systematics and nuclear phylogeny of tintinnids (Ciliophora: Choreotrichia). Plankton Benthos Res. Jt. J. Plankton Soc. Jpn. Jpn. Assoc. Benthol. 7: 111–125.
+* Boscaro V., Santoferrara L., Zhang Q., Gentekaki E., Syberg-Olsen M., del Campo J., Keeling P., 2018. EukRef–Ciliophora: A manually curated, phylogeny‐based database of small subunit rRNA gene sequences of ciliates. Environmental Microbiology, 20: 2218-2230.
 * Santoferrara, L.F., Alder, V.V., and McManus, G.B. (2017) Phylogeny, classification and diversity of Choreotrichia and Oligotrichia (Ciliophora, Spirotrichea). Mol. Phylogenet. Evol. 112: 12–22.
 * Zhang, Q., Agatha, S., Zhang, W., Dong, J., Yu, Y., Jiao, N., and Gong, J. (2017) Three rDNA Loci-Based Phylogenies of Tintinnid Ciliates (Ciliophora, Spirotrichea, Choreotrichida). J. Eukaryot. Microbiol. 64: 226–241.
 

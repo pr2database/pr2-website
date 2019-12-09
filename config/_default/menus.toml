@@ -60,10 +60,10 @@
   url = "eukref/workshop_roscoff"
   weight = 5
 
-[[main]]
-  name = "Related projects"
-  url = "#projects"
-  weight = 40
+# [[main]]
+#   name = "Related projects"
+#   url = "#projects"
+#   weight = 40
 
 [[main]]
   name = "Papers"
@@ -86,10 +86,10 @@
   url = "#news"
   weight = 60
 
-[[main]]
-  name = "Related projects"
-  url = "#projects"
-  weight = 70
+# [[main]]
+#   name = "Related projects"
+#   url = "#projects"
+#   weight = 70
 
 [[main]]
   name = "About"

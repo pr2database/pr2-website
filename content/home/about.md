@@ -7,6 +7,9 @@ weight = 12  # Order that this section will appear.
 title = "About PR2"
 subtitle = ""
 +++
+
+{{< figure library="true" src="tree_burki.png" class="img-lg" title="The eukaryotic tree. From Burki et al. 2019. The New Tree of Eukaryotes. Trends in Ecology & Evolution. DOI: 10.1016/j.tree.2019.08.008." lightbox="true" >}}
+
 Current version : 4.12.0  
 Last update : 8 August 2019  
 DOI : [10.6084/m9.figshare.5913181](https://doi.org/10.6084/m9.figshare.5913181)
