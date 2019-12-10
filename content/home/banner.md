@@ -66,4 +66,8 @@ color = "darkslategrey"
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-![PR2 version](https://img.shields.io/badge/release-4.12.0-blue.svg) ![Date of last version](https://img.shields.io/badge/date-08%20August%202019-lightgrey.svg) ![Github Downloads (total)](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)
+![PR2 version](https://img.shields.io/badge/release-4.12.0-blue.svg)
+
+![Date of last version](https://img.shields.io/badge/date-08%20August%202019-lightgrey.svg)
+
+![Github Downloads (total)](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)

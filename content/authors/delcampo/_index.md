@@ -17,7 +17,13 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/fonamental
-superuser: true
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=Mty5iQYAAAAJ
+- icon: github
+  icon_pack: fab
+  link: https://github.com/fonamental
+superuser: false
 user_groups:
 - Core team
 ---
