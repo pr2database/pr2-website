@@ -17,7 +17,7 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/fonamental
-superuser: false
+superuser: true
 user_groups:
 - Core team
 ---
