@@ -24,17 +24,17 @@ title: 'Format of PR2 flat files'
 
 ## List of files are provided for each release
 
-**Important note** : All files are in UNIX format (end of lines are indicated Line Feed-LF only).  Please see at the bottom of the file how to converts the files to Windows format (end of lines are CR+LF). See at the bottom of this page how to convert.
+**Important note** : All files are in UNIX format (end of lines are indicated Line Feed-LF only).  Please see at the bottom of the file how to converts the files to Windows format (end of lines are CR+LF).
 
 * Two files for use with Qiime or Mothur.
   + **pr2_mothur.fasta.gz** contains all sequences in fasta format with the accession in the description line
   + **pr2_mothur.tax.gz** contains the taxonomy of each sequence separated from the accession number by a tabulation
       + Note :Qiime only use 7 taxonomical levels by default.
-* **pr2_UTAX.fasta.gz** contains one fasta file with the accession number of the sequence and its full taxonomy on the description line in the UTAX format. It is suitable to use with USEARCH and VSEARCH.
+* **pr2_UTAX.fasta.gz** contains one fasta file with the accession number of the sequence and its full taxonomy on the description line in the UTAX format. It is suitable to use with [USEARCH](http://www.drive5.com/usearch/) and [VSEARCH](https://github.com/torognes/vsearch).
 * **pr2_dada2.fasta.gz** contains a [dada2](https://benjjneb.github.io/dada2/index.html) format compatible training file
 * **pr2_taxo_long.fasta.gz** contains one fasta file with the accession number of the sequence, the name of the sequence and its full taxonomy on the description line. It is suitable to build a local database for BLAST search
 * **pr2_metadata.csv.gz** contains a tabulation separated file with all the metadata from genbank as well as annotation made to the PR2 database.
-* **pr2_merged.csv.gz** contains a tabulation separated file the full PR2 database including sequences, taxonomy and metadata.
+* **pr2_merged.csv.gz** contains a tabulation separated file with the full PR2 database including sequences, taxonomy and metadata.
 
 * [Link to latest release](https://github.com/pr2database/pr2database/releases)
 
@@ -94,11 +94,11 @@ AB353770.1.1740_U	AB353770	1	1740	U	2014	Peridiniopsis_kevei												2014	Euk
 ```
 
 ## Converting files from UNIX to Windows format
-All files are in UNIX format (end of lines are indicated Line Feed-LF only).  Please see at the bottom of the file how to converts the files to Windows format (end of lines are CR+LF).
+All files are in UNIX format (end of lines are indicated Line Feed-LF only).  File can be converted to Windows format (end of lines are CR+LF):
 
 * Install [Notepad++](https://notepad-plus-plus.org/)  
 
-* Open the files to convert (e.g. for mothur the .fasta and .tax files)  
+* Open the files to convert (e.g. for mothur the `.fasta` and `.tax` files)  
 
 ![](./../../../img/notepad_unix.png)
 
