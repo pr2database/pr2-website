@@ -50,7 +50,9 @@ pr2_taxonomy | kingdom -> species, editing history |  linked to pr2_main by spec
 
 ## Construction of PR2 id (pr2_accession)
 Accession.Start.End_X  
+
 For example AF530536.1.1695_U
+
 * AF530536 : GenBank accession number
 * 1 : Start of the 18S rRNA in the GenBank sequence
 * 1695 : Start of the 18S rRNA in the GenBank sequence

@@ -13,7 +13,7 @@ tags: ["documentation", "R-package", "tutorial", "metadata"]
 <div id="installation" class="section level1">
 <h1>Installation</h1>
 <p>Install from the GitHub web site using the devtools package</p>
-<pre class="r"><code>install.packages(devtools)
+<pre class="r"><code>install.packages(&quot;devtools&quot;)
 devtools::install_github(&quot;pr2database/pr2database&quot;)</code></pre>
 </div>
 <div id="loading-the-database" class="section level1">
@@ -34,15 +34,14 @@ data(&quot;pr2&quot;)
 <div id="number-of-sequences-per-country-of-origin" class="section level2">
 <h2>Number of sequences per country of origin</h2>
 <pre class="r"><code>
-  countries &lt;- pr2 %&gt;%
+  pr2 %&gt;%
     count(pr2_country) %&gt;%
-    arrange(-n) %&gt;%
-    filter(!is.na(pr2_country) &amp; n &gt; 500)
-
-  ggplot(countries, aes(x = reorder(pr2_country, n), y = n)) +
+    filter(!is.na(pr2_country) &amp; n &gt; 500) %&gt;%
+  ggplot(aes(x = reorder(pr2_country, n), y = n)) +
     geom_col() +
     coord_flip() +
-    xlab(&quot;&quot;)  + ylab(&quot;Number of PR2 sequences&quot;)</code></pre>
+    xlab(&quot;&quot;) +
+    ylab(&quot;Number of PR2 sequences&quot;)</code></pre>
 <p><img src="/post/tutorials/PR2-tutorial-origin_files/figure-html/sequence_country-1.png" width="672" /></p>
 </div>
 <div id="number-of-sequences-per-ocean-of-origin" class="section level2">
@@ -50,7 +49,6 @@ data(&quot;pr2&quot;)
 <pre class="r"><code>
   oceans &lt;- pr2 %&gt;%
     count(pr2_ocean) %&gt;%
-    arrange(-n) %&gt;%
     filter(!is.na(pr2_ocean))
 
   ggplot(oceans, aes(x = reorder(pr2_ocean, n), y = n)) +

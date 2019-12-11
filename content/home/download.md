@@ -25,7 +25,7 @@ The PR<sup>2</sup> database is provided in 3 different formats:
 install.packages(devtools)
 devtools::install_github("pr2database/pr2database")
 ```
-* [Examples of use](./documentation/pr2-r-package/)
+* [How to use the R package](./documentation/pr2-r-package/)
 
 **SQLite database**
 
