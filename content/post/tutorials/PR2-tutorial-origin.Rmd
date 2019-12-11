@@ -59,14 +59,14 @@ A very good tutorial by [Margaret Mars Brisbin](https://twitter.com/MargaretBris
 
 ```{r sequence_country}
 
-  countries <- pr2 %>%
+  pr2 %>%
     count(pr2_country) %>%
-    filter(!is.na(pr2_country) & n > 500)
-
-  ggplot(countries, aes(x = reorder(pr2_country, n), y = n)) +
+    filter(!is.na(pr2_country) & n > 500) %>%
+  ggplot(aes(x = reorder(pr2_country, n), y = n)) +
     geom_col() +
     coord_flip() +
-    xlab("")  + ylab("Number of PR2 sequences")
+    xlab("") +
+    ylab("Number of PR2 sequences")
 ```
 
 ## Number of sequences per ocean of origin
