@@ -55,10 +55,10 @@ For example AF530536.1.1695_U
 * 1 : Start of the 18S rRNA in the GenBank sequence
 * 1695 : Start of the 18S rRNA in the GenBank sequence
 * X can take any of the following values:
-       * G: genomic sequence containing a described intron (rDNA)
-       * R: the previous genomic rRNA sequence, without the intron(s)
-       * U: no intron described, but intron(s) may be present
-       * UC: introns were detected in silico and removed from the sequence (putative rRNA)
+  * G: genomic sequence containing a described intron (rDNA)
+  * R: the previous genomic rRNA sequence, without the intron(s)
+  * U: no intron described, but intron(s) may be present
+  * UC: introns were detected in silico and removed from the sequence (putative rRNA)
 
 
 #### History of database structure changes
