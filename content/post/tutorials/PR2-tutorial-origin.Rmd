@@ -61,7 +61,6 @@ A very good tutorial by [Margaret Mars Brisbin](https://twitter.com/MargaretBris
 
   countries <- pr2 %>%
     count(pr2_country) %>%
-    arrange(-n) %>%
     filter(!is.na(pr2_country) & n > 500)
 
   ggplot(countries, aes(x = reorder(pr2_country, n), y = n)) +
@@ -76,7 +75,6 @@ A very good tutorial by [Margaret Mars Brisbin](https://twitter.com/MargaretBris
 
   oceans <- pr2 %>%
     count(pr2_ocean) %>%
-    arrange(-n) %>%
     filter(!is.na(pr2_ocean))
 
   ggplot(oceans, aes(x = reorder(pr2_ocean, n), y = n)) +
