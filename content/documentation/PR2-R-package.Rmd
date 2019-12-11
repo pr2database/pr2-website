@@ -29,7 +29,7 @@ The PR2 database is now provided as a R package called **pr2database**.  This pa
 Install from the GitHub web site using the devtools package
 
 ```{r, eval=FALSE, message=FALSE}
-install.packages(devtools)
+install.packages("devtools")
 devtools::install_github("pr2database/pr2database")
 ```
 ```
