@@ -124,7 +124,7 @@ We will save the _Ostreococcus_ sequences to a FASTA file. This is easy done wit
 
   seq_ostreo <- Biostrings::DNAStringSet(pr2_ostreo$sequence)
 
-  # Constructing the name of each sequecne (the first line of the fasta file)
+  # Constructing the name of each sequence (the first line of the fasta file)
   # using the genbank accession, species name, strain name and clone name
 
   names(seq_ostreo) <- paste(pr2_ostreo$genbank_accession, pr2_ostreo$species,
