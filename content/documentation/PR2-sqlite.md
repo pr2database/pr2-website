@@ -24,7 +24,7 @@ title: 'SQLite database'
 
 ## File provided
 
-* **pr2_version_x.y.z.sqlite.gz**: compressed version of the PR<sup>2</sup> database under SQLite.
+* **[pr2_version_x.y.z.sqlite.gz](https://github.com/pr2database/pr2database/releases)**: compressed version of the PR<sup>2</sup> database under SQLite.
 
 ## Database structure
 
