@@ -29,7 +29,9 @@ devtools::install_github("pr2database/pr2database")
 
 **SQLite database**
 
-* [Download](https://github.com/pr2database/pr2database/releases/download/v4.12.0/pr2_version_4.12.0.sqlite.gz)
+* [Download](https://github.com/pr2database/pr2database/releases)
+
+* [How to use the SQLite database](./documentation/pr2-sqlite/)
 
 ## PR2 primer database
 We are also developing a [PR<sup>2</sup> primer database](https://github.com/pr2database/pr2-primers) focusing on the rRNA operon.

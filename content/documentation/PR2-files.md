@@ -24,17 +24,19 @@ title: 'Format of PR2 flat files'
 
 ## List of files are provided for each release
 
+Each version has a 3 number code: version_x.y.z, e.g. 4.12.0
+
 **Important note** : All files are in UNIX format (end of lines are indicated Line Feed-LF only).  Please see at the bottom of the file how to converts the files to Windows format (end of lines are CR+LF).
 
 * Two files for use with Qiime or Mothur.
-  + **pr2_mothur.fasta.gz** contains all sequences in fasta format with the accession in the description line
-  + **pr2_mothur.tax.gz** contains the taxonomy of each sequence separated from the accession number by a tabulation
+  + **pr2_version_x.y.z_mothur.fasta.gz** contains all sequences in fasta format with the accession in the description line
+  + **pr2_version_x.y.z_mothur.tax.gz** contains the taxonomy of each sequence separated from the accession number by a tabulation
       + Note :Qiime only use 7 taxonomical levels by default.
-* **pr2_UTAX.fasta.gz** contains one fasta file with the accession number of the sequence and its full taxonomy on the description line in the UTAX format. It is suitable to use with [USEARCH](http://www.drive5.com/usearch/) and [VSEARCH](https://github.com/torognes/vsearch).
-* **pr2_dada2.fasta.gz** contains a [dada2](https://benjjneb.github.io/dada2/index.html) format compatible training file
-* **pr2_taxo_long.fasta.gz** contains one fasta file with the accession number of the sequence, the name of the sequence and its full taxonomy on the description line. It is suitable to build a local database for BLAST search
-* **pr2_metadata.csv.gz** contains a tabulation separated file with all the metadata from genbank as well as annotation made to the PR2 database.
-* **pr2_merged.csv.gz** contains a tabulation separated file with the full PR2 database including sequences, taxonomy and metadata.
+* **pr2_version_x.y.z_UTAX.fasta.gz** contains one fasta file with the accession number of the sequence and its full taxonomy on the description line in the UTAX format. It is suitable to use with [USEARCH](http://www.drive5.com/usearch/) and [VSEARCH](https://github.com/torognes/vsearch).
+* **pr2_version_x.y.z_dada2.fasta.gz** contains a [dada2](https://benjjneb.github.io/dada2/index.html) format compatible training file
+* **pr2_version_x.y.z_taxo_long.fasta.gz** contains one fasta file with the accession number of the sequence, the name of the sequence and its full taxonomy on the description line. It is suitable to build a local database for BLAST search
+* **pr2_version_x.y.z_metadata.csv.gz** contains a tabulation separated file with all the metadata from genbank as well as annotation made to the PR2 database.
+* **pr2_version_x.y.z_merged.csv.gz** contains a tabulation separated file with the full PR2 database including sequences, taxonomy and metadata.
 
 * [Link to latest release](https://github.com/pr2database/pr2database/releases)
 

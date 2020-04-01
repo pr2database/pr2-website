@@ -51,9 +51,48 @@ devtools::install_github("pr2database/pr2database")
 In R CMD INSTALL
 ```
 
+## Error when installing on a Mac
+
+If you have the following error:
+
+```
+> devtools::install_github("pr2database/pr2database")
+Downloading GitHub repo pr2database/pr2database@master
+tar: Failed to set default locale
+tar: Failed to set default locale
+   During startup - Warning messages:
+   1: Setting LC_CTYPE failed, using "C" 
+   2: Setting LC_TIME failed, using "C" 
+   3: Setting LC_MESSAGES failed, using "C" 
+   4: Setting LC_MONETARY failed, using "C" 
+v  checking for file '/private/var/folders/pj/t7y3mgxs3nv1r3tb9mll6qkh0000gn/T/RtmpPyX5bK/remotes45e71f0f8500/pr2database-pr2database-6c6c0fd/DESCRIPTION' ...
+-  preparing 'pr2database':
+v  checking DESCRIPTION meta-information
+-  checking for LF line-endings in source and make files and shell scripts
+-  checking for empty or unneeded directories
+-  looking to see if a 'data/datalist' file should be added
+-  building 'pr2database_4.12.0.tar.gz' (22.3s)
+   
+Error: (converted from warning) Setting LC_CTYPE failed, using "C"
+Execution halted
+Error: Failed to install 'pr2database' from GitHub:
+  (converted from warning) installation of package '/var/folders/pj/t7y3mgxs3nv1r3tb9mll6qkh0000gn/T//RtmpPyX5bK/file45e733e4d2ee/pr2database_4.12.0.tar.gz' had non-zero exit status
+```
+
+Run the following commande from the Linux terminal
+
+```
+defaults write org.R-project.R force.LANG en_US.UTF-8
+```
+
+For more information see the following [page](
+https://stackoverflow.com/questions/9689104/installing-r-on-mac-warning-messages-setting-lc-ctype-failed-using-c)
+
+
 # Loading the database
 
 The PR2 database is provided as a data frame (or a tibble). This is a join between the following tables:
+
 * pr2_main
 * pr2_taxonomy
 * pr2_sequence

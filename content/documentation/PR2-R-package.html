@@ -32,14 +32,44 @@ devtools::install_github(&quot;pr2database/pr2database&quot;)</code></pre>
 *** arch - x64
 * DONE (pr2database)
 In R CMD INSTALL</code></pre>
+<div id="error-when-installing-on-a-mac" class="section level2">
+<h2>Error when installing on a Mac</h2>
+<p>If you have the following error:</p>
+<pre><code>&gt; devtools::install_github(&quot;pr2database/pr2database&quot;)
+Downloading GitHub repo pr2database/pr2database@master
+tar: Failed to set default locale
+tar: Failed to set default locale
+   During startup - Warning messages:
+   1: Setting LC_CTYPE failed, using &quot;C&quot; 
+   2: Setting LC_TIME failed, using &quot;C&quot; 
+   3: Setting LC_MESSAGES failed, using &quot;C&quot; 
+   4: Setting LC_MONETARY failed, using &quot;C&quot; 
+v  checking for file &#39;/private/var/folders/pj/t7y3mgxs3nv1r3tb9mll6qkh0000gn/T/RtmpPyX5bK/remotes45e71f0f8500/pr2database-pr2database-6c6c0fd/DESCRIPTION&#39; ...
+-  preparing &#39;pr2database&#39;:
+v  checking DESCRIPTION meta-information
+-  checking for LF line-endings in source and make files and shell scripts
+-  checking for empty or unneeded directories
+-  looking to see if a &#39;data/datalist&#39; file should be added
+-  building &#39;pr2database_4.12.0.tar.gz&#39; (22.3s)
+   
+Error: (converted from warning) Setting LC_CTYPE failed, using &quot;C&quot;
+Execution halted
+Error: Failed to install &#39;pr2database&#39; from GitHub:
+  (converted from warning) installation of package &#39;/var/folders/pj/t7y3mgxs3nv1r3tb9mll6qkh0000gn/T//RtmpPyX5bK/file45e733e4d2ee/pr2database_4.12.0.tar.gz&#39; had non-zero exit status</code></pre>
+<p>Run the following commande from the Linux terminal</p>
+<pre><code>defaults write org.R-project.R force.LANG en_US.UTF-8</code></pre>
+<p>For more information see the following <a href="https://stackoverflow.com/questions/9689104/installing-r-on-mac-warning-messages-setting-lc-ctype-failed-using-c">page</a></p>
+</div>
 </div>
 <div id="loading-the-database" class="section level1">
 <h1>Loading the database</h1>
-<p>The PR2 database is provided as a data frame (or a tibble). This is a join between the following tables:
-* pr2_main
-* pr2_taxonomy
-* pr2_sequence
-* pr2_metadata</p>
+<p>The PR2 database is provided as a data frame (or a tibble). This is a join between the following tables:</p>
+<ul>
+<li>pr2_main</li>
+<li>pr2_taxonomy</li>
+<li>pr2_sequence</li>
+<li>pr2_metadata</li>
+</ul>
 <pre class="r"><code>library(&quot;pr2database&quot;)
 
 data(&quot;pr2&quot;)
