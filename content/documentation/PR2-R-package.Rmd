@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 
 
 
-The PR2 database is now provided as a R package called **pr2database**.  This page provides instruction to install and use the package.  Other examples on how to use the pr2database package are provided [here](https://vaulot.github.io/pr2/PR2_analysis.html).
+The PR2 database is now provided as a R package called **pr2database**.  This page provides instruction to install and use the package.  Other examples on how to use the pr2database package are provided [here](https://pr2database.github.io/PR2_analysis.html).
 
 # Installation
 

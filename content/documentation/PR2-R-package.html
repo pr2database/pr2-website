@@ -10,7 +10,7 @@ tags: ["documentation", "R-package", "download"]
 
 
 
-<p>The PR2 database is now provided as a R package called <strong>pr2database</strong>. This page provides instruction to install and use the package. Other examples on how to use the pr2database package are provided <a href="https://vaulot.github.io/pr2/PR2_analysis.html">here</a>.</p>
+<p>The PR2 database is now provided as a R package called <strong>pr2database</strong>. This page provides instruction to install and use the package. Other examples on how to use the pr2database package are provided <a href="https://pr2database.github.io/PR2_analysis.html">here</a>.</p>
 <div id="installation" class="section level1">
 <h1>Installation</h1>
 <p>Install from the GitHub web site using the devtools package</p>
@@ -25,7 +25,7 @@ devtools::install_github(&quot;pr2database/pr2database&quot;)</code></pre>
 *** installing help indices
   converting help for package &#39;pr2database&#39;
     finding HTML links ... fini
-    pr2                                     html  
+    pr2                                     html
 ** building package indices
 ** testing if installed package can be loaded
 *** arch - i386
@@ -77,52 +77,52 @@ data(&quot;pr2&quot;)
 # List of the different columns available - see the help of the package for information on each field
 
 colnames(pr2)
-#&gt;  [1] &quot;pr2_main_id&quot;                &quot;pr2_accession&quot;             
-#&gt;  [3] &quot;genbank_accession&quot;          &quot;start&quot;                     
-#&gt;  [5] &quot;end&quot;                        &quot;label&quot;                     
-#&gt;  [7] &quot;gene&quot;                       &quot;organelle&quot;                 
-#&gt;  [9] &quot;species&quot;                    &quot;chimera&quot;                   
-#&gt; [11] &quot;chimera_remark&quot;             &quot;reference_sequence&quot;        
-#&gt; [13] &quot;added_version&quot;              &quot;removed_version&quot;           
-#&gt; [15] &quot;edited_version&quot;             &quot;edited_by&quot;                 
-#&gt; [17] &quot;edited_remark&quot;              &quot;remark&quot;                    
-#&gt; [19] &quot;taxo_id&quot;                    &quot;kingdom&quot;                   
-#&gt; [21] &quot;supergroup&quot;                 &quot;division&quot;                  
-#&gt; [23] &quot;class&quot;                      &quot;order&quot;                     
-#&gt; [25] &quot;family&quot;                     &quot;genus&quot;                     
-#&gt; [27] &quot;taxon_trophic_mode&quot;         &quot;taxo_edited_version&quot;       
-#&gt; [29] &quot;taxo_edited_by&quot;             &quot;taxo_removed_version&quot;      
-#&gt; [31] &quot;taxo_remark&quot;                &quot;reference&quot;                 
-#&gt; [33] &quot;seq_id&quot;                     &quot;sequence&quot;                  
-#&gt; [35] &quot;sequence_length&quot;            &quot;ambiguities&quot;               
-#&gt; [37] &quot;sequence_hash&quot;              &quot;pr2_metadata_id&quot;           
-#&gt; [39] &quot;gb_date&quot;                    &quot;gb_locus&quot;                  
-#&gt; [41] &quot;gb_definition&quot;              &quot;gb_organism&quot;               
-#&gt; [43] &quot;gb_organelle&quot;               &quot;gb_taxonomy&quot;               
-#&gt; [45] &quot;gb_strain&quot;                  &quot;gb_culture_collection&quot;     
-#&gt; [47] &quot;gb_clone&quot;                   &quot;gb_isolate&quot;                
-#&gt; [49] &quot;gb_isolation_source&quot;        &quot;gb_specimen_voucher&quot;       
-#&gt; [51] &quot;gb_host&quot;                    &quot;gb_collection_date&quot;        
-#&gt; [53] &quot;gb_environmental_sample&quot;    &quot;gb_country&quot;                
-#&gt; [55] &quot;gb_lat_lon&quot;                 &quot;gb_collected_by&quot;           
-#&gt; [57] &quot;gb_note&quot;                    &quot;gb_references&quot;             
-#&gt; [59] &quot;gb_publication&quot;             &quot;gb_authors&quot;                
-#&gt; [61] &quot;gb_journal&quot;                 &quot;pubmed_id&quot;                 
-#&gt; [63] &quot;eukref_name&quot;                &quot;eukref_source&quot;             
-#&gt; [65] &quot;eukref_env_material&quot;        &quot;eukref_env_biome&quot;          
-#&gt; [67] &quot;eukref_biotic_relationship&quot; &quot;eukref_specific_host&quot;      
-#&gt; [69] &quot;eukref_geo_loc_name&quot;        &quot;eukref_notes&quot;              
-#&gt; [71] &quot;pr2_sample_type&quot;            &quot;pr2_sample_method&quot;         
-#&gt; [73] &quot;pr2_latitude&quot;               &quot;pr2_longitude&quot;             
-#&gt; [75] &quot;pr2_ocean&quot;                  &quot;pr2_sea&quot;                   
-#&gt; [77] &quot;pr2_sea_lat&quot;                &quot;pr2_sea_lon&quot;               
-#&gt; [79] &quot;pr2_continent&quot;              &quot;pr2_country&quot;               
-#&gt; [81] &quot;pr2_location&quot;               &quot;pr2_location_geoname&quot;      
-#&gt; [83] &quot;pr2_location_geotype&quot;       &quot;pr2_location_lat&quot;          
-#&gt; [85] &quot;pr2_location_lon&quot;           &quot;pr2_country_geocode&quot;       
-#&gt; [87] &quot;pr2_country_lat&quot;            &quot;pr2_country_lon&quot;           
-#&gt; [89] &quot;pr2_sequence_origin&quot;        &quot;pr2_size_fraction&quot;         
-#&gt; [91] &quot;pr2_size_fraction_min&quot;      &quot;pr2_size_fraction_max&quot;     
+#&gt;  [1] &quot;pr2_main_id&quot;                &quot;pr2_accession&quot;
+#&gt;  [3] &quot;genbank_accession&quot;          &quot;start&quot;
+#&gt;  [5] &quot;end&quot;                        &quot;label&quot;
+#&gt;  [7] &quot;gene&quot;                       &quot;organelle&quot;
+#&gt;  [9] &quot;species&quot;                    &quot;chimera&quot;
+#&gt; [11] &quot;chimera_remark&quot;             &quot;reference_sequence&quot;
+#&gt; [13] &quot;added_version&quot;              &quot;removed_version&quot;
+#&gt; [15] &quot;edited_version&quot;             &quot;edited_by&quot;
+#&gt; [17] &quot;edited_remark&quot;              &quot;remark&quot;
+#&gt; [19] &quot;taxo_id&quot;                    &quot;kingdom&quot;
+#&gt; [21] &quot;supergroup&quot;                 &quot;division&quot;
+#&gt; [23] &quot;class&quot;                      &quot;order&quot;
+#&gt; [25] &quot;family&quot;                     &quot;genus&quot;
+#&gt; [27] &quot;taxon_trophic_mode&quot;         &quot;taxo_edited_version&quot;
+#&gt; [29] &quot;taxo_edited_by&quot;             &quot;taxo_removed_version&quot;
+#&gt; [31] &quot;taxo_remark&quot;                &quot;reference&quot;
+#&gt; [33] &quot;seq_id&quot;                     &quot;sequence&quot;
+#&gt; [35] &quot;sequence_length&quot;            &quot;ambiguities&quot;
+#&gt; [37] &quot;sequence_hash&quot;              &quot;pr2_metadata_id&quot;
+#&gt; [39] &quot;gb_date&quot;                    &quot;gb_locus&quot;
+#&gt; [41] &quot;gb_definition&quot;              &quot;gb_organism&quot;
+#&gt; [43] &quot;gb_organelle&quot;               &quot;gb_taxonomy&quot;
+#&gt; [45] &quot;gb_strain&quot;                  &quot;gb_culture_collection&quot;
+#&gt; [47] &quot;gb_clone&quot;                   &quot;gb_isolate&quot;
+#&gt; [49] &quot;gb_isolation_source&quot;        &quot;gb_specimen_voucher&quot;
+#&gt; [51] &quot;gb_host&quot;                    &quot;gb_collection_date&quot;
+#&gt; [53] &quot;gb_environmental_sample&quot;    &quot;gb_country&quot;
+#&gt; [55] &quot;gb_lat_lon&quot;                 &quot;gb_collected_by&quot;
+#&gt; [57] &quot;gb_note&quot;                    &quot;gb_references&quot;
+#&gt; [59] &quot;gb_publication&quot;             &quot;gb_authors&quot;
+#&gt; [61] &quot;gb_journal&quot;                 &quot;pubmed_id&quot;
+#&gt; [63] &quot;eukref_name&quot;                &quot;eukref_source&quot;
+#&gt; [65] &quot;eukref_env_material&quot;        &quot;eukref_env_biome&quot;
+#&gt; [67] &quot;eukref_biotic_relationship&quot; &quot;eukref_specific_host&quot;
+#&gt; [69] &quot;eukref_geo_loc_name&quot;        &quot;eukref_notes&quot;
+#&gt; [71] &quot;pr2_sample_type&quot;            &quot;pr2_sample_method&quot;
+#&gt; [73] &quot;pr2_latitude&quot;               &quot;pr2_longitude&quot;
+#&gt; [75] &quot;pr2_ocean&quot;                  &quot;pr2_sea&quot;
+#&gt; [77] &quot;pr2_sea_lat&quot;                &quot;pr2_sea_lon&quot;
+#&gt; [79] &quot;pr2_continent&quot;              &quot;pr2_country&quot;
+#&gt; [81] &quot;pr2_location&quot;               &quot;pr2_location_geoname&quot;
+#&gt; [83] &quot;pr2_location_geotype&quot;       &quot;pr2_location_lat&quot;
+#&gt; [85] &quot;pr2_location_lon&quot;           &quot;pr2_country_geocode&quot;
+#&gt; [87] &quot;pr2_country_lat&quot;            &quot;pr2_country_lon&quot;
+#&gt; [89] &quot;pr2_sequence_origin&quot;        &quot;pr2_size_fraction&quot;
+#&gt; [91] &quot;pr2_size_fraction_min&quot;      &quot;pr2_size_fraction_max&quot;
 #&gt; [93] &quot;metadata_remark&quot;</code></pre>
 </div>
 <div id="working-with-the-database" class="section level1">
@@ -159,15 +159,15 @@ biocLite(&quot;Biostrings&quot;)         # To save fasta files</code></pre>
 #&gt; # A tibble: 325 x 9
 #&gt;    genbank_accessi~ species pr2_sample_type gb_strain gb_clone pr2_latitude
 #&gt;    &lt;chr&gt;            &lt;chr&gt;   &lt;chr&gt;           &lt;chr&gt;     &lt;chr&gt;           &lt;dbl&gt;
-#&gt;  1 AF525872         Ostreo~ environmental   &lt;NA&gt;      UEPACIp5         NA  
-#&gt;  2 EU562149         Ostreo~ environmental   &lt;NA&gt;      IND2.6           NA  
-#&gt;  3 AY425309         Ostreo~ environmental   &lt;NA&gt;      RA01041~         NA  
-#&gt;  4 GQ426346         Ostreo~ culture         CB6       &lt;NA&gt;             NA  
-#&gt;  5 KC583118         Ostreo~ environmental   &lt;NA&gt;      RS.12f.~         NA  
-#&gt;  6 JN862906         Ostreo~ culture         BCC48000  &lt;NA&gt;             NA  
+#&gt;  1 AF525872         Ostreo~ environmental   &lt;NA&gt;      UEPACIp5         NA
+#&gt;  2 EU562149         Ostreo~ environmental   &lt;NA&gt;      IND2.6           NA
+#&gt;  3 AY425309         Ostreo~ environmental   &lt;NA&gt;      RA01041~         NA
+#&gt;  4 GQ426346         Ostreo~ culture         CB6       &lt;NA&gt;             NA
+#&gt;  5 KC583118         Ostreo~ environmental   &lt;NA&gt;      RS.12f.~         NA
+#&gt;  6 JN862906         Ostreo~ culture         BCC48000  &lt;NA&gt;             NA
 #&gt;  7 JQ692065         Ostreo~ environmental   &lt;NA&gt;      PUPF_60         -43.3
 #&gt;  8 FR874749         Ostreo~ environmental   &lt;NA&gt;      1815F12          60.3
-#&gt;  9 FJ431431         Ostreo~ environmental   &lt;NA&gt;      RA07100~         NA  
+#&gt;  9 FJ431431         Ostreo~ environmental   &lt;NA&gt;      RA07100~         NA
 #&gt; 10 EU561670         Ostreo~ environmental   &lt;NA&gt;      IND1.11         -35.0
 #&gt; # ... with 315 more rows, and 3 more variables: pr2_longitude &lt;dbl&gt;,
 #&gt; #   sequence_length &lt;int&gt;, sequence &lt;chr&gt;</code></pre>
@@ -191,7 +191,7 @@ biocLite(&quot;Biostrings&quot;)         # To save fasta files</code></pre>
   # Displaying the Biostring set
   seq_ostreo
 #&gt;   A DNAStringSet instance of length 325
-#&gt;       width seq                                             names               
+#&gt;       width seq                                             names
 #&gt;   [1]  1766 ACCTGGTTGATCCTGCCAGTAG...AGGTGAACCTGCAGAAGGATCA AF525872|Ostreoco...
 #&gt;   [2]   836 AAAGCTCGTAGTCGGATTTTGG...TCTGGGCCGCACGCGCGCTACA EU562149|Ostreoco...
 #&gt;   [3]  1728 GCCAGTAGTCATATGCTTGTCT...GAGAAGTCGTAACAAGGTTTCC AY425309|Ostreoco...
