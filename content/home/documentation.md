@@ -14,11 +14,11 @@ subtitle = ""
 
 ### Download the PR<sup>2</sup> database
 * [As text files](./documentation/pr2-files/)
-* [As an R package](./documentation/pr2-R-package/)
+* [As an R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
 * [As a SQLite database](./documentation/pr2-sqlite/)
 
 ### Presentation of the PR<sup>2</sup> database
-* [PR<sup>2</sup> in numbers](./documentation/pr2_stats/)
+* [PR<sup>2</sup> in numbers](https://pr2database.github.io/pr2database/articles/pr2_stats.html)
 * [Slide show -2018-11-05](./documentation/pr2-presentation/)
 
 ### Structure of the PR<sup>2</sup> database

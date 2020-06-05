@@ -33,5 +33,5 @@ Importation and verification of updated annotation or new data is done under R u
 
 Here are some examples of scripts:
 
-* [version 4.10](https://vaulot.github.io/pr2/PR2_update_4.10.0_pr2_original.html)
-* [version 4.9](https://vaulot.github.io/pr2/PR2_update_4.9.0_DinoRef.html)
+* [version 4.10](https://pr2database.github.io/4.10/PR2_update_4.10.0_pr2_original.html)
+* [version 4.9](https://pr2database.github.io/4.9/PR2_update_4.9.0_DinoRef.html)
