@@ -18,6 +18,12 @@ The PR<sup>2</sup> database was initiated in 2010 in the frame of the BioMarks p
 
 {{< figure library="true" src="pr2_treemap.png" class="img-sm" title="Representation of the different taxonomic groups within PR<sup>2</sup>." lightbox="true" >}}
 
+DOI
+-----------
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3362765.svg)](https://doi.org/10.5281/zenodo.3362765)
+
 Citations
 -----------
 
