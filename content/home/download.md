@@ -34,7 +34,6 @@ devtools::install_github("pr2database/pr2database")
 * [How to use the SQLite database](./documentation/pr2-sqlite/)
 
 ## PR2 primer database
-We are also developing a [PR<sup>2</sup> primer database](https://github.com/pr2database/pr2-primers) focusing on the rRNA operon.
+We have developed an interactive [pr2-primers database](https://app.pr2-primers.org/) focusing on the rRNA operon.  You can download primer and primer sets.  Primer pairs are evaluated agains the PR<sup>2</sup> sequence database.
 
-* [Primers used to amplify 18S rRNA](https://github.com/pr2database/pr2-primers/wiki/18S-rRNA-primers)
-* [Primer sets (fwd/rev) used for metabarcoding of 18S rRNA](https://github.com/pr2database/pr2-primers/wiki/18S-rRNA-primer-sets)
+
