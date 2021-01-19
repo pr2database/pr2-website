@@ -9,18 +9,9 @@
   weight = 10
 
 [[main]]
-  name = "Using PR2"
-  weight = 20
-[[main]]
-  parent = "Using PR2"
   name = "Documentation"
   url = "#documentation"
-  weight = 1
-[[main]]
-  parent = "Using PR2"
-  name = "Tutorials"
-  url = "#tutorials"
-  weight = 2
+  weight = 20
 
 [[main]]
     name = "Annotation"
@@ -28,15 +19,21 @@
 
 [[main]]
   parent = "Annotation"
+  name = "Groups annotated"
+  url = "/documentation/pr2-taxonomic-groups/"
+  weight = 1
+
+[[main]]
+  parent = "Annotation"
   name = "Contributing"
   url = "#contributing"
-  weight = 1
+  weight = 2
 
 [[main]]
   parent = "Annotation"
   name = "EukRef"
   url = "/eukref/about"
-  weight = 2
+  weight = 3
 
 [[main]]
     name = "Workshops"

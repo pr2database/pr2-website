@@ -12,15 +12,21 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-11-15"
+lastmod: "2020-06-24"
 projects: []
 subtitle: ''
-summary: A short presentation from Nov 2018
+summary: Presentations of PR2
 tags:
 - Documentation
 - Database
-title: 'Presentation of the PR2 database'
+title: 'Presentations of the PR2 database'
 ---
-Presented at the EukRef workshop in Roscoff (2018-11-05)
+### 2020-06-24 - Protist.Online Electronic Symposium on Protistology
+
+<script async class="speakerdeck-embed" data-id="acf5bc871675439a9ff15d63b7d123b6" data-ratio="1.77469670710572" src="//speakerdeck.com/assets/embed.js"></script>
+
+See also on  [YouTube](https://www.youtube.com/watch?v=tC4R5-ly_NI)
+
+### 2018-11-05 - EukRef workshop in Roscoff
 
 <script async class="speakerdeck-embed" data-id="caeb6c304ee34d21a38dd001da1f6095" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>

@@ -27,7 +27,8 @@ subtitle = ""
 
 ### Management and revision history
 * [Management tools](./documentation/pr2-management/)
-* Revision history
-  * [Condensed](./documentation/pr2-revision-history-condensed/)
-  * [Detailed](./documentation/pr2-revision-history-detailed/)
+* [Revision history](https://pr2database.github.io/pr2database/news/)
 * [Major groups recently revised](./documentation/pr2-taxonomic-groups/)
+
+### Tutorials
+* [R package](https://pr2database.github.io/pr2database/articles)
