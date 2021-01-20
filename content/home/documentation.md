@@ -19,7 +19,7 @@ subtitle = ""
 
 ### Presentation of the PR<sup>2</sup> database
 * [PR<sup>2</sup> in numbers](https://pr2database.github.io/pr2database/articles/pr2_stats.html)
-* [Slide show -2018-11-05](./documentation/pr2-presentation/)
+* [Slide shows](./documentation/pr2-presentation/)
 
 ### Structure of the PR<sup>2</sup> database
 * [Database structure](./documentation/pr2-structure/)

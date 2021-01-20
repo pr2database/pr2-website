@@ -6,6 +6,6 @@ image:
   focal_point: Smart
 summary: Planktonic Foraminifera 18S ribosomal DNA.
 tags:
-- EukRef
+- not_active
 title: PfR2
 ---

@@ -3,7 +3,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: ""
 summary: Database of rRNA primers
 tags:
-- primers
+- not_active
 title: PR2 primers
 url_code: "https://github.com/pr2database/pr2-primers"
 url_pdf: ""

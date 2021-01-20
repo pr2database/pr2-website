@@ -6,6 +6,6 @@ image:
   focal_point: Smart
 summary: 16S rRNA plastid database (also available in PR2).
 tags:
-- EukRef
+- not_active
 title: PhytoRef
 ---
