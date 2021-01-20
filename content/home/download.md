@@ -34,6 +34,7 @@ devtools::install_github("pr2database/pr2database")
 * [How to use the SQLite database](./documentation/pr2-sqlite/)
 
 ## PR2 primer database
-We have developed an interactive [pr2-primers database](https://app.pr2-primers.org/) focusing on the rRNA operon.  You can download primer and primer sets.  Primer pairs are evaluated agains the PR<sup>2</sup> sequence database.
+* [Interactive web site](https://app.pr2-primers.org/) 
+* [Code repository](https://github.com/pr2database/pr2-primers) 
 
 
