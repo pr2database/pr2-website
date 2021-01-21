@@ -70,10 +70,6 @@ color = "darkslategrey"
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <div class="row">
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<a class="github-button" href="https://github.com/pr2database/pr2database" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a>
-</div>
-<div class="row">
   <div class="column">
     <img src="https://img.shields.io/badge/release-4.12.0-blue.svg" style="width:100%">
   </div>
@@ -91,5 +87,4 @@ color = "darkslategrey"
   </div>
 </div>
 
-<!-- Place this tag where you want the button to render. https://buttons.github.io/-->
-<a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" data-show-count="false" class="twitter-follow-button">Follow @PR2database</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
