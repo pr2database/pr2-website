@@ -22,13 +22,20 @@ tags:
 title: 'Database fields'
 ---
 
-## General structure
-The PR2 database is provided as a data frame.  This is a join between the following tables:
+We are providing as part of the pr2database package one data frames:
+
+* pr2: the main PR2 database containing both 18S rRNA and plastid 16S rRNA sequences
+
+## pr2
+
+The PR2 database is provided as a data frame called **pr2**.  This is a join between the following tables:
 
 * pr2_main
 * pr2_taxonomy
 * pr2_sequence
 * pr2_metadata
+* pr2_assign_silva
+* pr2_countries
 
 The metadata contains three types of fields:
 
@@ -36,52 +43,37 @@ The metadata contains three types of fields:
 * eukref_ : annotated by the Eukref project
 * pr2_ : annotated by pr2 such latitude and longitude
 
-## Detailed description of fields
+### Detailed description of fields
 Fields | Comment  
 ---  | ---
-pr2_main_id|ID of PR2 entry in table pr2_main
 pr2_accession|PR2 specific accession number
 genbank_accession|Genbank accession number (without the vresion)
 start|Start of sequence in Genbank entry
 end|End of sequence in Genbank entry
 label|Label explaining origin of sequence
-|
-|G: genomic sequence containing a described intron (rDNA)
-|R: the previous genomic rRNA sequence, without the intron(s)
-|U: no intron described, but intron(s) may be present
-|UC: introns were detected in silico and removed from the sequence (putative rRNA)
+ |G: genomic sequence containing a described intron (rDNA)
+ |R: the previous genomic rRNA sequence, without the intron(s)
+ |U: no intron described, but intron(s) may be present
+ |UC: introns were detected in silico and removed from the sequence (putative rRNA)
 gene|18S_rRNA or 16S_rRNA
 organelle|nucleus, plastid, mitochondria, nucleomorph, apicoplast (left empty for cyanobacteria)
-species|Assigned species - rank 8
-chimera|= 1, the sequence is chimeric
-chimera_remark|Comment on reason why the sequence was mentionned as chimeric
 reference_sequence|= 1, this is a reference sequence that can be used for example for alignements
 added_version|PR2 version when sequence was added
-removed_version|PR2 version when sequence was removed
-edited_version|PR2 version when sequence assignation was edited
-edited_by|Who edited the assignation
-edited_remark|Remark concerning the assignation
 remark|Remark concerning  the sequence
-taxo_id|ID of the species in table pr2_taxonomy
-kingdom|rank 1
+domain|rank 1
 supergroup|rank 2
 division|rank 3
-class|rank 4
-order|rank 5
-family|rank 6
-genus|rank 7
-taxon_trophic_mode|e.g. symbiotic
-taxo_edited_version|PR2 version when taxonomy path was edited
-taxo_edited_by|Who edited the taxonomy path
-taxo_removed_version|PR2 version when species and taxonomy path was removed
-taxo_remark|Remark concerning  the taxonomy
+subdivision| rank 4
+class|rank 5
+order|rank 6
+family|rank 7
+genus|rank 8
+species|Assigned species - rank 9
 reference|Reference in the litterature concerning  the taxonomy
-seq_id|ID of the sequence in table pr2_sequence
 sequence|Sequence
 sequence_length|Length of sequence
 ambiguities|Number of ambiguities
 sequence_hash|Hash value of sequence
-pr2_metadata_id|ID of metadata in table pr2_metadata
 gb_date|Genbank: Date
 gb_locus|Genbank: Locus
 gb_definition|Genbank: Definition
@@ -136,3 +128,4 @@ pr2_size_fraction|PR2: Name of size fraction, e.g. pico, nano
 pr2_size_fraction_min|PR2: Minimum size filtered, e.g. 0.2 µm
 pr2_size_fraction_max|PR2: Maximum size filtered, e.g. 20 µm
 metadata_remark|PR2: Any remark on metadata
+silva_taxonomy| taxonomy from [Silva version 138]( https://www.arb-silva.de/documentation/release-138/)

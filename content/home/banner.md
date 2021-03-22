@@ -35,7 +35,7 @@ color = "darkslategrey"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://github.com/pr2database/pr2database/releases"
-  label = "Download PR<sup>2</sup> version 4.12.0"
+  label = "Download PR<sup>2</sup> version 4.13.0"
   icon_pack = "fas"
   icon = "download"
 
@@ -57,7 +57,7 @@ color = "darkslategrey"
 # <a class="github-button" href="https://github.com/pr2database/pr2database" data-size="medium" data-show-count="true" aria-label="PR2 is on GitHub">PR<sup>2</sup> is on GitHub</a> <a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" data-show-count="false" class="twitter-follow-button">Follow @PR2database</a> <a href="https://twitter.com/eukref" data-show-count="false" class="twitter-follow-button">Follow @EukRef</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # GitHub buttons removed
-# [PR2 version](https://img.shields.io/badge/release-4.12.0-blue.svg) ![Date of last version](https://img.shields.io/badge/date-08%20August%202019-lightgrey.svg) ![Github Downloads (total)](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)
+# [PR2 version](https://img.shields.io/badge/release-4.13.0-blue.svg) ![Date of last version](https://img.shields.io/badge/date-08%20August%202019-lightgrey.svg) ![Github Downloads (total)](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)
 
 +++
 
@@ -71,13 +71,13 @@ color = "darkslategrey"
 <!-- Place this tag in your head or just before your close body tag. -->
 <div class="row">
   <div class="column">
-    <img src="https://img.shields.io/badge/release-4.12.0-blue.svg" style="width:100%">
+    <img src="https://img.shields.io/badge/release-4.13.0-blue.svg" style="width:100%">
   </div>
   <div class="column">
     &nbsp;
   </div>
   <div class="column">
-    <img src="https://img.shields.io/badge/date-08%20August%202019-lightgrey.svg" style="width:100%">
+    <img src="https://img.shields.io/badge/date-17%20March%202021-lightgrey.svg" style="width:100%">
   </div>
   <div class="column">
     &nbsp;

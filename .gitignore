@@ -6,4 +6,6 @@ sandbox
 blogdown
 *.bib
 hugo.exe
+*.Rmd
+*.rda
 

@@ -12,7 +12,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-11-21"
+lastmod: "2021-03-15"
 projects: []
 subtitle: ''
 summary: Database and taxonomy structure
@@ -25,15 +25,17 @@ title: 'Database structure'
 Table | Fields | Comment  
 --- | ---  | ---
 pr2_main | pr2_accession, genbank_accession, species, editing hitory |  
-pr2_sequence | genbank_accession, sequence | linked to pr2_main by genbank_accession  
+pr2_sequence | pr2_accession, , sequence | linked to pr2_main by pr2_accession  
 pr2_metadata | metadata from GenBank and from published references |  linked to pr2_main by genbank_accession
 pr2_taxonomy | kingdom -> species, editing history |  linked to pr2_main by species
+pr2_countries | geo-information |  linked to pr2_metadata by pr2_country
+pr2_assign_silva | assignment of pr2 sequences according to Silva | linked to pr2_main by pr2_accession
 
-![pr2 database structure](./../../../img/pr2_database_structure_4_9_0.png)
+![pr2 database structure](./../../../img/pr2_database_structure_5_0_0.png)
 
 ## Taxonomy structure
 * 8 levels : Kingdom / Supergroup / Division / Class / Order / Family / Genus / Species
-* All taxonomy paths are unique. For example for a given Class, all higher levels are similar (Division -> Supergroup -> Kingdom)
+* All taxonomy paths are unique. For example for a given Class, all higher levels are similar (Division -> Supergroup -> Domain)
 * No taxon can appear at different levels. For example "Stramenopiles" cannot appear at both the Supergroup and Division levels.
 
 #### Rules for naming taxonomic levels
@@ -67,6 +69,12 @@ For example AF530536.1.1695_U
 
 PR2 version | Table | Field | Action | Comment  
 --- | --- | --- | ---  | ---
+4.13.0 | pr2_metadata | pr2_depth  | A | depth of sample in meter
+      |              | gb_id  | A | Genbank ID number (big integer)
+      |              |gb_project_id  | A | Genbank project ID for metagenomes
+      |              |gb_sequence    | A | original gb_sequence (longtext)
+      |  pr2_countries  | New table for country information
+      |  pr2_assign_silva  | New table for Silva assignation of sequences
 4.12.0 | pr2_main | gene  | A | 18S_RNA, 16S_RNA
 | | | organelle | A |  nucleus, plastid, mitochondria, nucleomorph, apicoplast (left empty for cyanobacteria)
 | | pr2_metadata | gb_organelle | A |  import the corresponding gb field

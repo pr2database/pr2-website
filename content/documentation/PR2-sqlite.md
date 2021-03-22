@@ -11,7 +11,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2020-04-01"
+lastmod: "2021-03-15"
 projects: []
 subtitle: ''
 summary: Instruction to download and use
@@ -24,7 +24,7 @@ title: 'SQLite database'
 
 ## File provided
 
-* **[pr2_version_x.y.z.sqlite.gz](https://github.com/pr2database/pr2database/releases)**: compressed version of the PR<sup>2</sup> database under SQLite.
+* **[pr2_version_4.12.0.sqlite.gz](https://github.com/pr2database/pr2database/releases/download/v4.12.0/pr2_version_4.12.0.sqlite.gz)**: compressed version of the PR<sup>2</sup> database under SQLite.
 
 ## Database structure
 

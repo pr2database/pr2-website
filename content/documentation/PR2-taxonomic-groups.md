@@ -30,18 +30,18 @@ Alveolata | Apicomplexa | | J. del Campo | 2019 |  4.12
 Alveolata | Ciliates | | W. Ting, C. Bachy | 2017 | 4.7
 Alveolata | Ciliates | | V. Boscaro,  L. Santoferrara, E. Gentekaki and Q. Zhang | 2018 | 4.11
 Alveolata | Dinoflagellates | | S. Mordret, D. Sarno | 2018  | 4.9  
-Alveolata | Dinoflagellates | Suessiales | J. del Campo | 2021  | 4.13 (not released yet)  
+Alveolata | Dinoflagellates | Suessiales | J. del Campo | 2021  | 4.13  
 Rhizaria | Collodaria | | T. Biard | 2015 | 2.0
 Chlorophyta |  |  | M.Tragin, A. Lopes dos Santos | 2015 | 3.0
-Prasinodermophyta |  |  | D. Vaulot | 2021 | 4.13 (not released yet)
+Prasinodermophyta |  |  | D. Vaulot | 2021 | 4.13
 Haptophyta |  |  |  B. Edvardsen | 2015 | 4.0
 Stramenopiles |  |  |  R. Massana | 2019 | 4.12
 Stramenopiles | Diatoms  |  _Chaetoceros_ | C. Gaonkar | 2019 | 4.12
-Stramenopiles | Diatoms  | Thalassiosirales | L. Arsenieff | 2021 | 4.13 (not released yet)
+Stramenopiles | Diatoms  | Thalassiosirales | L. Arsenieff | 2021 | 4.13
 Stramenopiles | Bolidophyceae |  |  D. Vaulot | 2017 | 4.6
 Stramenopiles | Pelagophyceae |  |  D. Vaulot | 2017 | 4.6
 Stramenopiles |  | | A.M. Cabello | 2021 | 4.13
-Stramenopiles |   Chrysophyceae | | D. Vaulot | 2021 | 4.13 (not released yet)
+Stramenopiles |   Chrysophyceae | | D. Vaulot | 2021 | 4.13
 
 ## Groups with planned annotations
 

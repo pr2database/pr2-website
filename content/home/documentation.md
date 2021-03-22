@@ -12,10 +12,10 @@ subtitle = ""
 
 +++
 
-### Download the PR<sup>2</sup> database
-* [As text files](./documentation/pr2-files/)
-* [As an R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
-* [As a SQLite database](./documentation/pr2-sqlite/)
+### How to use the PR<sup>2</sup> database
+* [Text files](./documentation/pr2-files/)
+* [R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
+* [SQLite database](./documentation/pr2-sqlite/) (only version 4.12.0)
 
 ### Presentation of the PR<sup>2</sup> database
 * [PR<sup>2</sup> in numbers](https://pr2database.github.io/pr2database/articles/pr2_stats.html)
@@ -27,7 +27,7 @@ subtitle = ""
 
 ### Management and revision history
 * [Management tools](./documentation/pr2-management/)
-<!-- * [Revision history](https://pr2database.github.io/pr2database/news/) TO INCLUDE LATER -->
+* [Revision history](https://pr2database.github.io/pr2database/news)
 * [Major groups recently revised](./documentation/pr2-taxonomic-groups/)
 
 ### Tutorials
