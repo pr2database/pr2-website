@@ -18,7 +18,7 @@ subtitle = ""
 * [SQLite database](./documentation/pr2-sqlite/) (only version 4.12.0)
 
 ### Presentation of the PR<sup>2</sup> database
-* [PR<sup>2</sup> in numbers](https://pr2database.github.io/pr2database/articles/pr2_stats.html)
+* [PR<sup>2</sup> in numbers](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html)
 * [Slide shows](./documentation/pr2-presentation/)
 
 ### Structure of the PR<sup>2</sup> database
