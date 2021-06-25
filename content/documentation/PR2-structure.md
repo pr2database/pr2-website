@@ -69,12 +69,16 @@ For example AF530536.1.1695_U
 
 PR2 version | Table | Field | Action | Comment  
 --- | --- | --- | ---  | ---
+4.14.0 | pr2_main | quarantined_version  | A | quarantined sequences do not appear in the released version but will be re-assigned latter
+      || pr2_metadata | gb_references  | R | empty
+      ||              | gb_locus  | R | empty 
+      ||              | gb_division  | A | 3-letter code (e.g. PLN, ENV) 
 4.13.0 | pr2_metadata | pr2_depth  | A | depth of sample in meter
       |              | gb_id  | A | Genbank ID number (big integer)
       |              |gb_project_id  | A | Genbank project ID for metagenomes
       |              |gb_sequence    | A | original gb_sequence (longtext)
-      |  pr2_countries  | New table for country information
-      |  pr2_assign_silva  | New table for Silva assignation of sequences
+      ||  pr2_countries  | New table for country information
+      ||  pr2_assign_silva  | New table for Silva assignation of sequences
 4.12.0 | pr2_main | gene  | A | 18S_RNA, 16S_RNA
 | | | organelle | A |  nucleus, plastid, mitochondria, nucleomorph, apicoplast (left empty for cyanobacteria)
 | | pr2_metadata | gb_organelle | A |  import the corresponding gb field

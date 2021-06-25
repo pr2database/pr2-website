@@ -63,12 +63,11 @@ remark|Remark concerning  the sequence
 domain|rank 1
 supergroup|rank 2
 division|rank 3
-subdivision| rank 4
-class|rank 5
-order|rank 6
-family|rank 7
-genus|rank 8
-species|Assigned species - rank 9
+class|rank 4
+order|rank 5
+family|rank 6
+genus|rank 7
+species|Assigned species - rank 8
 reference|Reference in the litterature concerning  the taxonomy
 sequence|Sequence
 sequence_length|Length of sequence

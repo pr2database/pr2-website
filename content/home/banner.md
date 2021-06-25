@@ -71,13 +71,13 @@ color = "darkslategrey"
 <!-- Place this tag in your head or just before your close body tag. -->
 <div class="row">
   <div class="column">
-    <img src="https://img.shields.io/badge/release-4.13.0-blue.svg" style="width:100%">
+    <img src="https://img.shields.io/badge/release-4.14.0-blue.svg" style="width:100%">
   </div>
   <div class="column">
     &nbsp;
   </div>
   <div class="column">
-    <img src="https://img.shields.io/badge/date-17%20March%202021-lightgrey.svg" style="width:100%">
+    <img src="https://img.shields.io/badge/date-25%20June%202021-lightgrey.svg" style="width:100%">
   </div>
   <div class="column">
     &nbsp;
