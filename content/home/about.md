@@ -10,9 +10,9 @@ subtitle = ""
 
 {{< figure library="true" src="tree_burki.png" class="img-lg" title="The eukaryotic tree. From Burki et al. 2019. The New Tree of Eukaryotes. Trends in Ecology & Evolution. DOI: 10.1016/j.tree.2019.08.008." lightbox="true" >}}
 
-Current version : 4.13.0  
-Last update : 17 March 2021  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3362765.svg)](https://doi.org/10.5281/zenodo.3362765)
+Current version : 4.14.0  
+Last update : 25 June 2021  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5031733.svg)](https://doi.org/10.5281/zenodo.5031733)
 
 ## The PR<sup>2</sup> sequence database
 The PR<sup>2</sup> sequence database was initiated in 2010 in the frame of the BioMarks project from work that had developed in the previous ten years in the Plankton Group of the Station Biologique of Roscoff.  Its aim is to provide a reference database of carefully annotated 18S rRNA sequences using  eight unique taxonomic fields (from kingdom to species).  At present it contains about 184,000 sequences. A number of metadata fields are available for many sequences, including geo-localisation, whether it originates from a culture or a natural sample, host type etc... The annotation of PR2 is performed by [experts]({{< ref "/documentation/PR2-taxonomic-groups.md" >}}) from each taxonomic groups.  One very important project in this respect is [EukRef]({{< ref "/eukref/about.md" >}}) which has recently decided to merge its effort with PR<sup>2</sup>. EukRef has built bioinformatics pipelines that have been used during three workshops dedicated to specific taxonomic groups.  As an example, part of the ciliate annotation originate from the first [EukRef workshop]({{< ref "/eukref/workshop_vancouver.md" >}}).

@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "Get the PR2 database"
+title = "Get the PR2 databases"
 subtitle = ""
 +++
 ## PR2 sequence database

@@ -35,7 +35,7 @@ color = "darkslategrey"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://github.com/pr2database/pr2database/releases"
-  label = "Download PR<sup>2</sup> version 4.13.0"
+  label = "Download latest version of PR<sup>2</sup>"
   icon_pack = "fas"
   icon = "download"
 
