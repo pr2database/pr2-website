@@ -3,7 +3,7 @@ authors:
 - vaulot
 interests:
 - Eukaryote taxonomy
-name: Mawash Jamy
+name: Mahwash Jamy
 role: Uppsala U., Sweden
 organizations:
 - name: Uppsala University
