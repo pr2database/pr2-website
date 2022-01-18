@@ -4,15 +4,15 @@ authors:
 interests:
 - Ciliates
 name: Luciana Santoferrara
-role: U. Connecticut, USA
+role:  Hofstra University, USA
 organizations:
-- name: University of Connecticut
-  url: "http://www.luciana-santoferrara.uconn.edu/"
+- name:  Hofstra University, USA
+  url: "https://news.hofstra.edu/2021/09/17/hofstra-welcomes-new-faculty-5/"
   role: Assistant Professor
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:luciana.santoferrara@uconn.edu
+  link: mailto:luciana.santoferrara@hofstra.edu
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.ca/citations?hl=en&user=otgxg8EAAAAJ

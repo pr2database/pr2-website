@@ -31,6 +31,9 @@ Guillou, L., Bachar, D., Audic, S., Bass, D., Berney, C., Bittner, L., Boutte, C
 
 del Campo J., Kolisko M., Boscaro V., Santoferrara LF., Nenarokov S., Massana R., Guillou L., Simpson A., Berney C., de Vargas C., Brown MW., Keeling PJ., Wegener Parfrey L. 2018. [EukRef: Phylogenetic curation of ribosomal RNA to enhance understanding of eukaryotic diversity and distribution](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005849). PLOS Biology 16:e2005849. DOI: 10.1371/journal.pbio.2005849.
 
+Vaulot, D., Mahé, F., Bass, D., & Geisen, S. (2021). [╔pr2-primer : An 18S rRNA primer database for protists](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13465). Molecular Ecology Resources, in press. DOI: 10.1111/1755-0998.13465
+
+
 Issues
 -----------
 
