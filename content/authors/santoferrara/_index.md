@@ -7,7 +7,7 @@ name: Luciana Santoferrara
 role:  Hofstra University, USA
 organizations:
 - name:  Hofstra University, USA
-  url: "https://news.hofstra.edu/2021/09/17/hofstra-welcomes-new-faculty-5/"
+  url: "https://sites.google.com/view/luciana-santoferrara-lab"
   role: Assistant Professor
 social:
 - icon: envelope
