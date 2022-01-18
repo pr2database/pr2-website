@@ -6,7 +6,7 @@ interests:
 name: Luciana Santoferrara
 role:  Hofstra University, USA
 organizations:
-- name:  Hofstra University, USA
+- name:  Santoferrara Lab
   url: "https://sites.google.com/view/luciana-santoferrara-lab"
   role: Assistant Professor
 social:
