@@ -2,7 +2,7 @@
 authors:
 - vaulot
 interests:
-- Green algae
+- metaPR2
 name: Adriana Lopes dos Santos
 role: NTU, Singapore
 organizations:
@@ -18,5 +18,5 @@ social:
 
 superuser: false
 user_groups:
-- Contributors PR2 reference
+- Core team
 ---

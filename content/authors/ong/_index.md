@@ -7,7 +7,7 @@ education:
 email: "A190104@e.ntu.edu.sg"
 highlight_name: false
 interests:
-- Eukaryotes
+- Marine datasets
 organizations:
 - name: Nanyang Technological University, Asian School of the Environment
   url: "https://ase.ntu.edu.sg"

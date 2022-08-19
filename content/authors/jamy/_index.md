@@ -2,7 +2,7 @@
 authors:
 - vaulot
 interests:
-- Eukaryote taxonomy
+- Freshwater and soil datasets
 name: Mahwash Jamy
 role: Uppsala U., Sweden
 organizations:
@@ -17,6 +17,5 @@ social:
   link: https://scholar.google.com/citations?user=LZCLQfUAAAAJ&hl=en
 superuser: false
 user_groups:
-- Contributors PR2 reference
 - Contributors metaPR2
 ---
