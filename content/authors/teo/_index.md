@@ -1,7 +1,7 @@
 ---
 education:
   courses:
-  - course: Bachelor (current)
+  - course: Bachelor of Science in Environmental Earth Systems Science, (current)
     institution: Nanyang Technological University, Singapore
     year: 2020-2024
 email: "BTEO016@e.ntu.edu.sg"
