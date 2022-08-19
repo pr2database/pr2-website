@@ -17,7 +17,7 @@ social:
   icon_pack: fas
   link: A190104@e.ntu.edu.sg
 superuser: false
-title: Denise Ong
+name: Denise Ong
 user_groups:
 - Contributors metaPR2
 ---
