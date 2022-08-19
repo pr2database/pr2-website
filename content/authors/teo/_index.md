@@ -1,13 +1,10 @@
 ---
 education:
   courses:
-  - course: Bachelor in Ecology
-    institution: National University of Singapore
-    year: 2020
-  - course: PhD candidate
+  - course: Bachelor (current)
     institution: Nanyang Technological University, Singapore
     year: 2020-2024
-email: "SIMW0034@e.ntu.edu.sg"
+email: "BTEO016@e.ntu.edu.sg"
 highlight_name: false
 interests:
 - Marine datasets
@@ -18,9 +15,9 @@ role: NTU, Singapore
 social:
 - icon: envelope
   icon_pack: fas
-  link: SIMW0034@e.ntu.edu.sg
+  link: BTEO016@e.ntu.edu.sg
 superuser: false
-name: Clarence Sim
+name: Bryan Teo
 user_groups:
 - Contributors metaPR2
 ---

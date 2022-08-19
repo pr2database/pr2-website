@@ -4,6 +4,9 @@ education:
   - course: Bachelor in Ecology
     institution: National University of Singapore
     year: 2019
+  - course: PhD candidate
+    institution: Nanyang Technological University, Singapore
+    year: 2019-2023
 email: "A190104@e.ntu.edu.sg"
 highlight_name: false
 interests:
