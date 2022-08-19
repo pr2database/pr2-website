@@ -15,7 +15,9 @@ subtitle = ""
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups = ["Core team",
                  "Scientific Committee",
-                 "Contributors"]
+                 "Contributors PR2 reference",
+                 "Contributors PR2 primers",
+                 "Contributors metaPR2"]
 
 [design]
   # Show user's social networking links? (true/false)
