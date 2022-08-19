@@ -14,5 +14,5 @@ social:
   link: mailto:aschoenl@uni-koeln.de
 superuser: false
 user_groups:
-- Contributors
+- Contributors PR2 reference
 ---

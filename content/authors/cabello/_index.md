@@ -17,5 +17,5 @@ social:
   link: https://scholar.google.com/citations?user=Tdhax18AAAAJ&hl=en
 superuser: false
 user_groups:
-- Contributors
+- Contributors PR2 reference
 ---

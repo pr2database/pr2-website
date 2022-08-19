@@ -18,5 +18,6 @@ social:
 
 superuser: false
 user_groups:
-- Contributors
+- Contributors PR2 reference
+- Contributors metaPR2
 ---

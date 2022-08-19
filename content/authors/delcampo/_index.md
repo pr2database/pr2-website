@@ -25,7 +25,7 @@ social:
   link: https://github.com/fonamental
 superuser: false
 user_groups:
-- Contributors
+- Contributors PR2 reference
 - Core team
 ---
 

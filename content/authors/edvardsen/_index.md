@@ -17,6 +17,6 @@ social:
   link: https://scholar.google.fr/citations?hl=fr&user=0dyHIvEAAAAJ
 superuser: false
 user_groups:
-- Contributors
+- Contributors PR2 reference
 - Scientific Committee
 ---
