@@ -15,7 +15,7 @@ education:
     year: 1975
 email: "vaulot@gmail.com"
 interests:
-- Marine Phytoplankton
+- PR2 coordinator
 name: Daniel Vaulot
 role: NTU, Singapore
 organizations:

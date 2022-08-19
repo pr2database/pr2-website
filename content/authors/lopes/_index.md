@@ -2,7 +2,7 @@
 authors:
 - vaulot
 interests:
-- Chlorophyta
+- metaPR2
 name: Adriana Lopes dos Santos
 role: NTU, Singapore
 organizations:
@@ -18,6 +18,7 @@ social:
 
 superuser: false
 user_groups:
+- Core team
 - Contributors PR2 reference
 - Contributors metaPR2
 ---

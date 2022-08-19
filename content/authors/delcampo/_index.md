@@ -4,7 +4,8 @@ authors:
 bio: Focusing on coral microbial ecology.
 email: "jdelcampo@rsmas.miami.edu"
 interests:
-- Microbial Ecology and Evolution
+- PR2 reference
+- EukRef
 name: Javier del Campo
 role: U. Miami, USA
 organizations:

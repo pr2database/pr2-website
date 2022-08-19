@@ -4,7 +4,7 @@ authors:
 bio: Focusing on marine parasites.
 email: "lguillou@sb-roscoff.fr"
 interests:
-- Marine parasites
+- PR2 reference
 name: Laure Guillou
 role: CNRS, France
 organizations:

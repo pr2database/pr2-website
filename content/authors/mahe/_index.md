@@ -4,7 +4,7 @@ authors:
 bio: Bioinformatics.
 email: "frederic.mahe@cirad.fr"
 interests:
-- Bioinformatics
+- PR2 primers
 name: Frédéric Mahé
 role: CIRAD, France
 organizations:
