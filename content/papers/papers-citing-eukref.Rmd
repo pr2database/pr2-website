@@ -15,7 +15,7 @@ library(dplyr)
 library(stringr)
 library(RefManageR)
 
-# 
+# Need to clean the non-ASCII characters in the Bibtex labels  
 # See: https://ropensci.org/blog/2020/05/07/rmd-citations/
 bib <- ReadBib("eukref_2022.bib")
 BibOptions(check.entries = FALSE, style = "markdown", bib.style = "authoryear", no.print.fields = c("pmid", "url"))
