@@ -16,12 +16,12 @@ library(stringr)
 library(RefManageR)
 
 # See: https://ropensci.org/blog/2020/05/07/rmd-citations/
-bib <- ReadBib("eukref.bib")
+bib <- ReadBib("eukref_2022.bib")
 BibOptions(check.entries = FALSE, style = "markdown", bib.style = "authoryear", no.print.fields = c("pmid", "url"))
 
 cat("Number of papers citing EukRef: ", length(bib), '\n\n')
 
-for(year in 2021:2018){
+for(year in 2022:2018){
 cat(str_c("\n", "## ", year, "\n"))
   
 bib_year = bib[year = as.character(year)]
