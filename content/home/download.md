@@ -10,7 +10,7 @@ weight = 15  # Order that this section will appear.
 title = "Get the PR2 databases"
 subtitle = ""
 +++
-## PR2 sequence database
+## PR2 reference sequence database
 * Three different formats are provided:  
   * [Flat files for use with mothur, QIIME2, dada2, blast etc...](https://github.com/pr2database/pr2database/releases)
   * [R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
@@ -22,5 +22,11 @@ subtitle = ""
 ## PR2 primer database
 * [Interactive web site](https://app.pr2-primers.org/) 
 * [Code repository](https://github.com/pr2database/pr2-primers) 
+
+## metaR2 metabarcode database
+* [Interactive web site](https://shiny.metapr2.org/)
+* [R package](https://pr2database.github.io/metapr2-shiny/articles/metapr2.html)
+* [Code repository](https://github.com/pr2database/metapr2-shiny) 
+
 
 

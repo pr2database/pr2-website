@@ -10,7 +10,7 @@ subtitle = ""
 
 {{< figure library="true" src="tree_burki.png" class="img-lg" title="The eukaryotic tree. From Burki et al. 2019. The New Tree of Eukaryotes. Trends in Ecology & Evolution. DOI: 10.1016/j.tree.2019.08.008." lightbox="true" >}}
 
-The PR<sup>2</sup> database ecosystem is a set of three interconnected 18S rRNA databases that are useful un particular for metabarcoding applications. This web site focuses on the PR<sup>2</sup> reference sequence database.
+The PR<sup>2</sup> database ecosystem is a set of three interconnected 18S rRNA databases that are useful in particular for metabarcoding applications. This web site focuses on the PR<sup>2</sup> reference sequence database.
 
 ## The PR<sup>2</sup> reference sequence database
 
