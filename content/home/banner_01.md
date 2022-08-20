@@ -2,10 +2,10 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "The PR<sup>2</sup> databases"
+title = "PR<sup>2</sup> database"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "pr2_logo_16_9_big.png"
@@ -33,11 +33,11 @@ color = "darkslategrey"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-# [cta]
-#  url = "https://github.com/pr2database/pr2database/releases"
-#  label = "Download latest version of PR<sup>2</sup>"
-#  icon_pack = "fas"
-#  icon = "download"
+[cta]
+  url = "https://github.com/pr2database/pr2database/releases"
+  label = "Download latest version of PR<sup>2</sup>"
+  icon_pack = "fas"
+  icon = "download"
 
 # [cta_alt]
 #   url = "./#documentation"
@@ -61,16 +61,15 @@ color = "darkslategrey"
 
 +++
 
-**Three interconnected 18S rRNA databases**
+**A reference 18S rRNA sequence database**
 
-* PR2 reference sequence database
-* PR2 primers
-* metaPR2 metabarcodes
+* expert curated taxonomy
+* metadata such as geo-localisation
+* use to annotate metabarcodes
 
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <div class="row">
-  <!-- 
   <div class="column">
     <img src="https://img.shields.io/badge/release-4.14.0-blue.svg" style="width:100%">
   </div>
@@ -82,8 +81,7 @@ color = "darkslategrey"
   </div>
   <div class="column">
     &nbsp;
-  </div> 
-  -->
+  </div>
   <div class="column">
     <img src="https://img.shields.io/github/downloads/pr2database/pr2database/total.svg" style="width:100%">
   </div>
