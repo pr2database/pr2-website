@@ -28,7 +28,7 @@ The PR<sup>2</sup> reference sequence database was initiated in 2010 in the fram
 ## The PR<sup>2</sup> primer database
 
 Current version : 1.1  
-Last update : 20 April 2022
+Last update : 20 April 2022   
 Access:  https://app.pr2-primers.org
 
 We have developed an interactive [pr2-primers database](https://app.pr2-primers.org/) focusing on the rRNA operon.  You can download primer and primer sets.  Primer pairs are evaluated against the PR<sup>2</sup> sequence database and you can test your own primers and primer sets. To know [more]({{< ref "/post/news/2021-01-18-pr2-primers.md" >}}).
