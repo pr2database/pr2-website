@@ -5,19 +5,15 @@
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
+weight = 4  # Order that this section will appear.
 
-title = "The PR2 Team"
+title = ""
 subtitle = ""
 
 [content]
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Core team",
-                 "Scientific Committee",
-                 "Contributors PR2 reference",
-                 "Contributors PR2 primers",
-                 "Contributors metaPR2"]
+  user_groups = ["Contributors PR2 primers"]
 
 [design]
   # Show user's social networking links? (true/false)
