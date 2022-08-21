@@ -19,7 +19,7 @@ tags:
 - Documentation
 - Database
 - Files
-title: 'Format of PR2 flat files'
+title: 'Format of PR2 reference flat files'
 ---
 
 ## List of files are provided for each release

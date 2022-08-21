@@ -15,7 +15,7 @@ image:
 lastmod: "2019-11-15"
 projects: []
 subtitle: ''
-summary: Detailed information on PR2 fields
+summary: Detailed information on PR2 reference database fields
 tags:
 - Documentation
 - Database
@@ -24,11 +24,11 @@ title: 'Database fields'
 
 We are providing as part of the pr2database package one data frames:
 
-* pr2: the main PR2 database containing both 18S rRNA and plastid 16S rRNA sequences
+* pr2: the main PR2 reference database containing both 18S rRNA and plastid 16S rRNA sequences
 
 ## pr2
 
-The PR2 database is provided as a data frame called **pr2**.  This is a join between the following tables:
+The PR2 reference database is provided as a data frame called **pr2**.  This is a join between the following tables:
 
 * pr2_main
 * pr2_taxonomy

@@ -18,7 +18,7 @@ tags:
 - Database
 - Taxonomy
 - Annotation
-title: 'How to contribute annotations'
+title: 'How to contribute annotations to PR2 reference database'
 subtitle: ''
 summary: 'Detailed explanation for simple annotations'
 ---

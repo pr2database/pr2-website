@@ -15,7 +15,7 @@ image:
 lastmod: "2019-11-15"
 projects: []
 subtitle: ''
-summary: Software used to manage PR2.
+summary: Software used to manage PR2 reference database.
 tags:
 - Documentation
 - Database

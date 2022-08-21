@@ -19,7 +19,7 @@ tags:
 - Documentation
 - Taxonomy
 - History
-title: 'Taxonomic groups annotated'
+title: 'Taxonomic groups annotated in the PR2 reference database'
 ---
 
 ## Groups with updated annotations

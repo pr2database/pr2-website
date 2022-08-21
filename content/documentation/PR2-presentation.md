@@ -21,6 +21,10 @@ tags:
 - Database
 title: 'Presentations of the PR2 database'
 ---
+### 2022-06-23 - AFEM meeting Clermont-Ferrand, France
+
+<script async class="speakerdeck-embed" data-id="876b92acf9f34ed5b1362908e21ea3f7" data-ratio="1.77631578947368" src="//speakerdeck.com/assets/embed.js"></script>
+
 ### 2020-06-24 - Protist.Online Electronic Symposium on Protistology
 
 <script async class="speakerdeck-embed" data-id="acf5bc871675439a9ff15d63b7d123b6" data-ratio="1.77469670710572" src="//speakerdeck.com/assets/embed.js"></script>

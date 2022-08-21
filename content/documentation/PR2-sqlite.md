@@ -19,7 +19,7 @@ tags:
 - Documentation
 - Database
 - Files
-title: 'SQLite database'
+title: 'SQLite PR2 reference database'
 ---
 
 ## File provided

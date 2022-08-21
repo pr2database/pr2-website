@@ -19,7 +19,7 @@ summary: Database and taxonomy structure
 tags:
 - Documentation
 - Database
-title: 'Database structure'
+title: 'Reference database structure'
 ---
 ## Database structure (tables and fields)
 Table | Fields | Comment  
