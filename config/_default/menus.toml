@@ -101,7 +101,7 @@
   [[main]]
     parent = "About"
     name = "Team"
-    url = "team/"
+    url = "team/people_metapr2"
     weight = 5
 
 [[main]]
