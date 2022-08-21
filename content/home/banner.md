@@ -17,7 +17,7 @@ hero_media = "pr2_logo_16_9_big.png"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-color = "darkslategrey"
+color = "gainsboro"
 
   # Background gradient.
 #  gradient_start = "#4bb4e3"
