@@ -69,7 +69,7 @@ color = "gainsboro"
 
 
 <!-- Place this tag in your head or just before your close body tag. -->
-<div class="row">
+<div class="row justify-content-end">
 
   <!-- 
   <div class="column">
@@ -87,7 +87,7 @@ color = "gainsboro"
   -->
 
   <div class="column">
-    <img src="https://img.shields.io/github/downloads/pr2database/pr2database/total.svg" style="width:200%" class="rounded float-right">
+    <img src="https://img.shields.io/github/downloads/pr2database/pr2database/total.svg" style="width:200%">
   </div>
 </div>
 
