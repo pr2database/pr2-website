@@ -87,7 +87,7 @@ color = "gainsboro"
   -->
 
   <div class="col align-self-end">
-    <img src="https://img.shields.io/github/downloads/pr2database/pr2database/total.svg" style="width:150%">
+    <img src="https://img.shields.io/github/downloads/pr2database/pr2database/total.svg" style="width:110%">
   </div>
 </div>
 
