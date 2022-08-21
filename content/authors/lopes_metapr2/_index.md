@@ -2,7 +2,7 @@
 authors:
 - vaulot
 interests:
-- metaPR2
+- Marine datasets
 name: Adriana Lopes dos Santos
 role: NTU, Singapore
 organizations:
@@ -18,5 +18,5 @@ social:
 
 superuser: false
 user_groups:
-- Core team
+- Contributors metaPR2
 ---
