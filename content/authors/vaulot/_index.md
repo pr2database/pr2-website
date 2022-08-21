@@ -17,7 +17,7 @@ email: "vaulot@gmail.com"
 interests:
 - PR2 coordinator, metaPR2
 name: Daniel Vaulot
-role: CNRS, Roscoff
+role: CNRS, France
 organizations:
 - name: CNRS
   url: "http://www.sb-roscoff.fr/en/team-ecomap"
