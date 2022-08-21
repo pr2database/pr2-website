@@ -67,12 +67,11 @@ color = "gainsboro"
 * PR2 primers
 * metaPR2 metabarcodes
 
-
 <!-- Place this tag in your head or just before your close body tag. -->
-<div class="row justify-content-end">
-
   <!-- 
-  <div class="column">
+  <div class="row justify-content-end">
+
+<div class="column">
     <img src="https://img.shields.io/badge/release-4.14.0-blue.svg" style="width:100%">
   </div>
   <div class="column">
@@ -84,11 +83,11 @@ color = "gainsboro"
   <div class="column">
     &nbsp;
   </div> 
-  -->
 
   <div class="column">
     <img src="https://img.shields.io/github/downloads/pr2database/pr2database/total.svg" style="width:200%">
   </div>
 </div>
+  -->
 
 
