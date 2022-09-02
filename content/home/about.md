@@ -60,10 +60,12 @@ Citations
 
 
 
-Issues
+Issues and questions
 -----------
 
-Report on [GitHub](https://github.com/vaulot/pr2_database/issues)
+* Send a message to the [PR2-database space on elements.io](https://matrix.to/#/#pr2-database:matrix.org)
+
+* Report on [GitHub](https://github.com/vaulot/pr2_database/issues)
 
 <!-- Place this tag where you want the button to render. https://buttons.github.io/-->
 <a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" data-show-count="false" class="twitter-follow-button">Follow @PR2database</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
