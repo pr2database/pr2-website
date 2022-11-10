@@ -2,7 +2,7 @@
 authors:
 - vaulot
 interests:
-- Green algae
+- Marine protists
 name: Adriana Lopes dos Santos
 role: NTU, Singapore
 organizations:
@@ -19,4 +19,6 @@ social:
 superuser: false
 user_groups:
 - Contributors PR2 reference
+- Scientific Committee
+- Contributors metaPR2
 ---

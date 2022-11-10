@@ -20,4 +20,5 @@ social:
 superuser: false
 user_groups:
 - Scientific Committee
+- Contributors PR2 reference
 ---

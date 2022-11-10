@@ -19,5 +19,6 @@ social:
 superuser: false
 user_groups:
 - Contributors PR2 primers
+- Scientific Committee
 ---
 Stefan is a molecular ecologist who focuses on the interactions of microbiome predators (protists and nematodes) with their bacterial and fungal prey. I want understand the functional implication of these interactions such as on the performance of plants, greenhouse gas emissions and other soil functions.

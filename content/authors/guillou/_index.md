@@ -1,7 +1,7 @@
 ---
 authors:
 - vaulot
-bio: Focusing on marine parasites.
+bio: Marine parasites.
 email: "lguillou@sb-roscoff.fr"
 interests:
 - PR2 reference
@@ -16,10 +16,10 @@ social:
   link: mailto:lguillou@sb-roscoff.fr
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/fonamental
+  link: 
 superuser: false
 user_groups:
-- Core team
+- Scientific Committee
 ---
 
-I am a research scientist at the CNRS since 2002 and leader of the DIPO team. My projects focused on diversity and ecological role of marine parasites.
+I am a research scientist at the CNRS since 2002 and leader of the ECOMAP team. My projects focused on diversity and ecological role of marine parasites.
