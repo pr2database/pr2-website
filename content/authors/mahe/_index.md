@@ -24,6 +24,7 @@ social:
 superuser: false
 user_groups:
 - Scientific Committee
+- Contributors PR2 primers
 ---
 
 I am an expert in bioanalysis, with a strong background in science of evolution including two years of fieldwork and data collecting experience on the Amazon River. I have specialized in the development of high-performance bioinformatics tools for targeted metagenomics and large scale ecological studies. I work on data from a wide variety of environments, with a focus on plant-associated microbial diversity in tropical and Mediterranean climates.
