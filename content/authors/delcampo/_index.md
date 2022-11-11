@@ -9,7 +9,7 @@ interests:
 name: Javier del Campo
 role: Institute of Evolutionary Biology UPF-CSIC
 organizations:
-- name: Institute of Evolutionary Biology UPF-CSIC, Barcelona Spain
+- name: Del Campo Lab
   url: "https://delcampolab.com/"
 - name: Rosenstiel School of Marine and Atmospheric Science - University of Miami, USA
 - icon: envelope

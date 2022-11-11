@@ -19,10 +19,8 @@ interests:
 name: Daniel Vaulot
 role: CNRS, France
 organizations:
-- name: CNRS
+- name: Station Biologique de Roscoff
   url: "http://www.sb-roscoff.fr/en/team-ecomap"
-- name: Nanyang Technological University
-  url: "https://www.ase.ntu.edu.sg/"
 social:
 - icon: envelope
   icon_pack: fas
