@@ -1,7 +1,7 @@
 ---
 authors:
 - vaulot
-- -delcampo
+- delcampo
 categories:
 - news
 date: "2022-11-09"
@@ -18,12 +18,10 @@ subtitle: ''
 summary: The database contains metabarcodes from 41 datasets corresponding to more than 4,000 samples and 90,000 ASVs.
 tags:
 - News
-- metapr2
+- pr2
 title: 'PR2 scientific committee meeting  by Zoom - 2022-11-10.'
 ---
 
-
-{{< figure library="true" src="metapr2_shiny_01.png" class="img-lg" title="The pr2-primers web interface." lightbox="true" >}}
 
 **Participants**:
 ramonm@icm.csic.es" <ramonm@icm.csic.es>; "Parfrey, Laura" <lwparfrey@botany.ubc.ca>; "Luciana Santoferrara" <Luciana.Santoferrara@hofstra.edu>; "kolisko@paru.cas.cz" <kolisko@paru.cas.cz>; "Javier del Campo" <fonamental@gmail.com>; "Ian Probert" <probert@sb-roscoff.fr>; "Guillou Laure" <laure.guillou@sb-roscoff.fr>; "Geisen, Stefan" <stefan.geisen@wur.nl>;  "Fabien Burki" <fabien.burki@ebc.uu.se>; "Adriana Lopes dos Santos (Asst Prof)" <adriana.lopes@ntu.edu.sg>
