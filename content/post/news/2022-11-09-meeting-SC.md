@@ -56,3 +56,4 @@ Full list of PR2 team can be found here: https://pr2-database.org/team/
 
 ### Presentations
 * [The PR2 ecosystem](/files/2022-11-09-PR2-meeting.pdf)
+* [The future of EukRef](/files/2022-11-09-PR2_EukRef.pdf)
