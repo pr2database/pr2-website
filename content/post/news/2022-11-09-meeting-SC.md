@@ -57,4 +57,4 @@ Full list of PR2 team can be found here: https://pr2-database.org/team/
 * One idea that emerged could be to link PR2 to the Roscoff Culture Collection which will ensure long term survival of the structure as well as the possibility to more easily get funding.  in fact Silva is now moving under the umbrella of the DSMZ and we could discuss collaboration with them.
 
 ### Presentations
-* [The PR2 ecosystem](files/2022-11-09-PR2-meeting.pdf)
+* [The PR2 ecosystem](/files/2022-11-09-PR2-meeting.pdf)
