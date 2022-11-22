@@ -21,17 +21,13 @@ tags:
 - Database
 title: 'Reference database structure'
 ---
-## Database structure (tables and fields)
-Table | Fields | Comment  
---- | ---  | ---
-pr2_main | pr2_accession, genbank_accession, species, editing hitory |  
-pr2_sequence | pr2_accession, , sequence | linked to pr2_main by pr2_accession  
-pr2_metadata | metadata from GenBank and from published references |  linked to pr2_main by genbank_accession
-pr2_taxonomy | kingdom -> species, editing history |  linked to pr2_main by species
-pr2_countries | geo-information |  linked to pr2_metadata by pr2_country
-pr2_assign_silva | assignment of pr2 sequences according to Silva | linked to pr2_main by pr2_accession
 
-![pr2 database structure](./../../../img/pr2_database_structure_5_0_0.png)
+From version 4.14.0, a single SSU database is provided which contains sequences for:
+  * 18S rRNA from nuclear and nucleomorph
+  * 16S rRNA from plastid, apicoplast, chromatophore, mitochondrion
+  * 16S rRNA from a small selection of bacteria
+
+The rationale is that the database can now be used to detect bacterial sequences that are amplified with either 18S rRNA or "universal" primers.  These sequences can be further assigned with Silva or GTDB.
 
 ## Taxonomy structure
 * 8 levels : Kingdom / Supergroup / Division / Class / Order / Family / Genus / Species
@@ -44,6 +40,19 @@ pr2_assign_silva | assignment of pr2 sequences according to Silva | linked to pr
 * If level _i_ is unknown
      * if level _i-1_ is known, use level _i-1_ followed by "_X" , e.g. "Stramenopiles_X" at Division level
      * if level _i-1_ is unknown, use level _i-1_ followed by "X" , e.g. "Stramenopiles_XX" at Class level
+
+In order to allow correct assignation with software such as DECIPHER (IDTax) for organelle, the taxonomy is appended with 4 letters corresponding to the organelle
+
+Organelle | Taxonomy suffix
+--- | ---
+nucleus |
+nucleomorph | :nucl
+plastid | :plas
+apicoplast | :apic
+chromatophore | :chrom
+mitochondrion | :mito
+
+e.g. a sequence annotated as `Neoceratium_horridum:plas` will correspond to a plastid sequence of the species _Neoceratium horridum_
 
 ## Rules for sequences
 * Minimum length = 500 bp
@@ -64,6 +73,17 @@ For example AF530536.1.1695_U
   * U: no intron described, but intron(s) may be present
   * UC: introns were detected in silico and removed from the sequence (putative rRNA)
 
+## Database structure (tables and fields)
+Table | Fields | Comment  
+--- | ---  | ---
+pr2_main | pr2_accession, genbank_accession, species, editing hitory |  
+pr2_sequence | pr2_accession, , sequence | linked to pr2_main by pr2_accession  
+pr2_metadata | metadata from GenBank and from published references |  linked to pr2_main by genbank_accession
+pr2_taxonomy | kingdom -> species, editing history |  linked to pr2_main by species
+pr2_countries | geo-information |  linked to pr2_metadata by pr2_country
+pr2_assign_silva | assignment of pr2 sequences according to Silva | linked to pr2_main by pr2_accession
+
+![pr2 database structure](./../../../img/pr2_database_structure_5_0_0.png)
 
 #### History of database structure changes
 
