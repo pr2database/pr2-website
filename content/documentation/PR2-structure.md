@@ -23,6 +23,7 @@ title: 'Reference database structure'
 ---
 
 From version 4.14.0, a single SSU database is provided which contains sequences for:
+
   * 18S rRNA from nuclear and nucleomorph
   * 16S rRNA from plastid, apicoplast, chromatophore, mitochondrion
   * 16S rRNA from a small selection of bacteria
@@ -41,6 +42,7 @@ The rationale is that the database can now be used to detect bacterial sequences
      * if level _i-1_ is known, use level _i-1_ followed by "_X" , e.g. "Stramenopiles_X" at Division level
      * if level _i-1_ is unknown, use level _i-1_ followed by "X" , e.g. "Stramenopiles_XX" at Class level
 
+#### Organelles
 In order to allow correct assignation with software such as DECIPHER (IDTax) for organelle, the taxonomy is appended with 4 letters corresponding to the organelle
 
 Organelle | Taxonomy suffix
