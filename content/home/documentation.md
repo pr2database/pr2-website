@@ -13,6 +13,7 @@ subtitle = ""
 +++
 
 ### How to use the PR<sup>2</sup> reference database
+* [Web interface](https://app.pr2-database.org)
 * [Text files](./documentation/pr2-files/)
 * [R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
 * [SQLite database](./documentation/pr2-sqlite/) (only version 4.12.0)
