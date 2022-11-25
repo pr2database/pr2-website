@@ -28,10 +28,11 @@ summary: 'Detailed explanation for simple annotations'
 1. Contact one member of the [Core Team]({{< ref "/#people" >}})
 2. Explain which group you want to annotate. It can be a genus, a class or any other taxonomic level.
 3. We will send you an Excel file and a fasta file containing all existing  PR<sup>2</sup> sequences for the group you are expert in.
-4. Follow the instructions below  to update or add data.
-5. Send back the updated Excel file
-6. Your contribution will be added to the next release of PR<sup>2</sup> (we are doing 2 to 3 releases per year).
-7. You will be acknowledged as a [contributor]({{< ref "team" >}}) on the PR<sup>2</sup> web site
+4. You can alternatively download the data from the [web interface](app.pr2-database.org)
+5. Follow the instructions below  to update or add data.
+6. Send back the updated Excel file
+7. Your contribution will be added to the next release of PR<sup>2</sup> (we are doing 2 to 3 releases per year).
+8. You will be acknowledged as a [contributor]({{< ref "team" >}}) on the PR<sup>2</sup> web site
 
 
 ## Files provided

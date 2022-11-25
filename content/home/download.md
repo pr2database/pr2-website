@@ -12,9 +12,9 @@ subtitle = ""
 +++
 ## PR2 reference sequence database
 * Three different formats are provided:  
+* * [Web interface](https://app.pr2-database.org/pr2-database/)
   * [Flat files for use with mothur, QIIME2, dada2, blast etc...](https://github.com/pr2database/pr2database/releases)
   * [R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
-  * [SQLite database](https://github.com/pr2database/pr2database/releases)
 * [Previous versions](https://github.com/pr2database/pr2database/releases)
 * [Revision history](https://pr2database.github.io/pr2database/news/)
 
