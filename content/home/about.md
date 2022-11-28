@@ -38,8 +38,8 @@ We have developed an interactive [pr2-primers database](https://app.pr2-primers.
 
 ## The metaPR<sup>2</sup> metabarcodes database
 
-* Current version : 1.1  
-* Last update : 30 April 2022  
+* Current version : 2.0 
+* Last update : 23 Nov 2023  
 * [![DOI](https://zenodo.org/badge/410160328.svg)](https://zenodo.org/badge/latestdoi/410160328)
 * Access: https://shiny.metapr2.org
 * [Contributors](https://pr2-database.org/team/#people_metapr2)
