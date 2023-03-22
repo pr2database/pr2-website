@@ -19,6 +19,5 @@ email_form = 0
 +++
 [Subscribe to mailing list]({{< ref "/misc/mailing.md" >}})
 
-Get all the latest news on the [PR2 channel on element.io](https://matrix.to/#/#pr2-database:matrix.org)
+Post a message on the [PR2 channel on element.io](https://matrix.to/#/#pr2-database:matrix.org)
 
-{{< figure library="true" src="element_io.png" class="img-sm" lightbox="true" >}}
