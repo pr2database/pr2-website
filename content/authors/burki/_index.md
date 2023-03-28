@@ -2,7 +2,7 @@
 authors:
 - vaulot
 interests:
-- Tree of eukaryotes
+- Eukaryotic phylogeny
 name: Fabien Burki
 role: Uppsala U., Sweden
 organizations:
@@ -18,6 +18,7 @@ social:
 
 superuser: false
 user_groups:
+- Contributors PR2 reference
 - Scientific Committee
 ---
 In my lab we study the broad-scale evolution of eukaryotes using phylogenomics and long-read metabrcoding. The ultimate goal is to better understand what were the diversification processes that led to the incredible diversity of forms and functions that we can observe today.
