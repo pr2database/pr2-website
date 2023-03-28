@@ -3,7 +3,7 @@ authors:
 - vaulot
 interests:
 - Chytrids
-name: Alexei Seliuk
+name: Алексей Селюк
 role: Saint Petersburg State University
 social:
 - icon: envelope
