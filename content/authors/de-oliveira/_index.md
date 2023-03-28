@@ -3,7 +3,7 @@ authors:
 - vaulot
 interests:
 - Diatoms
-name: 
+name: Andrea de Oliveira da Rocha Franco
 role: FURG, Brazil
 organizations:
 - name: Universidade Federal do Rio Grande - FURG, Brazil
