@@ -63,11 +63,12 @@ remark|Remark concerning  the sequence
 domain|rank 1
 supergroup|rank 2
 division|rank 3
-class|rank 4
-order|rank 5
-family|rank 6
-genus|rank 7
-species|Assigned species - rank 8
+subdivision|rank 4
+class|rank 5
+order|rank 6
+family|rank 7
+genus|rank 8
+species|Assigned species - rank 9
 reference|Reference in the litterature concerning  the taxonomy
 sequence|Sequence
 sequence_length|Length of sequence
@@ -126,5 +127,9 @@ pr2_sequence_origin|PR2: clone library, metabarcode, PCR
 pr2_size_fraction|PR2: Name of size fraction, e.g. pico, nano
 pr2_size_fraction_min|PR2: Minimum size filtered, e.g. 0.2 µm
 pr2_size_fraction_max|PR2: Maximum size filtered, e.g. 20 µm
+mixoplanton|if "yes", the species is listed in the [Mixoplankton database (MDB)](https://doi.org/10.1111/jeu.12972)
 metadata_remark|PR2: Any remark on metadata
+eukribo_UniEuk_taxonomy_string| Taxonomy assignment from [EukRibo database]( https://doi.org/10.5281/zenodo.6327890)
+eukribo_V4| Information about presence and completeness V4 region from [EukRibo database]( https://doi.org/10.5281/zenodo.6327890)
+eukribo_V9| Information about presence and completeness V9 region from [EukRibo database]( https://doi.org/10.5281/zenodo.6327890)
 silva_taxonomy| taxonomy from [Silva version 138]( https://www.arb-silva.de/documentation/release-138/)
