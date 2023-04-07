@@ -11,7 +11,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-15-11"
+lastmod: "2023-04-06"
 projects: []
 subtitle: ''
 summary: Format of files provided
@@ -28,14 +28,27 @@ Each version has a 3 number code: version_x.y.z, e.g. 4.12.0
 
 **Important note** : All files are in UNIX format (end of lines are indicated Line Feed-LF only).  Please see at the bottom of the file how to converts the files to Windows format (end of lines are CR+LF).
 
-* Two files for use with Qiime or Mothur.
+### Files to assign metabarcodes
+
+#### Qiime or Mothur
+* Two files:
   + **[pr2_version_x.y.z_SSU_mothur.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains all sequences in fasta format with the accession in the description line
   + **[pr2_version_x.y.z_SSU_mothur.tax.gz](https://github.com/pr2database/pr2database/releases)** contains the taxonomy of each sequence separated from the accession number by a tabulation
       + Note :Qiime only use 7 taxonomical levels by default.
+  
+  #### USEARCH or VSEARCH
 * **[pr2_version_x.y.z_SSU_UTAX.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains one fasta file with the accession number of the sequence and its full taxonomy on the description line in the UTAX format. It is suitable to use with [USEARCH](http://www.drive5.com/usearch/) and [VSEARCH](https://github.com/torognes/vsearch).
+
+#### Dada2
 * **[pr2_version_x.y.z_SSU_dada2.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains a [dada2](https://benjjneb.github.io/dada2/index.html) format compatible training file
+
+#### DECIPHER
 * **[pr2_version_x.y.z_SSU.decipher.trained.rds](https://github.com/pr2database/pr2database/releases)** is a DECIPHER training set using 3 iterations and a maximum of 20 sequences per species (LearnTaxa) that can be used with the DECIPHER IDTaxa function to assign metabarcodes. Use the readRDS() function of R to load the file.
-* **[pr2_version_x.y.z_SSU_taxo_long.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains one fasta file with the accession number of the sequence, the name of the sequence and its full taxonomy on the description line. It is suitable to build a local database for BLAST search
+
+### File for Phylogeny
+* **[pr2_version_x.y.z_SSU_taxo_long.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains one fasta file with the accession number of the sequence, the name of the sequence and its full taxonomy on the description line. It is suitable to build a local database for BLAST search. If you want to donwload only a specific taxonomic group we recommend that you use the [Web interface](https://app.pr2-database.org/pr2-database/).
+
+### Full PR2 database in Excel format
 * **[pr2_version_x.y.z_merged.xlsx](https://github.com/pr2database/pr2database/releases)** is an Excel file with the full PR2 database including sequences, taxonomy and metadata.
 
 * [Link to latest release](https://github.com/pr2database/pr2database/releases)
@@ -80,13 +93,6 @@ GTTACAGTTTATTTGAAGGTCATTTTCTACATGGATAACTGTGGTAATTCTAGAGCTAATACATGCGCCCAAACCCGACT
 ATGCTTGTCTCAAAGATTAAGCCATGCATGTCTCAGTATAAGCTTTTACATGGCGAAACTGCGAATGGCTCATTAAAACA
 GTTACAGTTTATTTGAAGGTCATTTTCTACATGGATAACTGTGGTAATTCTAGAGCTAATACATGCGCCCAAACCCGACT
 CCGTGGAAGGGTTGTATTTATTAGTTACAGAACCAACCCAGGTTCGCCTGGCCATTTGGTGATTCATAATAAACGAGCGA
-```
-
-### metadata
-```console
-pr2_accession	genbank_accession	gb_date	gb_locus	gb_definition	gb_organism	gb_strain	gb_culture_collection	gb_clone	gb_isolate	gb_isolation_source	gb_specimen_voucher	gb_host	gb_collection_date	gb_environmental_sample	gb_country	gb_lat_lon	gb_collected_by	gb_note	gb_publication	gb_authors	gb_journal	pr2_main_id	pr2_metadata_id	pr2_sample_type	pr2_ocean	pr2_latitude	pr2_longitude	pr2_sequence_origin	pr2_size_fraction	pr2_size_fraction_min	pr2_size_fraction_max	eukref_name	eukref_env_material	eukref_env_biome	eukref_biotic_relationship	eukref_specific_host	eukref_geo_loc_name	pubmed_id	metadata_remark
-AB353770.1.1740_U	AB353770		PLN	Peridiniopsis cf. kevei gene for 18S rRNA, partial sequence.									26-juil.-03		Japan: Toyama, Tomi-iwa Canal Park							6	3830												
-KC672520.1.1801_U	KC672520		ENV	Uncultured fungus clone nco62b12c1 18S ribosomal RNA gene, partial				nco62b12c1		skin, plantar heel		Homo sapiens						Subject Code: 1006; symmetry: right; sampling technique: swab"				7	136373	environmental														23698366
 ```
 
 ### merged

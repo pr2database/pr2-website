@@ -12,7 +12,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2021-03-15"
+lastmod: "2023-04-06"
 projects: []
 subtitle: ''
 summary: Database and taxonomy structure
@@ -31,11 +31,18 @@ From version 4.14.0, a single SSU database is provided which contains sequences 
 The rationale is that the database can now be used to detect bacterial sequences that are amplified with either 18S rRNA or "universal" primers.  These sequences can be further assigned with Silva or GTDB.
 
 ## Taxonomy structure
+
+#### Version 5.0 and above
+* 9 levels : Domain / Supergroup / Division / Subdivision / Class / Order / Family / Genus / Species
+  * `Kingdom`is replaced by `Domain`
+  * Adding a `Subdivision` level
+#### Version 4.14.1 and below
 * 8 levels : Kingdom / Supergroup / Division / Class / Order / Family / Genus / Species
-* All taxonomy paths are unique. For example for a given Class, all higher levels are similar (Division -> Supergroup -> Domain)
-* No taxon can appear at different levels. For example "Stramenopiles" cannot appear at both the Supergroup and Division levels.
+
 
 #### Rules for naming taxonomic levels
+* All taxonomy paths are unique. For example for a given Class, all higher levels are similar (Division -> Supergroup -> Domain)
+* No taxon can appear at different levels. For example "Stramenopiles" cannot appear at both the Supergroup and Division levels.
 * No space (use underscore).  For example Home_sapiens
 * If species is not known use "Genus_sp." (note the . after sp).  The Genus level can be a level with Xs (see next rule): e.g. "Stramenopiles_XXXX_sp.",
 * If level _i_ is unknown
@@ -57,7 +64,7 @@ mitochondrion | :mito
 e.g. a sequence annotated as `Neoceratium_horridum:plas` will correspond to a plastid sequence of the species _Neoceratium horridum_
 
 ## Rules for sequences
-* Minimum length = 500 bp
+* Minimum length = 500 bp (except for some plastid sequences which are shorter)
 * Maximum number of ambiguities (N) = 20
 * No more than 2 consecutives N (so sequences such as ..ATGNNNAT.. are removed)
 
@@ -81,9 +88,11 @@ Table | Fields | Comment
 pr2_main | pr2_accession, genbank_accession, species, editing hitory |  
 pr2_sequence | pr2_accession, , sequence | linked to pr2_main by pr2_accession  
 pr2_metadata | metadata from GenBank and from published references |  linked to pr2_main by genbank_accession
-pr2_taxonomy | kingdom -> species, editing history |  linked to pr2_main by species
+pr2_taxonomy | domain -> species, editing history |  linked to pr2_main by species
 pr2_countries | geo-information |  linked to pr2_metadata by pr2_country
 pr2_assign_silva | assignment of pr2 sequences according to Silva | linked to pr2_main by pr2_accession
+eukribo_V2  |  [Eukribo version 2](https://doi.org/10.5281/zenodo.6327890) data | linked to pr2_main by genbank_accession
+pr2_traits  | A | Traits from other databases harboring species traits | linked to pr2_taxonomy by taxonomy level (e.g. species, genus)
 
 ![pr2 database structure](./../../../img/pr2_database_structure_5_0_0.png)
 
@@ -91,16 +100,18 @@ pr2_assign_silva | assignment of pr2 sequences according to Silva | linked to pr
 
 PR2 version | Table | Field | Action | Comment  
 --- | --- | --- | ---  | ---
+5.0.0 | eukribo_V2  | A | New table holding [Eukribo version 2](https://doi.org/10.5281/zenodo.6327890) data.
+      |  pr2_traits  | A | New table for adding traits to PR2 from other databases (e.g. [Mixoplankton Database](https://doi.org/10.1111/jeu.12972))
 4.14.0 | pr2_main | quarantined_version  | A | quarantined sequences do not appear in the released version but will be re-assigned latter
-      || pr2_metadata | gb_references  | R | empty
-      ||              | gb_locus  | R | empty 
-      ||              | gb_division  | A | 3-letter code (e.g. PLN, ENV) 
+      | pr2_metadata | gb_references  | R | empty
+      |              | gb_locus  | R | empty 
+      |              | gb_division  | A | 3-letter code (e.g. PLN, ENV) 
 4.13.0 | pr2_metadata | pr2_depth  | A | depth of sample in meter
       |              | gb_id  | A | Genbank ID number (big integer)
       |              |gb_project_id  | A | Genbank project ID for metagenomes
       |              |gb_sequence    | A | original gb_sequence (longtext)
-      ||  pr2_countries  | New table for country information
-      ||  pr2_assign_silva  | New table for Silva assignation of sequences
+      |  pr2_countries  | A | New table for country information
+      |  pr2_assign_silva  | A | New table for Silva assignation of sequences
 4.12.0 | pr2_main | gene  | A | 18S_RNA, 16S_RNA
 | | | organelle | A |  nucleus, plastid, mitochondria, nucleomorph, apicoplast (left empty for cyanobacteria)
 | | pr2_metadata | gb_organelle | A |  import the corresponding gb field

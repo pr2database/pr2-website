@@ -12,7 +12,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2019-11-15"
+lastmod: "2023-04-06"
 projects: []
 subtitle: ''
 summary: Detailed information on PR2 reference database fields
@@ -22,26 +22,31 @@ tags:
 title: 'Database fields'
 ---
 
-We are providing as part of the pr2database package one data frames:
+We are providing as part of the pr2database package two data frames as functions:
 
-* pr2: the main PR2 reference database containing both 18S rRNA and plastid 16S rRNA sequences
+* pr2_database(): the main PR2 reference database containing both 18S rRNA and plastid 16S rRNA sequences
+* pr2_taxonomy(): the main PR2 reference database containing both 18S rRNA and plastid 16S rRNA sequences
 
-## pr2
+## pr2_database()
 
-The PR2 reference database is provided as a data frame called **pr2**.  This is a join between the following tables:
+The PR2 reference database is provided as a data frame called through the function**pr2database::pr2_database()**.  This is a join between the following tables:
 
 * pr2_main
 * pr2_taxonomy
 * pr2_sequence
 * pr2_metadata
-* pr2_assign_silva
 * pr2_countries
+* pr2_traits
+* pr2_assign_silva
+* eukribo_v2
 
-The metadata contains three types of fields:
+The metadata contains several types of fields:
 
 * gb_ : originating from the GenBank entry
 * eukref_ : annotated by the Eukref project
 * pr2_ : annotated by pr2 such latitude and longitude
+* eukribo_ : from the EukRibo database
+* silva_ : from the Silva database
 
 ### Detailed description of fields
 Fields | Comment  
@@ -127,7 +132,11 @@ pr2_sequence_origin|PR2: clone library, metabarcode, PCR
 pr2_size_fraction|PR2: Name of size fraction, e.g. pico, nano
 pr2_size_fraction_min|PR2: Minimum size filtered, e.g. 0.2 µm
 pr2_size_fraction_max|PR2: Maximum size filtered, e.g. 20 µm
-mixoplanton|if "yes", the species is listed in the [Mixoplankton database (MDB)](https://doi.org/10.1111/jeu.12972)
+mixoplanton|from the [Mixoplankton database (MDB)](https://doi.org/10.1111/jeu.12972)
+ | * CM - Constitutive Mixoplankton
+ | * GNCM - Generalist Non-Constitutive Mixoplankton
+ | * pSNCM - plastidic Specialist Non-Constitutive Mixoplankton
+ | * eSNCM - endosymbiotic Specialist Non-Constitutive Mixoplankton
 metadata_remark|PR2: Any remark on metadata
 eukribo_UniEuk_taxonomy_string| Taxonomy assignment from [EukRibo database]( https://doi.org/10.5281/zenodo.6327890)
 eukribo_V4| Information about presence and completeness V4 region from [EukRibo database]( https://doi.org/10.5281/zenodo.6327890)
