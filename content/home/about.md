@@ -18,6 +18,7 @@ The PR<sup>2</sup> (Protist Ribosomal Reference) database ecosystem is a set of 
 * Last update : 6 April 2023  
 * [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7805244.svg)](https://doi.org/10.5281/zenodo.7805244)
 * Download: https://github.com/pr2database/pr2database/releases ![](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)
+* R package: [![pr2database status badge](https://pr2database.r-universe.dev/badges/pr2database)](https://pr2database.r-universe.dev)
 * [Web interface - NEW](https://app.pr2-database.org/pr2-database/)
 * [Team](https://pr2-database.org/team/)
 
@@ -31,7 +32,7 @@ The PR<sup>2</sup> reference sequence database was initiated in 2010 in the fram
 
 * Current version : 1.1  
 * Last update : 20 April 2022   
-* Access:  https://app.pr2-primers.org
+* Web access:  https://app.pr2-primers.org
 * [Contributors](https://pr2-database.org/team/#people_primers)
 
 We have developed an interactive [pr2-primers database](https://app.pr2-primers.org/) focusing on the rRNA operon.  You can download primer and primer sets.  Primer pairs are evaluated against the PR<sup>2</sup> sequence database and you can test your own primers and primer sets. To know [more]({{< ref "/post/news/2021-01-18-pr2-primers.md" >}}).
@@ -41,7 +42,8 @@ We have developed an interactive [pr2-primers database](https://app.pr2-primers.
 * Current version : 2.0 
 * Last update : 23 Nov 2023  
 * [![DOI](https://zenodo.org/badge/410160328.svg)](https://zenodo.org/badge/latestdoi/410160328)
-* Access: https://app.metapr2.org
+* Web ccess: https://app.metapr2.org
+* R package: [![metapr2 status badge](https://pr2database.r-universe.dev/badges/metapr2)](https://pr2database.r-universe.dev)
 * [Contributors](https://pr2-database.org/team/#people_metapr2)
 
 The metaPR<sup>2</sup> database contains processed 18S rRNA metabarcodes that are annotated with the PR<sup>2</sup> reference sequence database. Version 1.1 of the database contains 41 datasets corresponding to more than 4,000 samples and 90,000 ASVs. The database is accessible through both a web-based interface (https://app.metapr2.org) and an R package. To know [more]({{< ref "/post/news/2022-08-01-metapr2.md" >}}).
