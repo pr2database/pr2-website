@@ -41,10 +41,10 @@ We have developed an interactive [pr2-primers database](https://app.pr2-primers.
 * Current version : 2.0 
 * Last update : 23 Nov 2023  
 * [![DOI](https://zenodo.org/badge/410160328.svg)](https://zenodo.org/badge/latestdoi/410160328)
-* Access: https://shiny.metapr2.org
+* Access: https://app.metapr2.org
 * [Contributors](https://pr2-database.org/team/#people_metapr2)
 
-The metaPR<sup>2</sup> database contains processed 18S rRNA metabarcodes that are annotated with the PR<sup>2</sup> reference sequence database. Version 1.1 of the database contains 41 datasets corresponding to more than 4,000 samples and 90,000 ASVs. The database is accessible through both a web-based interface (https://shiny.metapr2.org) and an R package. To know [more]({{< ref "/post/news/2022-08-01-metapr2.md" >}}).
+The metaPR<sup>2</sup> database contains processed 18S rRNA metabarcodes that are annotated with the PR<sup>2</sup> reference sequence database. Version 1.1 of the database contains 41 datasets corresponding to more than 4,000 samples and 90,000 ASVs. The database is accessible through both a web-based interface (https://app.metapr2.org) and an R package. To know [more]({{< ref "/post/news/2022-08-01-metapr2.md" >}}).
 
 Citations
 -----------
