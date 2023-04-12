@@ -66,7 +66,7 @@ e.g. a sequence annotated as `Neoceratium_horridum:plas` will correspond to a pl
 ## Rules for sequences
 * Minimum length = 500 bp (except for some plastid sequences which are shorter)
 * Maximum number of ambiguities (N) = 20
-* No more than 2 consecutives N (so sequences such as ..ATGNNNAT.. are removed)
+* No consecutive Ns (so sequences such as ..ATGNNAT.. are removed)
 
 ## Construction of PR2 id (pr2_accession)
 Accession.Start.End_X  
