@@ -47,7 +47,7 @@ PR2 version 5 includes nine `supergroups`. These are:
 -   Amoebozoa is still considered as a supergroup in the new version of PR2.
 -   Archaeplastida is also still considered as a supergroup in PR2 version 5, and now includes Picozoa (Schön et al. 2021).
 -   Apusozoa has been shown to be polyphyletic, with Mantamonadidea, Collodictyonidea, and Rigifilida belonging to the supergroup CRuMs (Brown et al. 2018), Ancyromonadida representing a deep branching lineage of unknown phylogenetic affiliation, and the remaining lineages in Apusomonada within Obazoa.
--   Hacrobia has similarly been shown to be polyphyletic and its members are now split up between Haptista and Cryptista, with the exception of Telonemia which is is TSAR, and Picozoa in Archaeplastida (Yabuki et al. 2014, Cavalier-Smith et al. 2015, Burki et al. 2016, Strassert et al. 2019, Schön et al. 2021).
+-   Hacrobia has similarly been shown to be polyphyletic and its members are now split up between Haptista and Cryptista, with the exception of Telonemia which is in TSAR, and Picozoa in Archaeplastida (Yabuki et al. 2014, Cavalier-Smith et al. 2015, Burki et al. 2016, Strassert et al. 2019, Schön et al. 2021).
 -   Excavata is still considered a supergroup.
 -   Opisthokonta is now a division within Obazoa.
 -   Alveolata is now a division within TSAR.
