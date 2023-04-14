@@ -92,7 +92,8 @@ pr2_taxonomy | domain -> species, editing history |  linked to pr2_main by speci
 pr2_countries | geo-information |  linked to pr2_metadata by pr2_country
 pr2_assign_silva | assignment of pr2 sequences according to Silva | linked to pr2_main by pr2_accession
 eukribo_V2  |  [Eukribo version 2](https://doi.org/10.5281/zenodo.6327890) data | linked to pr2_main by genbank_accession
-pr2_traits  | A | Traits from other databases harboring species traits | linked to pr2_taxonomy by taxonomy level (e.g. species, genus)
+pr2_traits  | Traits from other databases harboring species traits | linked to pr2_taxonomy by taxonomy level (e.g. species, genus). This table used a long format.
+worms_taxonomy  | [Worms database](https://www.marinespecies.org/index.php) entries for taxa from PR2
 
 ![pr2 database structure](./../../../img/pr2_database_structure_5_0_0.png)
 
@@ -102,6 +103,7 @@ PR2 version | Table | Field | Action | Comment
 --- | --- | --- | ---  | ---
 5.0.0 | eukribo_V2  | A | New table holding [Eukribo version 2](https://doi.org/10.5281/zenodo.6327890) data.
       |  pr2_traits  | A | New table for adding traits to PR2 from other databases (e.g. [Mixoplankton Database](https://doi.org/10.1111/jeu.12972))
+      |  worms_taxonomy  | A | New table with [Worms database](https://www.marinespecies.org/index.php) entries for taxa from PR2
 4.14.0 | pr2_main | quarantined_version  | A | quarantined sequences do not appear in the released version but will be re-assigned latter
       | pr2_metadata | gb_references  | R | empty
       |              | gb_locus  | R | empty 

@@ -18,6 +18,7 @@ subtitle = ""
 * [R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
 
 ### Presentation of the PR<sup>2</sup> reference database
+* [Taxonomy structure - 9 levels](./documentation/pr2-taxonomy-9-levels/)
 * [PR<sup>2</sup> in numbers](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html)
 * [Slide shows](./documentation/pr2-presentation/)
 
