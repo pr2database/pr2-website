@@ -30,8 +30,9 @@ The PR<sup>2</sup> reference sequence database was initiated in 2010 in the fram
 
 ## The PR<sup>2</sup> primer database
 
-* Current version : 1.1  
-* Last update : 20 April 2022   
+* Current version : 2.0.0  
+* Last update : 15 April 2023
+* ![DOI](https://zenodo.org/badge/437795232.svg)](https://zenodo.org/badge/latestdoi/437795232)
 * Web access:  https://app.pr2-primers.org
 * [Contributors](https://pr2-database.org/team/#people_primers)
 
