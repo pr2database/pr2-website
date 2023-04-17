@@ -10,7 +10,7 @@ draft: false
 featured: false
 projects: []
 subtitle: ''
-summary:Using PR2 reference database version 5.0.
+summary: Using PR2 reference database version 5.0.
 tags:
 - News
 - Version
