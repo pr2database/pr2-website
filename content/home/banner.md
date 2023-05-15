@@ -63,9 +63,9 @@ color = "gainsboro"
 
 **Three interconnected 18S rRNA databases**
 
-* PR2 reference sequence database
-* PR2 primers
-* metaPR2 metabarcodes
+* [PR2 reference sequence database](https://app.pr2-database.org/)
+* [PR2 primers](https://app.pr2-primers.org/)
+* [metaPR2 metabarcodes](https://app.metapr2.org/)
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <!-- 

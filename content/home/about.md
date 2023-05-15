@@ -10,40 +10,40 @@ subtitle = ""
 
 {{< figure library="true" src="tree_burki.png" class="img-lg" title="The eukaryotic tree. From Burki et al. 2020. The New Tree of Eukaryotes. Trends in Ecology & Evolution. DOI: 10.1016/j.tree.2019.08.008." lightbox="true" >}}
 
-The PR<sup>2</sup> (Protist Ribosomal Reference) database ecosystem is a set of three interconnected 18S rRNA databases that are useful in particular for metabarcoding applications. This web site focuses on the PR<sup>2</sup> reference sequence database.
+The PR<sup>2</sup> (Protist Ribosomal Reference) database ecosystem is a set of three interconnected 18S rRNA databases that are useful in particular for metabarcoding applications.
 
-## The PR<sup>2</sup> reference sequence database
+## PR<sup>2</sup> reference sequence database
 
-* Current version : 5.0.0  
-* Last update : 6 April 2023  
+* Current version : 5.0.1  
+* Last update : 15 May 2023
+* Web interface - https://app.pr2-database.org  
 * [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7805244.svg)](https://doi.org/10.5281/zenodo.7805244)
 * Download files: https://github.com/pr2database/pr2database/releases ![](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)
 * R package: [![pr2database status badge](https://pr2database.r-universe.dev/badges/pr2database)](https://pr2database.r-universe.dev)
-* Web interface - NEW: https://app.pr2-database.org
-* [Team](https://pr2-database.org/team/)
+* [Contributors](https://pr2-database.org/team/)
 
-The PR<sup>2</sup> reference sequence database was initiated in 2010 in the frame of the BioMarks project from work that had developed in the previous ten years in the Plankton Group of the Station Biologique of Roscoff.  Its aim is to provide a reference database of carefully annotated 18S rRNA sequences using  eight unique taxonomic fields (from kingdom to species).  At present it contains over [220,000 sequences](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html#basic-statistics-1).  Although it focuses on protists, it also contains [sequences from metazoa, fungi and plants](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html#division-level-1) as well a limited set 16S sequences from plastids and bacteria. A number of metadata fields are available for many sequences, including geo-localisation, whether it originates from a culture or a natural sample, host type etc... The annotation of PR<sup>2</sup> is performed by [experts]({{< ref "/documentation/PR2-taxonomic-groups.md" >}}) from each taxonomic groups.  One very important project in this respect is [EukRef]({{< ref "/eukref/about.md" >}}) which has recently decided to merge its effort with PR<sup>2</sup>. EukRef has built bioinformatics pipelines that have been used during three workshops dedicated to specific taxonomic groups.  As an example, part of the ciliate annotation originate from the first [EukRef workshop]({{< ref "/eukref/workshop_vancouver.md" >}}).
+The PR<sup>2</sup> reference sequence database was initiated in 2010 in the frame of the BioMarks project from work that had developed in the previous ten years in the Plankton Group of the Station Biologique of Roscoff.  Its aim is to provide a reference database of carefully annotated 18S rRNA sequences using  eight unique taxonomic fields (from kingdom to species).  At present it contains over [220,000 sequences](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html#basic-statistics-1).  Although it focuses on protists, it also contains [sequences from metazoa, fungi and plants](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html#division-level-1) as well a limited set 16S sequences from plastids and bacteria. A number of metadata fields are available for many sequences, including geo-localisation, whether it originates from a culture or a natural sample, host type etc... The annotation of PR<sup>2</sup> is performed by [experts]({{< ref "/documentation/PR2-taxonomic-groups.md" >}}) from each taxonomic groups.  One important project in this respect is [EukRef]({{< ref "/eukref/about.md" >}}) which is now part of PR<sup>2</sup>. EukRef has built bioinformatics pipelines that have been used during three workshops dedicated to specific taxonomic groups.  As an example, part of the ciliate annotation originate from the first [EukRef workshop]({{< ref "/eukref/workshop_vancouver.md" >}}).
 
 <!---
 {{< figure src="https://pr2database.github.io/pr2database/articles/pr2_01_stats_files/figure-html/unnamed-chunk-9-1.png" class="img-sm" title="Representation of the different taxonomic groups within PR<sup>2</sup>." lightbox="true" >}}
 -->
 
-## The PR<sup>2</sup> primer database
+## PR<sup>2</sup> primer database
 
 * Current version : 2.0.0  
 * Last update : 15 April 2023
-* ![DOI](https://zenodo.org/badge/437795232.svg)](https://zenodo.org/badge/latestdoi/437795232)
-* Web access:  https://app.pr2-primers.org
+* Web interface:  https://app.pr2-primers.org
+* [![DOI](https://zenodo.org/badge/437795232.svg)](https://zenodo.org/badge/latestdoi/437795232)
 * [Contributors](https://pr2-database.org/team/#people_primers)
 
 We have developed an interactive [pr2-primers database](https://app.pr2-primers.org/) focusing on the rRNA operon.  You can download primer and primer sets.  Primer pairs are evaluated against the PR<sup>2</sup> sequence database and you can test your own primers and primer sets. To know [more]({{< ref "/post/news/2021-01-18-pr2-primers.md" >}}).
 
-## The metaPR<sup>2</sup> metabarcodes database
+## metaPR<sup>2</sup> metabarcodes database
 
-* Current version : 2.0 
-* Last update : 23 Nov 2022  
+* Current version : 2.1.0 
+* Last update : 16 May 2023
+* Web interface: https://app.metapr2.org  
 * [![DOI](https://zenodo.org/badge/410160328.svg)](https://zenodo.org/badge/latestdoi/410160328)
-* Web access: https://app.metapr2.org
 * R package: [![metapr2 status badge](https://pr2database.r-universe.dev/badges/metapr2)](https://pr2database.r-universe.dev)
 * [Contributors](https://pr2-database.org/team/#people_metapr2)
 
