@@ -24,6 +24,7 @@ view: 2
 * [Management tools](./pr2-management/)
 * [Revision history](https://pr2database.github.io/pr2database/news)
 * [Major groups recently revised](./pr2-taxonomic-groups/)
+* [EukRef annotation pipeline](https://pr2-database.org/eukref/about/)
 
 ### Tutorials
 * [R package](https://pr2database.github.io/pr2database/articles)

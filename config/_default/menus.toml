@@ -57,6 +57,12 @@
   url = "eukref/workshop_roscoff"
   weight = 5
 
+[[main]]
+  parent = "Workshops"
+  name = "Workshop 2023"
+  url = "eukref/workshop_barcelona_2023"
+  weight = 6
+
 # [[main]]
 #   name = "Related projects"
 #   url = "#projects"

@@ -34,3 +34,4 @@ The 18S rRNA Collaborative Annotation Initiative is a community-wide effort that
 * [2015 - Vancouver]({{< ref "/eukref/workshop_vancouver.md" >}})
 * [2016 - Barcelona]({{< ref "/eukref/workshop_barcelona.md" >}})
 * [2018 - Roscoff]({{< ref "/eukref/workshop_roscoff.md" >}})
+* [2023 - Barcelona]({{< ref "/eukref/workshop_barcelona_2023.md" >}})
