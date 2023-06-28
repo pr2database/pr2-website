@@ -12,6 +12,7 @@ organizations:
 - name: Del Campo Lab
   url: "https://delcampolab.com/"
 - name: Rosenstiel School of Marine and Atmospheric Science - University of Miami, USA
+social:
 - icon: envelope
   icon_pack: fas
   link: mailto:jdelcampo@ibe.upf-csic.es
