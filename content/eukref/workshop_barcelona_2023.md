@@ -23,6 +23,12 @@ Our fourth EukRef workshop took place at the **[Institute of Marine Sciences](h
 
 The workshop was made possible thanks to the generous contribution of the **[Moore Foundation](https://www.moore.org/)**.
 
+### Organizers
+
+* Javier del Campo, Barcelona
+* Daniel Vaulot, CNRS Roscoff
+* Chris Lane, University of Rhode Island
+
 ### Participants
 
 * Tomas Panek, Charles University in Prague
@@ -34,15 +40,12 @@ The workshop was made possible thanks to the generous contribution of the **[Mo
 * Anthony Bonacolta, University of Miami
 * Liz Cooney, UBC Vancouver
 * Cédric Berney, Barcelona
-* Chris Lane, University of Rhode Island
 * Ramon Massana, Barcelona
 * Jesus Lozano, Barcelona
 * Pierre Ramond, Barcelona
 * Joana Krause, Barcelona
 * Mattia Giacomelli, Barcelona
 * Sofiya Bondarenko, Barcelona
-* Javier del Campo, Barcelona
-* Daniel Vaulot, CNRS Roscoff
 
 ### Schedule
 
