@@ -46,7 +46,7 @@ The workshop was made possible thanks to the generous contribution of the **[Mo
 
 ### Schedule
 
-![](../barcelona_schedule_2023.jpg)
+![](../barcelona_schedule_2023.png)
 
 ### Group annotated
 
