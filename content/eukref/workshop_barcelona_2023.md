@@ -94,3 +94,4 @@ The workshop was made possible thanks to the generous contribution of the **[Mo
 * [GitHub repository](https://github.com/pr2database/EukRef-workshop-2023)
 
 
+![](../barcelona_2023_intro.jpg)
