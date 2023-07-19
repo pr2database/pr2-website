@@ -58,7 +58,6 @@ The workshop was made possible thanks to the generous contribution of the **[Mo
   * Chlorodendrophyceae 
   * Ceramiales 
   * Batrachospermales
-
 * Metazoa
   * Cnidaria 
   * Ctenophora 
