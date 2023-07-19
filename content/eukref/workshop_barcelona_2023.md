@@ -64,14 +64,12 @@ The workshop was made possible thanks to the generous contribution of the **[Mo
   * Ctenophora 
   * Porifera
   * Chelicerata 
-
 * Alveolata
   * Suessiales
   * Dinophyceae
   * Apicomplexa
   * Chrompodellids
   * Alveolata_X 
-
 * Amoebozoa
   * Archamoebea
   * Eumycetozoa
@@ -80,7 +78,6 @@ The workshop was made possible thanks to the generous contribution of the **[Mo
   * Centramoebia
   * Flabellinia
   * Stygamoebida 
-
 * Fungi  
   * Microsporidia
   * Nucleophaga 
