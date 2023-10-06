@@ -70,8 +70,6 @@ Get latest information about PR2 and ask for help [on our element.io channel.](h
 
 {{< figure src="element_io.png">}}
 
-<iframe src="https://matrix.to/#/#pr2-database:matrix.org" width="100%" height="300">
+<iframe src="https://matrix.to/#/#pr2-database:matrix.org" width="100%" height="600">
   <p>Your browser does not support iframes.</p>
 </iframe>
-
-<embed src="https://matrix.to/#/#pr2-database:matrix.org" style="width:500px; height: 300px;">
