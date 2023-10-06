@@ -36,6 +36,7 @@ The rationale is that the database can now be used to detect bacterial sequences
 * 9 levels : Domain / Supergroup / Division / Subdivision / Class / Order / Family / Genus / Species
   * `Kingdom` is replaced by `Domain`
   * Adding a `Subdivision` level
+  
 #### Version 4.14.1 and below
 * 8 levels : Kingdom / Supergroup / Division / Class / Order / Family / Genus / Species
 

@@ -70,4 +70,6 @@ Get latest information about PR2 and ask for help [on our element.io channel.](h
 
 {{< figure src="element_io.png">}}
 
-<a class="twitter-timeline" data-height="500" href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw">Tweets by PR2database</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe src="https://app.element.io/#/room/#pr2-database:matrix.org" width="100%" height="300">
+  <p>Your browser does not support iframes.</p>
+</iframe>
