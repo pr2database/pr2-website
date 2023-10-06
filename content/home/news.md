@@ -73,3 +73,8 @@ Get latest information about PR2 and ask for help [on our element.io channel.](h
 <iframe src="https://matrix.to/#/#pr2-database:matrix.org" width="100%" height="600">
   <p>Your browser does not support iframes.</p>
 </iframe>
+
+<iframe src="https://genomic.social/@daniel_vaulot" width="100%" height="600">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
