@@ -54,6 +54,10 @@ PR2 version 5 includes nine `supergroups`. These are:
 -   Protalveolata has been renamed to Colponemidia, a subdivision with Alveolata, TSAR.
 -   Rhizaria is now a division with TSAR.
 -   Stramenopiles is also a division within TSAR.
+-   
+## Problems with taxonomy and metazoa and fungi
+* [Issue 43](https://github.com/pr2database/pr2database/issues/43)
+* [Issue 44](https://github.com/pr2database/pr2database/issues/44)
 
 ## References
 
