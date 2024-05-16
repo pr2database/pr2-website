@@ -37,14 +37,45 @@ summary: 'Detailed explanation for simple annotations'
 
 ## Files provided
 
-Two files will be provided to you
+Three files will be provided to you
 
+* A fasta file with the PR2 accession number
+* A text file that can be used to annotate trees 
 * An excel file with 2 sheets (taxonomy, metadata)
-* A fasta file with the current taxonomy
 
 Please edit the Excel file by marking all your changes in **yellow**.
 
-### Excel - Taxonomy - do not edit
+### pr2_export.fas.gz - FASTA file
+
+Contains the sequence labelled with the PR2 accession number
+
+    >JX988758.1.1807_U
+    TTGATCCTGCCAGTAGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCACCTTATACTGTGAAACTGCGAATGGCTCATTAAATCAGTTATCGTTTATTTGATGATCTCTTGCTACTTGGATACCCGTGGT...
+    ...
+### pr2_export.txt
+
+- Contains information about each sequence that can be uploaded to TreeView or [TreeViewer](https://treeviewer.org/).
+- Fields are separated by tabulation.
+- Species that have been assigned automatically by dada2 are labelled  with 1 in the column `pr2_annotated`
+
+<!-- -->
+
+    pr2_accession   domain  supergroup  division    subdivision class   order   family  genus   species pr2_annotated   gb_strain
+    AF265331.1.1123_U   Eukaryota   TSAR    Stramenopiles   Bigyra  Sagenista   Labyrinthulomycetes Amphifilaceae   Amphifila   Amphifila_marina    1    
+    AY082983.1.1879_U   Eukaryota   TSAR    Stramenopiles   Bigyra  Sagenista   Labyrinthulomycetes Amphifilaceae   Amphifila   Amphifila_sp.   1    
+    EF023442.1.1807_U   Eukaryota   TSAR    Stramenopiles   Bigyra  Sagenista   Labyrinthulomycetes Amphifilaceae   Amphifilaceae_X Amphifilaceae_X_sp. 1    
+    EF023338.1.1806_U   Eukaryota   TSAR    Stramenopiles   Bigyra  Sagenista   Labyrinthulomycetes Amphifilaceae   Amphifilaceae_X Amphifilaceae_X_sp. 1    
+    EF023208.1.1805_U   Eukaryota   TSAR    Stramenopiles   Bigyra  Sagenista   Labyrinthulomycetes Amphifilaceae   Amphifilaceae_X Amphifilaceae_X_sp. 1    
+    EF023658.1.1802_U   Eukaryota   TSAR    Stramenopiles   Bigyra  Sagenista   Labyrinthulomycetes Amphifilaceae   Amphifilaceae_X Amphifilaceae_X_sp. 1    
+    EF023821.1.1802_U   Eukaryota   TSAR    Stramenopiles   Bigyra  Sagenista   Labyrinthulomycetes Amphifilaceae   Amphifilaceae_X Amphifilaceae_X_sp. 1    
+
+    ...
+
+### pr2_export.xlsx - Excel file
+
+This file contains two sheets:
+
+#### Taxonomy - DO NOT EDIT
 
 {{< figure library="true" src="pr2_export_excel_taxonomy.png" class="img-lg" title="Taxonomy sheet." lightbox="true" >}}
 
@@ -60,6 +91,7 @@ Please edit the Excel file by marking all your changes in **yellow**.
 * There are two types of entries (column `pr2_annotated`):
   * If `pr2_annotated`is equal to 1, the entry is part of the reference PR2 database and has been previously validated
   * If `pr2_annotated`is equal to 0, the entry is NOT part of the reference PR2 database. It has been automatically annotated using dada2 AssignTaxonomy.  It needs to be validated and you can validate it (change `pr2_annotated` to 1 and mark in yellow).
+
 
 ## Modifying or adding entries
 
