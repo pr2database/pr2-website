@@ -56,7 +56,8 @@ Contains the sequence labelled with the PR2 accession number
 
 - Contains information about each sequence that can be uploaded to TreeView or [TreeViewer](https://treeviewer.org/).
 - Fields are separated by tabulation.
-- Species that have been assigned automatically by dada2 are labelled  with 1 in the column `pr2_annotated`
+- Species that have been assigned automatically by dada2 are labelled  with 1 in the column `pr2_annotated`.
+- You can generate more complete text files by exporting columns of the `metadata` sheet from the Excel file `pr2_export.xlsx`.
 
 <!-- -->
 
