@@ -110,7 +110,7 @@ eukref_biotic_relationship|Eukref: eg parasite
 eukref_specific_host|Eukref: Specific Host annotated
 eukref_geo_loc_name|Eukref: Location name annotated
 eukref_notes|Eukref: Notes made during Eukref annotation
-pr2_sample_type|PR2: e.g. water, ice
+pr2_sample_type|PR2: e.g. culture, isolate, environmental, unknown
 pr2_sample_method|PR2: e.g. filtration, flow cytometry sorting
 pr2_latitude|PR2: Parsed from GenBank entry
 pr2_longitude|PR2: Parsed from GenBank entry
