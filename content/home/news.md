@@ -66,10 +66,9 @@ subtitle = ""
  css_class = ""
 +++
 
-Get latest information about PR2 and ask for help [on our element.io channel.](https://matrix.to/#/#pr2-database:matrix.org)
+* Get latest information and ask for help [on our element.io channel.](https://matrix.to/#/#pr2-database:matrix.org)
+* Follow our [BlueSky account](https://bsky.app/profile/pr2-database.bsky.social)
 
-{{< figure src="element_io.png">}}
 
-<iframe src="https://matrix.to/#/#pr2-database:matrix.org" width="100%" height="600">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:unlvrfm3glgcjo47lbgus26y/app.bsky.feed.post/3lbch4ysuxm2f" data-bluesky-cid="bafyreidag4ls2ieysuq72qfrkamaeh4kse7rho2yoheh74lpbj7rdzkl6u"><p lang="en">Welcome to the PR2 databases BlueSky account.  We will post here important news about the PR2 sequence databases  as well as papers using the databases.
+pr2-database.org<br><br><a href="https://bsky.app/profile/did:plc:unlvrfm3glgcjo47lbgus26y/post/3lbch4ysuxm2f?ref_src=embed">[image or embed]</a></p>&mdash; The PR2 database (<a href="https://bsky.app/profile/did:plc:unlvrfm3glgcjo47lbgus26y?ref_src=embed">@pr2-database.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:unlvrfm3glgcjo47lbgus26y/post/3lbch4ysuxm2f?ref_src=embed">19 November 2024 at 13:35</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
