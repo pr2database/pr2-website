@@ -25,9 +25,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/daniel_vaulot
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.fr/citations?user=kcwZqRwAAAAJ&hl=fr
@@ -41,6 +38,6 @@ user_groups:
 
 After attending the Ecole Polytechnique in Paris, the Ecole Nationale du Génie Rural and working as an engineer for a few years, I completed a PhD on the cell cycle regulation of phytoplankton under the guidance of [Penny Chisholm](https://www.crafoordprize.se/press_release/the-crafoord-prize-in-biosciences-2019) at MIT, Cambridge, US.  Since 1985, I have been a researcher at CNRS, working at the [Station Biologique of Roscoff](http://www.sb-roscoff.fr/en) (France). I developed initially applications of flow cytometry to measure picoplankton abundance in the Ocean.  Around 1995, I began to focus on the diversity and ecology of eukaryotic picophytoplankton developing molecular approaches such as gene cloning, metabarcoding and metagenomics.  Currently my interests revolve around green algae, bolidophytes and haptophytes involved in symbioses with cyanobacteria.  I have also a keen interest in processing and analysis of large metabarcoding datasets, using in particular the R language. I created in 1998 the [Roscoff Culture Collection](http://www.roscoff-culture-collection.org/), which is now the biggest collection in the world for marine phytoplankton. I am also maintaining the [PR2 databases](https://github.com/pr2database), a large repository of curated eukaryotic 18S rRNA sequences which is used as a reference to assign metabarcodes.  
 
-I am an Emeritus Director at CNRS part of the ECOMAP team in Roscoff. I was a visiting Professor at the Asian School of the Environment, Nanyang Technological University, Singapore from 2018 to 2022.  In August 2023, I will move to be a guest investigator at the University of Oslo.
+I am an Emeritus Director at CNRS part of the ECOMAP team in Roscoff. I am a guest investigator at the University of Oslo in the Biology Department, AQVA section.
 
 [More information](https://daniel-vaulot.fr/)...

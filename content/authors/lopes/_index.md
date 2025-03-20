@@ -4,14 +4,14 @@ authors:
 interests:
 - Marine protists
 name: Adriana Lopes dos Santos
-role: NTU, Singapore
+role: University of Oslo
 organizations:
-- name: Nanyang Technological University, Singapore
-  url: "https://research.ntu.edu.sg/expertise/academicprofile/Pages/StaffProfile.aspx?ST_EMAILID=ADRIANA.LOPES&CategoryDescription=EarthSciencesEngineering"
+- name: University of Oslo
+  url: "https://www.mn.uio.no/ibv/english/people/aca/adril/"
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:adriana.lopes@ntu.edu.sg
+  link: mailto:a.l.d.santos@ibv.uio.no
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.fr/citations?hl=fr&user=3j72ztsAAAAJ
