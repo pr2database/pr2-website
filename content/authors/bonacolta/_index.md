@@ -16,7 +16,7 @@ social:
   icon_pack: ai
   link: https://scholar.google.com/citations?user=nVxjagoAAAAJ&hl=en
 - icon: bluesky
-  icon_pack: fab
+  icon_pack: custom
   link: https://bsky.app/profile/ambonacolta.bsky.social
 superuser: false
 user_groups:
