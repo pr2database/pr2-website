@@ -34,13 +34,18 @@ Alveolata | Ciliates | Spirotrichea | L. Santoferrara, M. Ganser| 2023 | 5.0
 Alveolata | Dinoflagellates | | S. Mordret, D. Sarno | 2018  | 4.9  
 Alveolata | Dinoflagellates | Suessiales | J. del Campo | 2021  | 4.13
 Alveolata | Dinoflagellates | Suessiaceae, Borghiellaceae, Gonyaucales, Kareniaceae, Warnowiaceae | K. Mertens, H. Gu, SH Jang  | 2023  | 5.0
+Alveolata | Dinoflagellates | misc | H. Gu, A. Bonacolta  | 2025  | 5.1
 Alveolata | Perkinsids |  | S. Metz  | 2023  | 5.0
 Chlorophyta |  |  | M.Tragin, A. Lopes dos Santos | 2015 | 3.0 
+Chlorophyta | Chloropicophyceae |  | D. Vaulot | 2025 | 5.1 
+Chlorophyta | Chloropicophyceae |  | E. Salomaki | 2025 | 5.1 
+Picozoa |  |  | N. Pohl | 2025 | 5.1 
 Excavata |  |  | J. del Campo | 2021  | 4.14
 Haptophyta |  |  |  B. Edvardsen | 2015 | 4.0
 Prasinodermophyta |  |  | D. Vaulot | 2021 | 4.13  
 Rhizaria | Collodaria | | T. Biard | 2015 | 2.0
-Rhizaria | Foraminifera | | R. Morard | 2021
+Rhizaria | Foraminifera | | R. Morard | 2021 |
+Rhizaria | Foraminifera | | R. Morard | 2025 | 5.1
 Rhizaria | Radiolaria | | M. Mendez Sandin. | 2021
 Stramenopiles |  |  |  R. Massana | 2019 | 4.12
 Stramenopiles |  | *Cafeteria* |  Alex Schoenle | 2021 | 4.14
@@ -53,12 +58,7 @@ Stramenopiles | Pelagophyceae | | A.M. Cabello | 2021 | 4.13
 Stramenopiles |   Chrysophyceae | | D. Vaulot | 2021 | 4.13
 Stramenopiles |   Chrysophyceae | | P. Škaloud | 2023 | 5.0
 Fungi |   Chytrids | | Alexei Seliuk  | 2023 | 5.0
-
-## Groups with planned annotations
-
-Division | Class | Who | Date planned
---- | --- | --- | ---
-Eukaryota | mitochondria | D. Vaulot | 2021
+Metazoa |   Non-bilaterians | | J. Arañó Ansola  | 2025 | 5.1
 
 
 ## List of references used to annotate database
@@ -70,12 +70,14 @@ Eukaryota | mitochondria | D. Vaulot | 2021
 * Burki, Fabien, Andrew J. Roger, Matthew W. Brown, et Alastair G.B. Simpson. 2020. The New Tree of Eukaryotes. Trends in Ecology and Evolution 35 (1): 43‑55. https://doi.org/10.1016/j.tree.2019.08.008.
 * Gawryluk, R.M., Tikhonenkov, D.V., Hehenberger, E., Husnik, F., Mylnikov, A.P. and Keeling, P.J., 2019. Non-photosynthetic predators are sister to red algae. *Nature*, *572*(7768), pp.240-243.
 * Strassert, J.F., Jamy, M., Mylnikov, A.P., Tikhonenkov, D.V. and Burki, F., 2019. New phylogenomic analysis of the enigmatic phylum Telonemia further resolves the eukaryote tree of life. *Molecular biology and evolution*, *36*(4), pp.757-765.
+* Krabberød, A.K., Stokke, E., Thoen, E., Skrede, I. & Kauserud, H. 2025. The Ribosomal Operon Database: A Full-Length rDNA Operon Database Derived From Genome Assemblies. Molecular Ecology Resources. 25:e14031.
 
 ### Chlorophyta
 
 * Tragin, M., Lopes dos Santos, A., Christen, R., and Vaulot, D. (2016). Diversity and ecology of green microalgae in marine systems: an overview based on 18S rRNA gene sequences. Perspect. Phycol. 3, 141–154. doi:10.1127/pip/2016/0059.
 * Lopes dos Santos A., Pollina T., Gourvil P., Corre E., Marie D., Garrido JL., Rodríguez F., Noël M-H., Vaulot D., Eikrem W. 2017. Chloropicophyceae, a new class of picophytoplanktonic prasinophytes. Scientific Reports 7:14019. DOI: 10.1038/s41598-017-12412-5.
 * Daugbjerg N., Fassel NMD., Moestrup Ø. 2019. Microscopy and phylogeny of _Pyramimonas tatianae_ sp. nov. (Pyramimonadales, Chlorophyta), a scaly quadriflagellate from Golden Horn Bay (eastern Russia) and formal description of Pyramimonadophyceae classis nova . European Journal of Phycology 0:1–15. DOI: 10.1080/09670262.2019.1638524
+* Crépeault, O., Otis, C., Pombert, J.-F., Turmel, M. & Lemieux, C. 2024. Comparative plastome and mitogenome analyses indicate that the marine prasinophyte green algae Pycnococcus provasolii and Pseudoscourfieldia marina (Pseudoscourfieldiophyceae class nov., Chlorophyta) represent morphotypes of the same species. Journal of Phycology. 60:1021–7.
 
 ### Ochrophyta/Stramenopiles
 * Adl, S.M., Bass, D., Lane, C.E., Lukeš, J., Schoch, C.L., Smirnov, A., Agatha, S. et al. 2019. Revisions to the Classification, Nomenclature, and Diversity of Eukaryotes. J. Eukaryot. Microbiol. 66:4–119.
@@ -96,6 +98,7 @@ Eukaryota | mitochondria | D. Vaulot | 2021
 ### Haptophyta
 * Edvardsen, B., Egge, E. S., and Vaulot, D. (2016). Diversity and distribution of haptophytes revealed by environmental sequencing and metabarcoding – a review. Perspect. Phycol. 3, 77–91. [doi:10.1127/pip/2016/0052](https://dx.doi.org/10.1127/pip/2016/0052).
 * Kawachi, M., Nakayama, T., Kayama, M., Nomura, M., Miyashita, H., Bojo, O., Rhodes, L., Sym, S., Pienaar, R. N., Probert, I., Inouye, I., & Kamikawa, R. (2021). Rappemonads are haptophyte phytoplankton. Current Biology. https://doi.org/10.1016/j.cub.2021.03.012
+* Bendif, E.M., Probert, I., Archontikis, O.A., Young, J.R., Beaufort, L., Rickaby, R.E. & Filatov, D. 2023. Rapid diversification underlying the global dominance of a cosmopolitan phytoplankton. ISME J. 1–11.
 
 ### Ciliates
 * Agatha, S. and Strüder-Kypke, M.C. (2014) What Morphology and Molecules Tell Us about the Evolution of Oligotrichea (Alveolata, Ciliophora). Acta Protozool. 2014: 7790.
@@ -137,3 +140,6 @@ Rognes, T., Flouri, T., Nichols, B., Quince, C., Mahé, F., 2016. VSEARCH: a ver
 
 ### Provora
 * Tikhonenkov, Denis V., Kirill V. Mikhailov, Ryan M. R. Gawryluk, Artem O. Belyaev, Varsha Mathur, Sergey A. Karpov, Dmitry G. Zagumyonnyi, et al. 2022. « Microbial Predators Form a New Supergroup of Eukaryotes ». Nature 612 (7941): 714‑19. https://doi.org/10.1038/s41586-022-05511-5.
+
+### Fungi
+* Galindo, L.J., López-García, P., Torruella, G. et al. Phylogenomics of a new fungal phylum reveals multiple waves of reductive evolution across Holomycota. Nat Commun 12, 4973 (2021). doi/ 10.1038/s41467-021-25308-w

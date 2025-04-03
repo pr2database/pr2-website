@@ -14,16 +14,16 @@ The PR<sup>2</sup> (Protist Ribosomal Reference) database ecosystem is a set of 
 
 ## PR<sup>2</sup> reference sequence database
 
-* Current version : 5.0.1  
-* Last update : 15 May 2023
+* Current version : 5.1.0  
+* Last update : 02 April 2025
 * Web interface - https://app.pr2-database.org  
-* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7805244.svg)](https://doi.org/10.5281/zenodo.7805244)
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15129782.svg)](https://doi.org/10.5281/zenodo.15129782)
 * Download files: https://github.com/pr2database/pr2database/releases ![](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)
 * [R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
 [![pr2database status badge](https://pr2database.r-universe.dev/badges/pr2database)](https://pr2database.r-universe.dev)
 * [Contributors](https://pr2-database.org/team/)
 
-The PR<sup>2</sup> reference sequence database was initiated in 2010 in the frame of the BioMarks project from work that had developed in the previous ten years in the Plankton Group of the Station Biologique of Roscoff.  Its aim is to provide a reference database of carefully annotated 18S rRNA sequences using  nine unique taxonomic fields (from domain to species).  At present it contains over [220,000 sequences](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html#basic-statistics-1).  Although it focuses on protists, it also contains [sequences from metazoa, fungi and plants](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html#division-level-1) as well a limited set of 16S sequences from plastids and bacteria. A number of metadata fields are available for many sequences, including geo-localisation, whether it originates from a culture or a natural sample, host type etc... The annotation of PR<sup>2</sup> is performed by [experts]({{< ref "/documentation/PR2-taxonomic-groups.md" >}}) from each taxonomic groups.  One important project in this respect is [EukRef]({{< ref "/eukref/about.md" >}}) which is now part of PR<sup>2</sup>. EukRef has built bioinformatics pipelines that have been used during three workshops dedicated to specific taxonomic groups.  As an example, part of the ciliate annotation originate from the first [EukRef workshop]({{< ref "/eukref/workshop_vancouver.md" >}}).
+The PR<sup>2</sup> reference sequence database was initiated in 2010 in the frame of the BioMarks project from work that had developed in the previous ten years in the Plankton Group of the Station Biologique of Roscoff.  Its aim is to provide a reference database of carefully annotated 18S rRNA sequences using  nine unique taxonomic fields (from domain to species).  At present it contains over [220,000 sequences](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html#basic-statistics-1).  Although it focuses on protists, it also contains [sequences from metazoa, fungi and plants](https://pr2database.github.io/pr2database/articles/pr2_01_stats.html#division-level-1) as well a limited set of 16S sequences from plastids and bacteria. A number of metadata fields are available for many sequences, including geo-localisation, whether it originates from a culture or a natural sample, host type etc... The annotation of PR<sup>2</sup> is performed by [experts]({{< ref "/documentation/PR2-taxonomic-groups.md" >}}) from each taxonomic groups.  One important project in this respect is [EukRef]({{< ref "/eukref/about.md" >}}) which is now part of PR<sup>2</sup>. EukRef has built bioinformatics pipelines that have been used during three workshops dedicated to specific taxonomic groups.  As an example, part of the ciliate annotation originate from the first [EukRef workshop]({{< ref "/eukref/workshop_vancouver.md" >}}). Now the PR<sup>2</sup> web interface provides also access to the [ROD database](https://github.com/krabberod/ROD) that contains full-length eukaryotic ribosomal operons. The database is based on the genome assemblies from NCBI, and the operons are extracted from the assemblies. The database currently contains 69,480 operon variants from more than 11,935 genomes.
 
 <!---
 {{< figure src="https://pr2database.github.io/pr2database/articles/pr2_01_stats_files/figure-html/unnamed-chunk-9-1.png" class="img-sm" title="Representation of the different taxonomic groups within PR<sup>2</sup>." lightbox="true" >}}
@@ -62,16 +62,12 @@ Citations
 
 * Vaulot, D., Sim, C.W.H., Ong, D., Teo, B., Biwer, C., Jamy, M., Lopes dos Santos, A., 2022. [metaPR2: a database of eukaryotic 18S rRNA metabarcodes with an emphasis on protists](https://doi.org/10.1111/1755-0998.13674). Molecular Ecology Resources. DOI: 10.1111/1755-0998.13674
 
-
+* Krabberød, A.K., Stokke, E., Thoen, E., Skrede, I. & Kauserud, H. 2025. [The Ribosomal Operon Database: A Full-Length rDNA Operon Database Derived From Genome Assemblies](https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.14031). Molecular Ecology Resources. 25:e14031.
 
 
 
 Issues and questions
 -----------
 
-* Send a message to the [PR2-database space on elements.io](https://matrix.to/#/#pr2-database:matrix.org)
-
 * Report on [GitHub](https://github.com/vaulot/pr2_database/issues)
 
-<!-- Place this tag where you want the button to render. https://buttons.github.io/-->
-<a href="https://twitter.com/PR2database?ref_src=twsrc%5Etfw" data-show-count="false" class="twitter-follow-button">Follow @PR2database</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
