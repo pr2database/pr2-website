@@ -24,6 +24,8 @@ title: 'Format of PR2 reference flat files'
 
 ## List of files are provided for each release
 
+**Link to files of latest reslease](https://github.com/pr2database/pr2database/releases)**
+
 Each version has a 3 number code: version_x.y.z, e.g. 5.1.0
 
 **Important note** : All files are in UNIX format (end of lines are indicated Line Feed-LF only).  Please see at the bottom of the file how to converts the files to Windows format (end of lines are CR+LF).
@@ -31,45 +33,46 @@ Each version has a 3 number code: version_x.y.z, e.g. 5.1.0
 ### Files to assign metabarcodes
 
 #### [dada2](https://benjjneb.github.io/dada2/index.html)
-**[pr2_version_x.y.z_SSU_dada2.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains a [dada2](https://benjjneb.github.io/dada2/index.html) format compatible training file
+**pr2_version_x.y.z_SSU_dada2.fasta.gz** contains a [dada2](https://benjjneb.github.io/dada2/index.html) format compatible training file
 
 #### [Mothur](https://mothur.org/) or [Qiime](http://qiime.org/)
 Two files:
 
-  + **[pr2_version_x.y.z_SSU_mothur.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains all sequences in fasta format with the accession in the description line
-  + **[pr2_version_x.y.z_SSU_mothur.tax.gz](https://github.com/pr2database/pr2database/releases)** contains the taxonomy of each sequence separated from the accession number by a tabulation
+  + **pr2_version_x.y.z_SSU_mothur.fasta.gz** contains all sequences in fasta format with the accession in the description line
+  + **pr2_version_x.y.z_SSU_mothur.tax.gz** contains the taxonomy of each sequence separated from the accession number by a tabulation
   + Note :Qiime only use 7 taxonomical levels by default.
 
 #### [USEARCH](http://www.drive5.com/usearch/) or [VSEARCH](https://github.com/torognes/vsearch)
-**[pr2_version_x.y.z_SSU_UTAX.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains one fasta file with the accession number of the sequence and its full taxonomy on the description line in the UTAX format. It is suitable to use with [USEARCH](http://www.drive5.com/usearch/) and [VSEARCH](https://github.com/torognes/vsearch).
+**pr2_version_x.y.z_SSU_UTAX.fasta.gz** contains one fasta file with the accession number of the sequence and its full taxonomy on the description line in the UTAX format. It is suitable to use with [USEARCH](http://www.drive5.com/usearch/) and [VSEARCH](https://github.com/torognes/vsearch).
 
 #### [DECIPHER](http://www2.decipher.codes/) training set
-**[pr2_version_x.y.z_SSU.decipher.trained.rds](https://github.com/pr2database/pr2database/releases)** is a DECIPHER training set using 3 iterations and a maximum of 20 sequences per species (LearnTaxa) that can be used with the DECIPHER IDTaxa function to assign metabarcodes. Use the readRDS() function of R to load the file.
+**pr2_version_x.y.z_SSU.decipher.trained.rds** is a DECIPHER training set using 3 iterations and a maximum of 20 sequences per species (LearnTaxa) that can be used with the DECIPHER IDTaxa function to assign metabarcodes. Use the readRDS() function of R to load the file.
 
 #### [Emu](https://github.com/treangenlab/emu)
 Emu is a very efficient program to assign reads to a taxonomy database. It is in particular useful for long reads such as provided by Nanopore or PacBio sequencers.
 
-**[pr2_version_x.y.z_emu.zip](https://github.com/pr2database/pr2database/releases)** .The files provided starting on version 5.1.0 are those used to build the emu database which is done with the following command:
+**pr2_version_x.y.z_emu.zip** .The files provided starting on version 5.1.0 are those used to build the emu database which is done with the following command:
 
 `emu build-database pr2_version_5.1.0_emu.db --sequences pr2_version_5.1.0_emu.fasta --seq2tax pr2_version_5.1.0_emu_map.tsv --taxonomy-list pr2_version_5.1.0_emu_taxo.tsv`
 
 ### Other files
 
 #### Taxonomy structure
-**[pr2_version_x.y.z_taxonomy.xlsx](https://github.com/pr2database/pr2database/releases)** 
+**pr2_version_x.y.z_taxonomy.xlsx** 
 
 #### Fasta file
-**[pr2_version_x.y.z_SSU_taxo_long.fasta.gz](https://github.com/pr2database/pr2database/releases)**: contains accession number, the name of  sequence and  full taxonomy on the description line. It is suitable to build a local database for BLAST search
+**pr2_version_x.y.z_SSU_taxo_long.fasta.gz**: contains accession number, the name of  sequence and  full taxonomy on the description line. It is suitable to build a local database for BLAST search
 
 #### Full database as Excel file
-***[pr2_version_x.y.z_merged.xlsx](https://github.com/pr2database/pr2database/releases)**: Includes sequences, taxonomy and metadata. 
+**pr2_version_x.y.z_merged.xlsx**: Includes sequences, taxonomy and metadata. 
 
 #### Sequences annotated as chimeric
-**[pr2_version_x.y.z_chimera.xlsx](https://github.com/pr2database/pr2database/releases)** 
+**pr2_version_x.y.z_chimera.xlsx** 
 
 
 #### Unassigned sequences 
-**[pr2_version_x.y.z_unassigned.xlsx](https://github.com/pr2database/pr2database/releases)** 
+**pr2_version_x.y.z_unassigned.xlsx**
+
 * These SSU GenBank sequences are not part yet of the PR2 database. However some of them have been automatically assigned with AssignTaxa and version 4.14 of PR2 (see columns at the end of the xlsx file).
 * These sequences can be useful to add more sequences to a phylogenetic tree for example or annotate a specific taxonomic group.
 
