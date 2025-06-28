@@ -45,6 +45,13 @@ Each version has a 3 number code: version_x.y.z, e.g. 4.12.0
 #### DECIPHER
 * **[pr2_version_x.y.z_SSU.decipher.trained.rds](https://github.com/pr2database/pr2database/releases)** is a DECIPHER training set using 3 iterations and a maximum of 20 sequences per species (LearnTaxa) that can be used with the DECIPHER IDTaxa function to assign metabarcodes. Use the readRDS() function of R to load the file.
 
+#### Emu
+[Emu](https://github.com/treangenlab/emu) is a very efficient program to assign reads to a taxonomy database. It is in particular useful for long reads such as provided by Nanopore or PacBio sequencers.
+
+* **[pr2_version_x.y.z_emu.zip](https://github.com/pr2database/pr2database/releases)** .The files provided starting on version 5.1.0 are those used to build the emu database which is done with the following command:
+* 
+`emu build-database pr2_version_5.1.0_emu.db --sequences pr2_version_5.1.0_emu.fasta --seq2tax pr2_version_5.1.0_emu_map.tsv --taxonomy-list pr2_version_5.1.0_emu_taxo.tsv`
+
 ### File for Phylogeny
 * **[pr2_version_x.y.z_SSU_taxo_long.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains one fasta file with the accession number of the sequence, the name of the sequence and its full taxonomy on the description line. It is suitable to build a local database for BLAST search. If you want to donwload only a specific taxonomic group we recommend that you use the [Web interface](https://app.pr2-database.org/pr2-database/).
 

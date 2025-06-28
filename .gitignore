@@ -9,3 +9,4 @@ hugo.exe
 *.Rmd
 *.rda
 
+content/papers/papers-citing-eukref.Rmd
