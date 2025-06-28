@@ -35,9 +35,10 @@ Each version has a 3 number code: version_x.y.z, e.g. 5.1.0
 
 #### [Mothur](https://mothur.org/) or [Qiime](http://qiime.org/)
 Two files:
+
   + **[pr2_version_x.y.z_SSU_mothur.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains all sequences in fasta format with the accession in the description line
   + **[pr2_version_x.y.z_SSU_mothur.tax.gz](https://github.com/pr2database/pr2database/releases)** contains the taxonomy of each sequence separated from the accession number by a tabulation
-      + Note :Qiime only use 7 taxonomical levels by default.
+  + Note :Qiime only use 7 taxonomical levels by default.
 
 #### [USEARCH](http://www.drive5.com/usearch/) or [VSEARCH](https://github.com/torognes/vsearch)
 **[pr2_version_x.y.z_SSU_UTAX.fasta.gz](https://github.com/pr2database/pr2database/releases)** contains one fasta file with the accession number of the sequence and its full taxonomy on the description line in the UTAX format. It is suitable to use with [USEARCH](http://www.drive5.com/usearch/) and [VSEARCH](https://github.com/torognes/vsearch).
@@ -64,14 +65,15 @@ Emu is a very efficient program to assign reads to a taxonomy database. It is in
 ***[pr2_version_x.y.z_merged.xlsx](https://github.com/pr2database/pr2database/releases)**: Includes sequences, taxonomy and metadata. 
 
 #### Sequences annotated as chimeric
-* **[pr2_version_x.y.z_chimera.xlsx](https://github.com/pr2database/pr2database/releases)** 
+**[pr2_version_x.y.z_chimera.xlsx](https://github.com/pr2database/pr2database/releases)** 
 
 
 #### Unassigned sequences 
+**[pr2_version_x.y.z_unassigned.xlsx](https://github.com/pr2database/pr2database/releases)** 
 * These SSU GenBank sequences are not part yet of the PR2 database. However some of them have been automatically assigned with AssignTaxa and version 4.14 of PR2 (see columns at the end of the xlsx file).
 * These sequences can be useful to add more sequences to a phylogenetic tree for example or annotate a specific taxonomic group.
-* **[pr2_version_x.y.z_unassigned.xlsx](https://github.com/pr2database/pr2database/releases)** 
 
+---
 
 ## Examples of format
 ### mothur fasta
@@ -120,6 +122,8 @@ CCGTGGAAGGGTTGTATTTATTAGTTACAGAACCAACCCAGGTTCGCCTGGCCATTTGGTGATTCATAATAAACGAGCGA
 pr2_main_id	pr2_accession	genbank_accession	start	end	label	taxo_id.x	species	chimera	chimera_remark	added_date	added_version	removed_date	removed_version	edited_date	edited_version	edited_by	edited_remark	remark	taxo_id.y	kingdom	supergroup	division	class	order	family	genus	taxo_edited_date	taxo_edited_version	taxo_removed_date	taxo_removed_version	taxo_remark	reference	seq_id	sequence	sequence_length	ambiguities	pr2_metadata_id	gb_date	gb_locus	gb_definition	gb_organism	gb_strain	gb_culture_collection	gb_clone	gb_isolate	gb_isolation_source	gb_specimen_voucher	gb_host	gb_collection_date	gb_environmental_sample	gb_country	gb_lat_lon	gb_collected_by	gb_note	pubmed_id	gb_publication	gb_authors	gb_journal	eukref_name	eukref_env_material	eukref_env_biome	eukref_biotic_relationship	eukref_specific_host	eukref_geo_loc_name	pr2_sample_type	p2_sample_method	pr2_ocean	pr2_latitude	pr2_longitude	pr2_sequence_origin	pr2_size_fraction	pr2_size_fraction_min	pr2_size_fraction_max	metadata_remark	metadata_select	sequence_label
 AB353770.1.1740_U	AB353770	1	1740	U	2014	Peridiniopsis_kevei												2014	Eukaryota	Alveolata	Dinophyta	Dinophyceae	Dinophyceae_X	Dinophyceae_XX	Peridiniopsis								ATGCTTGTCTCAAAGATTAAGCCATGCATGTCTCAGTATAAGCTTTTACATGGCGAAACTGCGAATGGCTCATTAAAACAGTTACAGTTTATTTGAAGGTCATTTTCTACATGGATAACTGTGGTAATTCTAGAGCTAATACATGCGCCCAAACCCGACTCCGTGGAAGGGTTGTATTTATTAGTTACAGAACCAACCCAGGTTCGCCTGGCCATTTGGTGATTCATAATAAACGAGCGAATTGCACAGCCTCAGCTGGCGATGTATCATTCAAGTTTCTGACCTATCAGCTTCCGACGGTAGGGTATTGGCCTACCGTGGCAATGACGGGTAACGGAGAATTAGGGTTCGATTCCGGAGAGGGAGCCTGAGAAACGGCTACCACATCTAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCTGACACAGGGAGGTAGTGACAAGAAATAACAATACAGGGCAACCATGTCTTGTAATTGGAATGAGTAGAATTTAAATCCCTTTACGAGTATCCATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGCGGTTAAAAAGCTCGTAGTTGGATTTCTGTCGAAGGAGACCGGTCCGCCCTCTGGGTGAGTATCTGGATCTCTTTGGACATCTTCTTGGGGAACGTATCTGCACTTCATTGTGCGGTGCGGTACTCAAGACTTTTACTTTGAGGAAATTAGAGTGTTTCAAGCAGGCACACGCCTTGAATACATTAGCATGGAATAATAAGATAGGACCTCGGTTCTATTTTGTTGGTTTCTAGAGCTGAGGTAATGATTAATAGGGATAGTTGGGGGCATTCGTATTTAACTGTCAGAGGTGAAATTCTTGGATTTGTTAAAGACGGACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTGATCAAGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACCATGCCGACTAGAGATTGGAGGTCGTTATCCGTACGACTCCTTCAGCACCTTATGAGAAATCAAAGTCTTTGGGTTCCGGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGGAATTGACGGAAGGGCACCACCAGGAGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTTACCAGGTCCAGACATAGTAAGGATTGACAGATTGATAGCTCTTTCTTGATTCTATGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGGTTAATTCCGTTAACGAACGAGACCTTAACCTGCTAAATAGTGACACATTACCCCGGTAATGTGGGTTACTTCTTAGAGGGACTTTGCGTGTCTAACGCAAGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCTGCACGCGCGCTACACTGATGCGCTCAACGAGTTTATGACCTTGCCCGGAAGGGTTGGGTAATCTTGTTAAAACGCATCGTGATGGGGATAGATTATTGCAATTATTAATCTTCAACGAGGAATTCCTAGTAAGCGCGAGTCATCAGCTCGTGCTGATTAAGTCCCTGCCCTTTGTACACACCGCCCGTCGCTCCTACCGATTGAGTGATCCGGTGAATAATTCGGACCGCAGCATTTGTCAGTTCCTGACTCATGCCGTGGAAAGTCTAGTGAACCTTATCACTTAGAGGAAGGAGAAGTCGTAACA	1740	0	3830		PLN	Peridiniopsis cf. kevei gene for 18S rRNA, partial sequence.									26-juil.-03		Japan: Toyama, Tomi-iwa Canal Park
 ```
+
+---
 
 ## Converting files from UNIX to Windows format
 All files are in UNIX format (end of lines are indicated Line Feed-LF only).  File can be converted to Windows format (end of lines are CR+LF):
