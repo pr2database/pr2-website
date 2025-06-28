@@ -24,7 +24,7 @@ title: 'Format of PR2 reference flat files'
 
 ## List of files are provided for each release
 
-**[Link to files of latest reslease](https://github.com/pr2database/pr2database/releases)**
+**[Link to files of latest release](https://github.com/pr2database/pr2database/releases)**
 
 Each version has a 3 number code: version_x.y.z, e.g. 5.1.0
 
