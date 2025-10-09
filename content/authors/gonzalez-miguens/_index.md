@@ -4,9 +4,6 @@ authors:
 
 interests:
 - eKOI
-- Biogeography
-- Ecology
-- Protists
 name: Rubén González-Miguéns
 role: Institut de Biologia Evolutiva (CSIC-UPF)
 organizations:
