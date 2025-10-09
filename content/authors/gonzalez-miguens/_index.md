@@ -2,8 +2,7 @@
 authors:
 - vaulot
 
-interests:
-- eKOI database
+interests: eKOI database
 name: Rubén González-Miguéns
 role: Institut de Biologia Evolutiva (CSIC-UPF)
 organizations:
