@@ -3,10 +3,7 @@ authors:
 - vaulot
 
 interests:
-- Biodiversity
-- Biogeography
-- Ecology
-- Protists
+- eKOI database
 name: Rubén González-Miguéns
 role: Institut de Biologia Evolutiva (CSIC-UPF)
 organizations:
