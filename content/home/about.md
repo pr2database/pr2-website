@@ -52,15 +52,17 @@ The metaPR<sup>2</sup> database contains processed 18S rRNA metabarcodes that ar
 Citations
 -----------
 
-* Guillou, L., Bachar, D., Audic, S., Bass, D., Berney, C., Bittner, L., Boutte, C. et al. 2013. [The Protist Ribosomal Reference  database (PR<sup>2</sup>): a catalog of unicellular eukaryote Small Sub-Unit rRNA sequences with curated taxonomy](http://nar.oxfordjournals.org/lookup/doi/10.1093/nar/gks1160). Nucleic Acids Res. 41:D597–604.
+* Guillou, L., Bachar, D., Audic, S., Bass, D., Berney, C., Bittner, L., Boutte, C. et al. 2013. [The Protist Ribosomal Reference  database (PR<sup>2</sup>): a catalog of unicellular eukaryote Small Sub-Unit rRNA sequences with curated taxonomy](http://nar.oxfordjournals.org/lookup/doi/10.1093/nar/gks1160). _Nucleic Acids Res_. 41:D597–604.
 
-* del Campo J., Kolisko M., Boscaro V., Santoferrara LF., Nenarokov S., Massana R., Guillou L., Simpson A., Berney C., de Vargas C., Brown MW., Keeling PJ., Wegener Parfrey L. 2018. [EukRef: Phylogenetic curation of ribosomal RNA to enhance understanding of eukaryotic diversity and distribution](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005849). PLOS Biology 16:e2005849. DOI: 10.1371/journal.pbio.2005849.
+* del Campo J., Kolisko M., Boscaro V., Santoferrara LF., Nenarokov S., Massana R., Guillou L., Simpson A., Berney C., de Vargas C., Brown MW., Keeling PJ., Wegener Parfrey L. 2018. [EukRef: Phylogenetic curation of ribosomal RNA to enhance understanding of eukaryotic diversity and distribution](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005849). _PLOS Biology_ 16:e2005849. DOI: 10.1371/journal.pbio.2005849.
 
-* Vaulot, D., Mahé, F., Bass, D., & Geisen, S. (2021). [pr2-primer : An 18S rRNA primer database for protists](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13465). Molecular Ecology Resources. DOI: 10.1111/1755-0998.13465
+* Vaulot, D., Mahé, F., Bass, D., & Geisen, S. (2021). [pr2-primer : An 18S rRNA primer database for protists](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13465). _Molecular Ecology Resources_. DOI: 10.1111/1755-0998.13465
 
-* Vaulot, D., Sim, C.W.H., Ong, D., Teo, B., Biwer, C., Jamy, M., Lopes dos Santos, A., 2022. [metaPR2: a database of eukaryotic 18S rRNA metabarcodes with an emphasis on protists](https://doi.org/10.1111/1755-0998.13674). Molecular Ecology Resources. DOI: 10.1111/1755-0998.13674
+* Vaulot, D., Sim, C.W.H., Ong, D., Teo, B., Biwer, C., Jamy, M., Lopes dos Santos, A., 2022. [metaPR2: a database of eukaryotic 18S rRNA metabarcodes with an emphasis on protists](https://doi.org/10.1111/1755-0998.13674). _Molecular Ecology Resources_. DOI: 10.1111/1755-0998.13674
 
-* Krabberød, A.K., Stokke, E., Thoen, E., Skrede, I. & Kauserud, H. 2025. [The Ribosomal Operon Database: A Full-Length rDNA Operon Database Derived From Genome Assemblies](https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.14031). Molecular Ecology Resources. 25:e14031.
+* Krabberød, A.K., Stokke, E., Thoen, E., Skrede, I. & Kauserud, H. 2025. [The Ribosomal Operon Database: A Full-Length rDNA Operon Database Derived From Genome Assemblies](https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.14031). _Molecular Ecology Resources_. 25:e14031.
+
+* González-Miguéns, R., Gàlvez-Morante, À., Skamnelou, M., Antó, M., Casacuberta, E., Richter, D.J., Lara, E. et al.  2025. [A novel taxonomic database for eukaryotic mitochondrial cytochrome oxidase subunit I gene (eKOI),](https://doi.org/10.1093/database/baaf057)with a focus on protists diversity. _Database (Oxford)_. 2025:baaf057.
 
 
 
