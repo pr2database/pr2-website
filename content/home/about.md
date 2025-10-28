@@ -47,7 +47,7 @@ We have developed an interactive [pr2-primers database](https://app.pr2-primers.
 * [R package](https://pr2database.github.io/metapr2-shiny/articles/metapr2.html)
 * [Contributors](https://pr2-database.org/team/#people_metapr2)
 
-The metaPR<sup>2</sup> database contains processed 18S rRNA metabarcodes that are annotated with the PR<sup>2</sup> reference sequence database. Version 3.0 of the database contains 67 datasets corresponding to more than 7,000 samples and 90,000 ASVs. The database is accessible through both a web-based interface (https://app.metapr2.org) and an R package. To know [more]({{< ref "/post/news/2022-08-01-metapr2.md" >}}).
+The metaPR<sup>2</sup> database contains processed 18S rRNA metabarcodes that are annotated with the PR<sup>2</sup> reference sequence database. Version 3.0 of the database contains 67 datasets corresponding to more than 7,000 samples and 90,000 ASVs. To know [more]({{< ref "/post/news/2022-08-01-metapr2.md" >}}).
 
 Citations
 -----------
