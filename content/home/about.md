@@ -62,7 +62,7 @@ Citations
 
 * Krabberød, A.K., Stokke, E., Thoen, E., Skrede, I. & Kauserud, H. 2025. [The Ribosomal Operon Database: A Full-Length rDNA Operon Database Derived From Genome Assemblies](https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.14031). _Molecular Ecology Resources_. 25:e14031.
 
-* González-Miguéns, R., Gàlvez-Morante, À., Skamnelou, M., Antó, M., Casacuberta, E., Richter, D.J., Lara, E. et al.  2025. [A novel taxonomic database for eukaryotic mitochondrial cytochrome oxidase subunit I gene (eKOI),](https://doi.org/10.1093/database/baaf057)with a focus on protists diversity. _Database (Oxford)_. 2025:baaf057.
+* González-Miguéns, R., Gàlvez-Morante, À., Skamnelou, M., Antó, M., Casacuberta, E., Richter, D.J., Lara, E. et al.  2025. [A novel taxonomic database for eukaryotic mitochondrial cytochrome oxidase subunit I gene (eKOI), with a focus on protists diversity.](https://doi.org/10.1093/database/baaf057) _Database (Oxford)_. 2025:baaf057.
 
 
 
