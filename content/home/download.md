@@ -27,8 +27,8 @@ subtitle = ""
 
 ## metaR2 metabarcode database
 * [Interactive web site](https://shiny.metapr2.org/)
-* [R package](https://pr2database.github.io/metapr2-shiny/articles/metapr2.html)
 * [Docker container](https://hub.docker.com/repository/docker/vaulot/metapr2) 
+* [R package](https://pr2database.github.io/metapr2-shiny/articles/metapr2.html)
 * [Code repository](https://github.com/pr2database/metapr2-shiny) 
 
 
