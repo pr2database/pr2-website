@@ -11,9 +11,10 @@ title = "Get the PR2 databases"
 subtitle = ""
 +++
 ## PR2 reference sequence database
-* Three different formats are provided:  
+* Four different formats are provided:  
   * [Web interface](https://app.pr2-database.org/pr2-database/)
   * [Flat files for use with mothur, QIIME2, dada2, blast etc...](https://github.com/pr2database/pr2database/releases)
+  * [Docker container](https://hub.docker.com/repository/docker/vaulot/pr2-database)
   * [R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
 * [Previous versions](https://github.com/pr2database/pr2database/releases)
 * [Revision history](https://pr2database.github.io/pr2database/news/)
@@ -21,6 +22,7 @@ subtitle = ""
 
 ## PR2 primer database
 * [Interactive web site](https://app.pr2-primers.org/) 
+* [Docker container](https://hub.docker.com/repository/docker/vaulot/pr2-primers)
 * [Code repository](https://github.com/pr2database/pr2-primers) 
 
 ## metaR2 metabarcode database

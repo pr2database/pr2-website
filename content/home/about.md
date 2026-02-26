@@ -14,11 +14,12 @@ The PR<sup>2</sup> (Protist Ribosomal Reference) database ecosystem is a set of 
 
 ## PR<sup>2</sup> reference sequence database
 
-* Current version : 5.1.1  
+* Current version : 5.1.12  
 * Last update : 27 October 2025  
 * [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17458343.svg)](https://doi.org/10.5281/zenodo.17458343)
 * Web interface - https://app.pr2-database.org
 * Download files: https://github.com/pr2database/pr2database/releases ![](https://img.shields.io/github/downloads/pr2database/pr2database/total.svg)
+* [Docker container](https://hub.docker.com/repository/docker/vaulot/pr2-database)
 * [R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
 * [Contributors](https://pr2-database.org/team/)
 
@@ -30,22 +31,23 @@ The PR<sup>2</sup> reference sequence database was initiated in 2010 in the fram
 
 ## PR<sup>2</sup> primer database
 
-* Current version : 2.1.0 
+* Current version : 2.1.1 
 * Last update : 27 October 2025
 * [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17455533.svg)](https://doi.org/10.5281/zenodo.17455533) 
 * Web interface:  https://app.pr2-primers.org
+* [Docker container](https://hub.docker.com/repository/docker/vaulot/pr2-primers)
 * [Contributors](https://pr2-database.org/team/#people_primers)
 
 We have developed an interactive [pr2-primers database](https://app.pr2-primers.org/) focusing on the rRNA operon.  You can download primer and primer sets.  Primer pairs are evaluated against the PR<sup>2</sup> sequence database and you can test your own primers and primer sets. To know [more]({{< ref "/post/news/2021-01-18-pr2-primers.md" >}}).
 
 ## metaPR<sup>2</sup> metabarcodes database
 
-* Current version : 3.0.0 
+* Current version : 3.0.1 
 * Last update : 26 Sept 2025  
 * [![DOI](https://zenodo.org/badge/410160328.svg)](https://zenodo.org/badge/latestdoi/410160328)
 * Web interface: https://app.metapr2.org
-* [R package](https://pr2database.github.io/metapr2-shiny/articles/metapr2.html)
-* [Docker container](https://hub.docker.com/repository/docker/vaulot/metapr2) 
+* [Docker container](https://hub.docker.com/repository/docker/vaulot/metapr2)
+* [R package](https://pr2database.github.io/metapr2-shiny/articles/metapr2.html) 
 * [Contributors](https://pr2-database.org/team/#people_metapr2)
 
 The metaPR<sup>2</sup> database contains processed 18S rRNA metabarcodes that are annotated with the PR<sup>2</sup> reference sequence database. Version 3.0 of the database contains 67 datasets corresponding to more than 7,000 samples and 90,000 ASVs. To know [more]({{< ref "/post/news/2022-08-01-metapr2.md" >}}).
