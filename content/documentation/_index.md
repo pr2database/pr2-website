@@ -6,9 +6,10 @@ title: Documentation for the PR2 reference database
 view: 2
 ---
 
-## How to use the PR<sup>2</sup> reference database
+## How to access the PR<sup>2</sup> reference database
 * [Web interface](https://app.pr2-database.org)
 * [Text files](./pr2-files/)
+* [Docker container](https://hub.docker.com/repository/docker/vaulot/pr2-database)
 * [R package](https://pr2database.github.io/pr2database/articles/pr2database.html)
 
 ### Presentation of the PR<sup>2</sup> reference database
