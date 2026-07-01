@@ -42,9 +42,9 @@ We have developed an interactive [pr2-primers database](https://app.pr2-primers.
 
 ## metaPR<sup>2</sup> metabarcodes database
 
-* Current version : 3.0.1 
-* Last update : 26 Sept 2025  
-* [![DOI](https://zenodo.org/badge/410160328.svg)](https://zenodo.org/badge/latestdoi/410160328)
+* Current version : 4.0.0 
+* Last update : 1 July 2026  
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21106507.svg)](https://doi.org/10.5281/zenodo.21106507)
 * Web interface: https://app.metapr2.org
 * [Docker container](https://hub.docker.com/repository/docker/vaulot/metapr2)
 * [R package](https://pr2database.github.io/metapr2-shiny/articles/metapr2.html) 
